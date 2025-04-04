@@ -10,7 +10,7 @@ export default function ContactCard({ title, name, email, phone }) {
             <div
                 className="px-8 py-6"
                 style={{
-                    background: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7))`,
+                    background: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7))`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
