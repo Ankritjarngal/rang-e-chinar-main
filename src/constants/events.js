@@ -19,13 +19,13 @@ export const EventCategoryList = [
   },
   {
     id: 4,
-    title: "Other Events (Including Photography and Painting Events)",
+    title: "Workshop",
     url: "gaming-zone",
     img: "common/Autumns Golden Veil.jpeg",
   },
   {
     id: 5,
-    title: "Workshop",
+    title: "Other Events",
     url: "women-in-tech",
     img: "common/Autumns Golden Veil.jpeg",
   },
