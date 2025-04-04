@@ -18,8 +18,17 @@ export default {
         darkBrown: "#5B3A29",
       },
       fontFamily: {
+        // Headings
+        heading: ["Cinzel Decorative", "cursive"],
+        // Body text
+        body: ["Quicksand", "sans-serif"],
+
+        // Additional fonts available
+        cinzelDecorative: ["Cinzel Decorative", "cursive"],
         playfair: ["Playfair Display", "serif"],
-        quicksand: ["Quicksand", "sans-serif"],
+        marcellus: ["Marcellus", "serif"],
+        dancingScript: ["Dancing Script", "cursive"],
+        timesNewRoman: ["Times New Roman", "serif"],
       }
     },
     screens: {
