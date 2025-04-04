@@ -6,7 +6,7 @@ export default function EventCategory() {
   return (
     <PageLayout 
       title={"Events"} 
-      imgUrl={"/eventsss.png"}
+      imgUrl={"/common/events.png"}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" }

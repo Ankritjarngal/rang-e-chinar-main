@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <PageLayout
       title={"Contact"}
-      imgUrl={"/contactsss.png"}
+      imgUrl={"/common/contacts.png"}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Contact", path: "/contact" }
