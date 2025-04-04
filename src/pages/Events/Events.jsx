@@ -11,6 +11,8 @@ import GameZoneDetails from "./pages/Detailing/GameZoneDetails";
 import PerformanceDetails from "./pages/Detailing/PerformanceDetails";
 import TalksAndWorkshopsDetails from "./pages/Detailing/TalksAndWorkshopsDetails";
 import WomenTech from "./pages/women in tech/WomenTech";
+import SingingEvents from "./pages/SingingEvents";
+import SingingEventsDetails from "./pages/Detailing/SingingEventsDetails";
 
 export default function Events() {
   useEffect(() => {
@@ -21,6 +23,8 @@ export default function Events() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<EventCategory />} />
+        <Route path="/singingevents" element={<SingingEvents />} />
+        <Route path="singingevents/:index" element={<SingingEventsDetails />} />
         <Route path="/competitions" element={<Competitions />} />
         <Route path="/talks-and-workshops" element={<TalksAndWorkshops />} />
         <Route path="/performances" element={<Performances />} />

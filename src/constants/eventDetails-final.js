@@ -1,3 +1,61 @@
+export const SingingEvents = [
+  {
+    "Event Name": "Helo",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "",
+    "Outside Entry Fee": "99",
+    "Lead Name": "Reeba Amin",
+    "Lead Contact Number": 6006993971,
+    "Start Time": "6:00 PM",
+    "End Time": "7:00 PM",
+    "Day": 2,
+    "Venue": "Main Stage",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Helo",
+    "Description": "This groundbreaking competition uniquely blends the thrill of soccer with artistic expression, creating an engaging experience for participants and spectators alike. Teams will compete in an innovative format that challenges them to showcase their athletic skills on the field while also expressing their creativity through digital drawings. Each match will not only feature dynamic gameplay but also highlight the artistic flair of the participants, making it a true celebration of teamwork, technology, and creativity. This is a fantastic opportunity to be part of an event that pushes the boundaries of traditional sports and art. Don’t miss your chance to engage in this one-of-a-kind experience—register now to secure your spot and let your imagination and athleticism shine in this exciting fusion of disciplines!",
+    "NIT Entry Fee": "",
+    "Outside Entry Fee": "149",
+    "Lead Name": "Tushar Kumar",
+    "Lead Contact Number": "60056 58753",
+    "Start Time": "3:00 pm",
+    "End Time": "4:30 pm",
+    "Day": 1,
+    "Venue": "Football ground",
+    "Card Image" : "Drawn Soccer.png"
+  }
+];
+
+export const DancingEvents = [
+  {
+    "Event Name": "Helo",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "",
+    "Outside Entry Fee": "99",
+    "Lead Name": "Reeba Amin",
+    "Lead Contact Number": 6006993971,
+    "Start Time": "6:00 PM",
+    "End Time": "7:00 PM",
+    "Day": 2,
+    "Venue": "Main Stage",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Helo",
+    "Description": "This groundbreaking competition uniquely blends the thrill of soccer with artistic expression, creating an engaging experience for participants and spectators alike. Teams will compete in an innovative format that challenges them to showcase their athletic skills on the field while also expressing their creativity through digital drawings. Each match will not only feature dynamic gameplay but also highlight the artistic flair of the participants, making it a true celebration of teamwork, technology, and creativity. This is a fantastic opportunity to be part of an event that pushes the boundaries of traditional sports and art. Don’t miss your chance to engage in this one-of-a-kind experience—register now to secure your spot and let your imagination and athleticism shine in this exciting fusion of disciplines!",
+    "NIT Entry Fee": "",
+    "Outside Entry Fee": "149",
+    "Lead Name": "Tushar Kumar",
+    "Lead Contact Number": "60056 58753",
+    "Start Time": "3:00 pm",
+    "End Time": "4:30 pm",
+    "Day": 1,
+    "Venue": "Football ground",
+    "Card Image" : "Drawn Soccer.png"
+  }
+];
+
 export const competitions = [
   {
     "Event Name": "AutoCAD",

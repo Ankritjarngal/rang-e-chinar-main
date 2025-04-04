@@ -2,7 +2,7 @@ export const EventCategoryList = [
   {
     id: 1,
     title: "Singing Events",
-    url: "performances",
+    url: "singingevents",
     img: "common/Autumns Golden Veil.jpeg",
   },
   {
