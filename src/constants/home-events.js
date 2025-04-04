@@ -5,21 +5,21 @@ export const cards = [
     Get ready to be mesmerized! From soul-stirring music to electrifying dance and captivating acts, our stage is set for an unforgettable experience.   
     Feel the rhythm, witness the artistry, and immerse yourself in performances that inspire and entertain. 
     Let the show begin!`,
-    image: "common/Autumns Golden Veil.jpeg",
+    image: "common/first.png",
     link: "https://unstop.com/competitions/start-up-fest-techvaganza-24-techvaganza-24-national-institute-of-technology-srinagar-1145666",
   },
   {
     title: "Haunted House",
     description:
       "Enter If You Dare...  Step into the shadows and face your fears in our bone-chilling Haunted House! Twisting hallways, eerie whispers, and lurking surprises await those brave enough to enter. Will you make it out unscathed, or will the spirits claim another soul?",
-    image: "common/Autumns Golden Veil.jpeg",
+    image: "common/second.png",
     link: "/events/women-in-tech",
   },
   {
     title: "Game Zone",
     description:
       "Competitors will face off in intense head-to-head matches across popular titles including Valorant, BGMI, Free Fire, CS:GO, and FIFA. The event features multiple stages where gamers can showcase their skills in strategic shooters, battle royales, and virtual soccer",
-    image: "common/Autumns Golden Veil.jpeg",
+    image: "common/third.png",
     link: "/events/gaming-zone",
   }
 ];
