@@ -54,7 +54,7 @@ const Card = ({ event, index }) => {
           <p className="mb-6 md:mb-8 text-amber-600">{event.description}</p>
           <Link
             to={event.link}
-            className="px-3 md:px-6 py-3 spring-button-glow font-kodeMono text-sm md:text-base rounded-md font-medium text-white bg-amber-500 hover:bg-amber-600 border border-amber-400 transition-all duration-300 text-center flex items-center justify-center gap-2"
+            className="px-3 md:px-6 py-3 spring-button-glow font-kodeMono text-sm md:text-base rounded-md font-medium text-white bg-primary hover:bg-secondary border border-amber-400 transition-all duration-300 text-center flex items-center justify-center gap-2"
           >
             <span className="spring-leaf-icon"></span>
             EXPLORE
