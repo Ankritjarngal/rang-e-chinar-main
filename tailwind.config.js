@@ -10,7 +10,7 @@ export default {
       colors: {
         'primary': '#d46216',  // Main color
         'secondary': '#e24b5d', // Another option
-        'background' : '#FDF7F2',
+        'background': '#FDF7F2',
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
@@ -18,7 +18,7 @@ export default {
       }
     },
     screens: {
-      xs:"480px",
+      xs: "480px",
       ss: "620px",
       sm: "768px",
       md: "1060px",

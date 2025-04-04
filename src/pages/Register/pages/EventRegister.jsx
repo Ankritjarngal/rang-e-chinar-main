@@ -3,8 +3,8 @@ import { FormLinks } from "../../../constants/events"
 import FormCard from "../components/FormCard";
 export default function EventRegister() {
   return (
-    <PageLayout 
-      title={"Event Registration - NIT Srinagar"} 
+    <PageLayout
+      title={"Event Registration - NIT Srinagar"}
       imgUrl={"/common/register.png"}
       breadcrumbs={[
         { label: "Home", path: "/" },

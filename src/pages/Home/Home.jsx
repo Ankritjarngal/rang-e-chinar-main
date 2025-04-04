@@ -12,14 +12,14 @@ import ExcitingEvents from "./Components/ExcitingEvents";
 export default function Home() {
   return (
     <>
-      
+
       <div className="content">
-          <Hero />
-          <About />
-          <ExcitingEvents />
-          <Gallery/>
-          <StickySocialSidebar />
-          <Footer />
+        <Hero />
+        <About />
+        <ExcitingEvents />
+        <Gallery />
+        <StickySocialSidebar />
+        <Footer />
       </div>
     </>
   );
