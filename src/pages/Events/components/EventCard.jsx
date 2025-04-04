@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 
-export default function EventCard({title, time, venue, url, image}) {
+export default function EventCard({ title, time, venue, url, image }) {
   return (
     <>
-      <Link 
-        to={url} 
+      <Link
+        to={url}
         className="rounded-xl bg-[url('/common/background-2.png')] bg-white flex flex-col items-center BoxShadow w-[280px] md:w-[310px] px-4 py-4 mb-6"
       >
-          <img
-            loading="lazy" 
-            className="w-[250px] h-[330px] md:w-[280px] md:h-[360px] overflow-hidden z-20 absolute -mt-10 rounded-xl ImgShadow transform hover:scale-105 transition duration-200 ease-in-out"
-            src={image != "/events/undefined" ? image : "/events/meme.jpg"}
-            alt=""
-          />
+        <img
+          loading="lazy"
+          className="w-[250px] h-[330px] md:w-[280px] md:h-[360px] overflow-hidden z-20 absolute -mt-10 rounded-xl ImgShadow transform hover:scale-105 transition duration-200 ease-in-out"
+          src={image != "/events/undefined" ? image : "/events/meme.jpg"}
+          alt=""
+        />
         <div className="mt-[300px] md:mt-[340px] w-full">
           <p className="font-semibold text-2xl text-white textShadow-sm font-body normalcase capitalize">
             {title}

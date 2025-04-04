@@ -1,26 +1,26 @@
 import { useRef, useState, useEffect } from 'react';
-import {images} from '../../../constants/home-events';
+import { images } from '../../../constants/home-events';
 
 
 const Gallery = () => {
   const galleryRef = useRef(null);
-  const [imageList, setImageList] = useState([...images, ...images, ...images]); 
+  const [imageList, setImageList] = useState([...images, ...images, ...images]);
   const [slidesToScroll, setSlidesToScroll] = useState(3);
 
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
-        setSlidesToScroll(1); 
+        setSlidesToScroll(1);
       } else if (window.innerWidth < 768) {
-        setSlidesToScroll(2); 
+        setSlidesToScroll(2);
       } else if (window.innerWidth < 1024) {
-        setSlidesToScroll(3); 
+        setSlidesToScroll(3);
       } else {
-        setSlidesToScroll(4); 
+        setSlidesToScroll(4);
       }
     };
 
-    handleResize(); 
+    handleResize();
     window.addEventListener('resize', handleResize); // Add event listener for resize
     return () => window.removeEventListener('resize', handleResize); // Cleanup on unmount
   }, []);
@@ -28,7 +28,7 @@ const Gallery = () => {
   const handleRightArrowClick = () => {
     if (galleryRef.current) {
       const { clientWidth } = galleryRef.current;
-      galleryRef.current.scrollLeft += (clientWidth / slidesToScroll) + 7; 
+      galleryRef.current.scrollLeft += (clientWidth / slidesToScroll) + 7;
       // Append new images to the end of the list to create infinite scroll
       setImageList(prevList => [...prevList, ...images]);
     }
@@ -37,7 +37,7 @@ const Gallery = () => {
   return (
     <div className="relative py-10">
       <div className='px-4 md:px-[140px] lg:px-[160px] lg2:px-[200px] xl:px-[280px] xl2:px-[320px]'>
-        <p className="text-lg font-semibold font-kodeMono text-gray-400">NIT SRINAGAR</p>
+        <p className="text-lg font-semibold font-kodeMono text-gray-100">NIT SRINAGAR</p>
         <h2 className="text-5xl font-bold font-figtree uppercase overflow-hidden text-white">Photo Gallery</h2>
       </div>
       <div
@@ -63,7 +63,7 @@ const Gallery = () => {
       </div>
       <button
         onClick={handleRightArrowClick}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-primary text-gray-800 p-6 rounded-full shadow-md hover:shadow-lg"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-primary text-white p-6 rounded-full shadow-md hover:shadow-lg"
       >
         <svg
           className="w-8 h-8"
