@@ -4,7 +4,7 @@ export default function Schedule() {
   return (
     <PageLayout 
       title={"Event Timings"} 
-      imgUrl={"/common/schedule.jpeg"}
+      imgUrl={"/schedulee.png"}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Schedule", path: "/schedule" }
