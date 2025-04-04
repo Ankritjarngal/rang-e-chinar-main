@@ -15,48 +15,50 @@ const Card = ({ event, index }) => {
     });
   }, []);
 
+  // Very light shade of primary color
+  const lightPrimaryBg = "bg-[#F6EDE5]"; // Light shade of D9823F (primary)
+
   return (
     <div
       className={`relative flex flex-col ${index % 2 === 0 ? "sm:flex-row" : "sm:flex-row-reverse"
         } items-center sm:space-x-6`}
     >
-      {/* Image section with spring frame */}
+      {/* Image section with autumn frame */}
       <div
         data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
         data-aos-delay="250"
-        className="w-full sm:max-w-sm relative spring-image-container"
+        className="w-full sm:max-w-sm relative autumn-image-container"
       >
-        <div className="spring-frame absolute inset-0 pointer-events-none"></div>
+        <div className="autumn-frame absolute inset-0 pointer-events-none"></div>
         <img
           src={event.image}
           alt={event.title}
           className="w-full h-[460px] object-cover rounded-lg"
         />
-        {/* Spring decorative corner elements */}
-        <div className="absolute top-0 left-0 spring-corner-tl"></div>
-        <div className="absolute top-0 right-0 spring-corner-tr"></div>
-        <div className="absolute bottom-0 left-0 spring-corner-bl"></div>
-        <div className="absolute bottom-0 right-0 spring-corner-br"></div>
+        {/* Autumn decorative corner elements */}
+        <div className="absolute top-0 left-0 autumn-corner-tl"></div>
+        <div className="absolute top-0 right-0 autumn-corner-tr"></div>
+        <div className="absolute bottom-0 left-0 autumn-corner-bl"></div>
+        <div className="absolute bottom-0 right-0 autumn-corner-br"></div>
       </div>
-
-      {/* Content section with spring styling */}
+      {/* Content section with autumn styling */}
       <div
         className={`w-full md:py-16 md:px-16 lg2:max-w-4xl relative ${index % 2 === 0 ? 'sm:-translate-x-40' : 'sm:translate-x-40'
           }`}
       >
         <div
           data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
-          className="p-6 spring-card-shadow md:p-8 lg:p-10 bg-amber-50 h-full rounded-lg border-l border-t border-amber-200"
+          className={`p-6  md:p-8 lg:p-10 ${lightPrimaryBg} h-full rounded-lg border-l border-t border-primary`}
         >
-          <div className="text-2xl font-figtree sm:text-3xl font-semibold mb-4 text-amber-600 textShadow-sm overflow-visible spring-title">
+          <div className="text-2xl font-playfair sm:text-3xl font-semibold mb-4 text-primary textShadow-sm overflow-visible autumn-title">
             {event.title}
           </div>
-          <p className="mb-6 md:mb-8 text-amber-600">{event.description}</p>
+          <p className="mb-6 md:mb-8 text-text text-lg font-quicksand">{event.description}</p>
           <Link
             to={event.link}
-            className="px-3 md:px-6 py-3 spring-button-glow font-kodeMono text-sm md:text-base rounded-md font-medium text-white bg-primary hover:bg-secondary border border-amber-400 transition-all duration-300 text-center flex items-center justify-center gap-2"
+            className="px-3 md:px-6 py-3 autumn-button-glow font-quicksand text-sm md:text-base rounded-md font-medium text-white bg-primary hover:bg-secondary border border-accent transition-all duration-300 text-center flex items-center justify-center gap-2"
           >
-            <span className="spring-leaf-icon"></span>
+            <span className="autumn-leaf-icon"></span>
             EXPLORE
           </Link>
         </div>

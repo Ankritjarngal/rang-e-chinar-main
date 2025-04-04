@@ -12,7 +12,8 @@ export default {
         secondary: "#064641", // Teal Green
         accent: "#E5A723",    // Golden Yellow
         background: "#FDF7F2",// Soft Cream
-        text: "#2C4A2A",      // Deep Green
+        text: "#2C4A2A", 
+        lightPrimaryBg :"#F6EDE5",     // Deep Green
         
         rustRed: "#9B3A20",
         darkBrown: "#5B3A29",
