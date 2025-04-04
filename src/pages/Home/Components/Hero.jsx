@@ -60,10 +60,36 @@ function Hero() {
     Aos.init({ duration: 1000, anchorPlacement: "top-center", mirror: true });
   }, []);
 
+  // Handle video error
+  const handleVideoError = () => {
+    console.error("Video failed to load");
+    setVideoError(true);
+  };
+
   return (
     <div className="relative min-h-screen overflow-hidden font-playfair">
-      <div className="absolute inset-0 w-full h-full"></div>
-      <div className="absolute inset-0 bg-black/20"></div>
+      {/* Background Video */}
+      {!videoError ? (
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover z-0"
+          onError={handleVideoError}
+        >
+          {/* Fixed path - remove "public" from beginning, as it's implied in React's public folder structure */}
+          <source src="/common/videoplayback.mp4" type="video/mp4" />
+          {/* Using the same file for both formats since you're using the same file name */}
+          <source src="/common/videoplayback.mp4" type="video/webm" />
+        </video>
+      ) : (
+        <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-gray-900 to-black"></div>
+      )}
+      
+      {/* Dark overlay for better text visibility */}
+      <div className="absolute inset-0 bg-black/40 z-5"></div>
+      
       <div className="relative z-10">
         <Header />
         <div className="pt-4 md:pt-32 p-7 md:p-32 text-white text-center">

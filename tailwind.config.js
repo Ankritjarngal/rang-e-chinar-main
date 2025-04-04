@@ -48,11 +48,11 @@ export default {
     function ({ addComponents, theme }) {
       addComponents({
         "::-moz-selection": {
-          backgroundColor: theme("colors.primary") + "33", // 20% opacity
+          backgroundColor: theme("colors.green.500") + "33", // 20% opacity
           color: "#ffffff",
         },
         "::selection": {
-          backgroundColor: theme("colors.primary") + "33", // 20% opacity
+          backgroundColor: theme("colors.green.500") + "33", // 20% opacity
           color: "#ffffff",
         },
       });
