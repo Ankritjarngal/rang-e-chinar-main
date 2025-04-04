@@ -16,11 +16,11 @@ export default function EventCard({title, time, venue, url, image}) {
             alt=""
           />
         <div className="mt-[300px] md:mt-[340px] w-full">
-          <p className="font-semibold text-2xl text-white textShadow-sm font-figtree normalcase capitalize">
+          <p className="font-semibold text-2xl text-white textShadow-sm font-body normalcase capitalize">
             {title}
           </p>
-          <p className="text-sm md:text-base text-primary font-semibold font-kodeMono mt-2">{time}</p>
-          <p className="text-base text-secondary mt-3 font-kodeMono">{venue}</p>
+          <p className="text-sm md:text-base text-primary font-semibold font-body mt-2">{time}</p>
+          <p className="text-base text-secondary mt-3 font-body">{venue}</p>
         </div>
       </Link>
     </>
