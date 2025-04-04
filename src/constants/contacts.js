@@ -2,33 +2,33 @@ export const teams = {
   "Chairperson": [
     {
       title: "Chairperson",
-      name: "MD Saif",
-      email: "md_2021bece046@nitsri.ac.in",
-      phone: "9308073143"
-    }
-  ],
-  "ViceChairperson": [
-    {
-      title: "Vice Chairperson",
-      name: "Hurmat Khalid",
-      email: "hurmat_2021bcse020@nitsri.ac.in",
-      phone: "80822 51200"
-    }
-  ],
-  "Secretary": [
-    {
-      title: "Secretary",
       name: "Adnan Zahoor",
       email: "adnan_2021bche017@nitsri.ac.in",
       phone: "7780969467"
     }
   ],
+  "ViceChairperson": [
+    {
+      title: "Vice Chairperson",
+      name: "Anjali Kacher",
+      email: "anjali_2023meleep001@nitsri.ac.in",
+      phone: "8400357741"
+    }
+  ],
+  "Secretary": [
+    {
+      title: "Secretary",
+      name: "Yasir Ahmad Shah",
+      email: "yasir_2021bche009@nitsri.ac.in",
+      phone: "7780887743"
+    }
+  ],
   "Treasurer": [
     {
       title: "Treasurer",
-      name: "Sanskruti Kakkad",
-      email: "sanskruti_2021bece063@nitsri.ac.in",
-      phone: "82084 92297"
+      name: "Ayush Singh",
+      email: "ayushsingh-2022bmme055@nitsri.ac.in",
+      phone: "8957026806"
     }
   ],
   "Outreach": [
@@ -40,102 +40,108 @@ export const teams = {
     },
     {
       title: "Lead",
-      name: "Mir Mohammad Toib",
+      name: "Tuaha Aijaz",
       email: "mir_2021bmme042@nitsri.ac.in",
-      phone: "70062 49927"
+      phone: "7006126554"
     },
     {
       title: "Co-Lead",
-      name: "Mir Tasleem",
-      email: "mirtasleem1234@gmail.com",
-      phone: "+91 7006460278"
+      name: "Asra Zubair",
+      email: "asra_2022bciv062@nitsri.ac.in",
+      phone: "8899823991"
     },
     {
       title: "Co-Lead",
-      name: "Ather Parvez",
-      email: "ather_2021bciv057@nitsri.ac.in",
-      phone: "6005685613"
+      name: "Asma Siddiqui",
+      email: "2023nitsgr196@nitsri.ac.in",
+      phone: "8074926409"
     },
     {
       title: "Co-Lead",
-      name: "Syed Nisheta Andrabi",
-      email: "andrabi_2021bele050@nitsri.ac.in",
-      phone: "7889405665"
+      name: "Kanishka Gupta",
+      email: "2023nitsgr167@nitsri.ac.in",
+      phone: "9622140797"
     }
   ],
   "Web Development": [
     {
       title: "Lead",
-      name: "Ayman Makroo",
-      email: "ayman_2022bcse004@nitsri.ac.in",
-      phone: "70064 56359"
+      name: "Basar Qari",
+      email: "basar_2019bmme037@nitsri.ac.in",
+      phone: "6005370132"
     },
     {
       title: "Co-Lead",
       name: "Ikjot Kour",
       email: "2023nitsgr181@nitsri.ac.in",
       phone: "70061 54937"
+    },
+    {
+      title: "Co-Lead",
+      name: "Ankrit Jarngal",
+      email: "2023nitsgr195@nitsri.ac.in",
+      phone: "9858223163"
     }
   ],
   "Decoration and Ambience": [
     {
       title: "Lead",
-      name: "Vagisha Vag",
-      email: "vagisha_2021bciv098@nitsri.ac.in",
-      phone: "6205 821730"
+      name: "Ms.Shivangi Basu ",
+      email: "shivangi_2024mschm006@nitsri.ac.in",
+      phone: "9638298285"
     },
     {
       title: "Lead",
-      name: "Adarsh Fulzele",
-      email: "adarsh_2021bite067@nitsri.ac.in",
-      phone: "70936 82281"
-    },
-    {
-      title: "Lead",
-      name: "Tabish Gulzar",
-      email: "tabish_2021bmec041@nitsri.ac.in",
-      phone: "9149853067"
+      name: "Isha Zargar",
+      email: "isha_2021bmec039@nitsri.ac.in",
+      phone: "8899560179"
     },
     {
       title: "Co-Lead",
-      name: "Vikas Singh",
-      email: "vikas_2021bciv084@nitsri.ac.in",
+      name: "Kriti Maurya",
+      email: "kriti_2023msphy006@nitsri.ac.in",
+      phone: "7051603728"
+    },
+    {
+      title: "Co-Lead",
+      name: "Sourav Kumar",
+      email: "2023nitsgr501@nitsri.ac.in",
       phone: "73185 65386"
     },
     {
       title: "Co-Lead",
-      name: "Poonam Kumari",
-      email: "poonam_2021bite057@nitsri.ac.in",
+      name: "Purva Gangwar",
+      email: "2023nitsgr370@nitsri.ac.in",
       phone: "9953366705"
     }
   ],
   "Documentation and Certification": [
     {
       title: "Lead",
-      name: "Shiva Dwivedi",
-      email: "shiva_2022bece092@nitsri.ac.in",
-      phone: "95549 59509"
+      name: "Shaheen",
+      email: "chikkale_2022bmec061@nitsri.ac.in",
+      phone: "93077 31261"
     },
     {
       title: "Lead",
-      name: "Reeba Ashraf",
-      email: "reeba_2022bciv171@nitsri.ac.in",
-      phone: "9622433103"
+      name: "Ayushman sloke",
+      email: "2023nitsgr647@nitsri.ac.in",
+      phone: "9341681195"
     },
     {
       title: "Co-Lead",
-      name: "Shaheen",
-      email: "shaheen_2021bmec061@nitsri.ac.in",
-      phone: "93077 31261"
+      name: "Aaliya Aijaz",
+      email: "2023nitsgr605@nitsri.ac.in",
+      phone: "7889875028"
+    }, 
+    {
+      title: "Co-Lead",
+      name: "Ekansh Soni",
+      email: "2023nitsgr676@nitsri.ac.in",
+      phone: "7597308532"
     }
   ],
   "Gamezone": [
-    {
-      title: "Lead",
-      name: "Mohammad Musaib Shah",
-      email: "mohammadmusaib_2021bele069@nitsri.ac.in",
-      phone: "91499 22981"
-    },
     {
       title: "Lead",
       name: "Jay warathe",
@@ -143,93 +149,81 @@ export const teams = {
       phone: "70002 73022"
     },
     {
+      title: "Lead",
+      name: "Mehrose Sofi",
+      email: "mehrose_2021bmme041@nitsri.ac.in",
+      phone: "7006395191"
+    },
+    {
       title: "Co-Lead",
-      name: "Parneet kour",
-      email: "parneetpriya2003@gmail.com",
-      phone: "82686 00074"
-    }
+      name: "Affan Ahmad",
+      email: "affan_2022bece094@nitsri.ac.in",
+      phone: "7217718036"
+    }, 
+    {
+      title: "Co-Lead",
+      name: "Ayush Ranjan",
+      email: "ayush_2022bche051@nitsri.ac.in",
+      phone: "9797986564"
+    }, 
   ],
   "Graphic Design": [
     {
       title: "Lead",
-      name: "Shubham Garde",
-      email: "shubham_2021bele093@nitsri.ac.in",
-      phone: "97970 02262"
-    },
-    {
-      title: "Co-Lead",
-      name: "Zaid Khan",
-      email: "zaid_2023bche008@nitsri.ac.in",
+      name: "Zaid",
+      email: "2023nitsgr014@nitsri.ac.in",
       phone: "91497 01810"
     },
     {
       title: "Co-Lead",
-      name: "Ankita Kumari",
-      email: "ankitaa3586@gmail.com",
-      phone: "6005509568"
+      name: "Sneha Namdeo",
+      email: "2023nitsgr200@nitsri.ac.in",
+      phone: "9596737253"
+    }, 
+    {
+      title: "Co-Lead",
+      name: "Hriday Raj",
+      email: "2023nitsgr368@nitsri.ac.in",
+      phone: "9262669078"
     }
   ],
   "Ground Management and Crowd Control": [
     {
       title: "Lead",
-      name: "Ananya",
-      email: "ananya_2021bmec012@nitsri.ac.in",
-      phone: "9711825041"
+      name: "Suhail fayaz",
+      email: "",
+      phone: "6006097056"
     },
     {
       title: "Lead",
-      name: "Hritik Singh",
-      email: "hritik_2021bele065@mitsri.ac.in",
-      phone: "74840 31479"
-    },
-    {
-      title: "Lead",
-      name: "Khalid Malik",
-      email: "Khalid_2021bche024@nitsri.ac.in",
-      phone: "9149905523"
-    },
-    {
-      title: "Lead",
-      name: "Priya Kumari ",
-      email: "priya_2021bmme074@nitsri.ac.in",
-      phone: "8690921312"
+      name: "komal dhaka",
+      email: "komal_2020bche101@mitsri.ac.in",
+      phone: "6006324366"
     },
     {
       title: "Co-Lead",
-      name: "Ravi Kumar",
-      email: "ravi_2021bmme065@nitsri.ac.in",
-      phone: "79082 68029"
+      name: "Neeti",
+      email: "neeti_2022bmme068@nitsri.ac.in",
+      phone: "9993372728"
     },
     {
       title: "Co-Lead",
-      name: "Ahsan ul Haq",
-      email: "ahsan_2022bciv039@nitsri.ac.in",
-      phone: "6005498686"
+      name: "Brahmjot singh",
+      email: "brahmjot_2022bece074@nitsri.ac.in",
+      phone: "7900030981"
     },
     {
       title: "Co-Lead",
-      name: "Kanhaiya Pandey",
-      email: "kanhaiya_2022bciv147@nitsri.ac.in",
-      phone: "7889730023"
-    },
-    {
-      title: "Co-Lead",
-      name: "Ubaid Yaseen ",
-      email: "ubaidyaseen01@gmail.com",
-      phone: "7006971792"
-    },
-    {
-      title: "Co-Lead",
-      name: "Savez Malik ",
-      email: "savezmalik920@gmail.com",
-      phone: "7051363932"
+      name: "Mubashir Reyaz",
+      email: "mubashir_2022bele048@nitsri.ac.in",
+      phone: "7051658317"
     },
   ],
   "Hosting and Content": [
     {
       title: "Lead",
       name: "Samarvir Singh",
-      email: "2023nitsgr837@nitsri.ac.in",
+      email: "samarvir_2023bece037@nitsri.ac.in",
       phone: "91499 85645"
     },
     {
@@ -237,55 +231,67 @@ export const teams = {
       name: "Harmanpreet Kaur",
       email: "harmanpreet_2021bece023@nitsri.ac.in",
       phone: "60057 56609"
+    },
+    {
+      title: "Co-lead",
+      name: "Janvi Sharma",
+      email: "janvi_2023bite014@nitsri.ac.in",
+      phone: "8899005236"
     }
   ],
   "Infrastructure Team": [
     {
       title: "Lead",
       name: "Adeeb Manzoor",
-      email: "jatin_2021bmec067@nitsri.ac.in",
+      email: "adeeb_2022bmme071@nitsri.ac.in",
       phone: "7889730021"
     },
     {
       title: "Co-Lead",
       name: "Nidhi",
-      email: "2023nitsgr761@nitsri.ac.in",
-      phone: "9352309148"
+      email: "nidhi_2022bciv164@nitsri.ac.in",
+      phone: "9351309148"
     },
     {
       title: "Co-Lead",
       name: "Atul Jaiswal",
-      email: "ayush_2022bmme055@nitsri.ac.in",
+      email: "atul_2022bmme072@nitsri.ac.inn",
       phone: "6006410954"
     },
     {
       title: "Co-Lead",
       name: "Mayank",
-      email: "2023nitsge758@nitsri.ac.in",
+      email: "mayank_2022bmme070@nitsri.ac.in",
       phone: "6264595534"
     }
   ],
   "Logistics and Hospitality": [
     {
       title: "Lead",
-      name: "Mehvish",
-      email: "mehvish_2021bciv039@nitsri.ac.in",
-      phone: "9301474544"
+      name: "Suhail Hamid",
+      email: "suhail_2021bciv015@nitsri.ac.in",
+      phone: "9149424019"
     },
     {
       title: "Co-Lead",
-      name: "Hyder",
-      email: "hyder_2021bciv161@nitsri.ac.in",
-      phone: "7889741582"
+      name: "Shaila Jan",
+      email: "shaila_2021bciv021@nitsri.ac.in",
+      phone: "9622229968"
     },
     {
       title: "Co-Lead",
-      name: "H. S. A. Baasit Moin P.",
-      email: "syed_2022bciv069@nitsri.ac.in",
-      phone: "7006738384"
+      name: "Paramjeet Kumar",
+      email: "pramajeet_2021bciv057@nitsri.ac.in",
+      phone: "8112353081"
+    },
+    {
+      title: "Co-Lead",
+      name: "Abhiraj Kanteshwar Roy",
+      email: "abhiraj_2022bmec024@nitsri.ac.in",
+      phone: "7298212637"
     }
   ],
-  "Photography": [
+  "Photography and Videography": [
     {
       title: "Lead",
       name: "Prabhat Shukla",
@@ -293,58 +299,111 @@ export const teams = {
       phone: "90820 67512"
     },
     {
-      title: "Co-Lead",
+      title: "Lead",
       name: "Nelofar Tabassum",
       email: "nelofar_2021bece102@nitsri.ac.in",
       phone: "70060 42584"
-    }
+    },
+    {
+      title: "Co-lead",
+      name: "Pankaj Jamkar",
+      email: "pankaj_2022bele050@nitsri.ac.in",
+      phone: "7719832373"
+    },
+    {
+      title: "Co-lead",
+      name: "Nafis ul Asrar",
+      email: "nafis_2023bciv009@nitsri.ac.in",
+      phone: "8082110043"
+    },
+    {title: "Co-lead",
+    name: "Anurag",
+    email: "anurag_2023bciv134@nitsri.ac.in",
+    phone: "930735343"
+  }
   ],
   "Registration Committee": [
     {
       title: "Lead",
-      name: "Gowtham",
+      name: "TEJA KODIYALA",
       email: "gowtham_2021bmec043@nitsri.ac.in",
-      phone: "96667 71732"
+      phone: "9491816263"
     },
-    {
-      title: "Co-Lead",
-      name: "Zainab",
-      email: "zainab_2021bmec033@nitsri.ac.in",
-      phone: "93020 90083"
-    },
-    {
-      title: "Co-Lead",
-      name: "Aryan Sharma",
-      email: "aryan_2021bmec016@nitsri.ac.in",
-      phone: "914988 5523"
-    }
-  ],
-  "SocialMedia Publicity": [
     {
       title: "Lead",
-      name: "Krish Mahajan",
-      email: "2023nitsgr730@nitsri.ac.in",
-      phone: "70061 52565"
+      name: "Katamneni Nithin Vyas",
+      email: "katamneni_2022bche036@nitsri.ac.in",
+      phone: "6302457897"
     },
     {
       title: "Co-Lead",
-      name: "Mehak",
-      email: "2023nitsgr816@nitsri.ac.in",
-      phone: "9103888549"
+      name: "Basit Yousuf",
+      email: "basit_2021bcse036@nitsri.ac.in",
+      phone: "6006237377"
     },
     {
       title: "Co-Lead",
-      name: "Teja Kodaliya",
-      email: "teja_2022bece043@nitsri.ac.in",
-      phone: "94918 16263"
+      name: "Kartik",
+      email: "kartik_2022bmec056@nitsri.ac.in",
+      phone: " "
+    },
+    {
+      title: "Co-Lead",
+      name: "Nagavath Rithwik",
+      email: "2023nitsgr237@nitsri.ac.in",
+      phone: "9055249289"
     }
   ],
+
+  "SocialMedia Publicity": [
+
+    {
+      title: "Lead",
+      name: "Areeba Ali",
+      email: "areeba_2021bche042@nitsri.ac.in",
+      phone: "9596525060"
+    },
+   
+    {
+      title: "Co-Lead",
+      name: "Aiaza Aijaz",
+      email: "aiaza_2021bcheo43@nitsri.ac.in",
+      phone: "7889376062"
+    },
+    {
+      title: "Co-Lead",
+      name: "Afrah Riyaz",
+      email: "afrah_2021bche037@nitsri.ac.in",
+      phone: "8492900298"
+    },
+    {
+      title: "Co-Lead",
+      name: "Essa Reshi",
+      email: "2023nitsgr834@nitsri.ac.in",
+      phone: "9149986769"
+    },
+    {
+      title: "Co-Lead",
+      name: "Ujjwal Rai",
+      email: "ujjwal_2022bciv142@nitsri.ac.in",
+      phone: "9103000643"
+    },
+    {
+      title: "Co-Lead",
+      name: "Santhosh Aryan",
+      email: "sanapalli_2022bece095@nitsri.ac.in",
+      phone: "9541359848"
+    }
+  ],
+
+  
+
   "Sponsorship": [
     {
       title: "Lead",
-      name: "Shah Yasir",
-      email: "yasir_2021bche009@nitsri.ac.in",
-      phone: "77808 87743"
+      name: " Ubaid Yaseen",
+      email: "ubaid_2021bciv009@nitsri.ac.in",
+      phone: "7006971792"
     },
     {
       title: "Lead",
@@ -352,25 +411,52 @@ export const teams = {
       email: "urooj_2023mececs003@nitsri.ac.in",
       phone: "84939 78076"
     },
+
     {
       title: "Co-Lead",
-      name: "Mahdeep",
-      email: "mahdeep_2022bciv074@nitsri.ac.in",
-      phone: "9797531808"
+      name: "Numan Beigh",
+      email: "",
+      phone: "6005466026"
     },
     {
       title: "Co-Lead",
-      name: "Komal",
-      email: "komal_2022bciv112@nitsri.ac.in",
-      phone: "6006324366"
+      name: "Abhishek",
+      email: "",
+      phone: "8252725816"
+    },
+    {
+      title: "Co-Lead",
+      name: "Tanisha khan",
+      email: "tanisha_2022bciv172@nitsri.ac.in",
+      phone: "9149844814"
+    },
+    {
+      title: "Co-Lead",
+      name: "Vaishnavi Mishra",
+      email: "vaishnavi_2022bmme032@nitsri.ac.in",
+      phone: "8081163040"
+    },
+    {
+      title: "Co-Lead",
+      name: "Muhammad Nihal",
+      email: "",
+      phone: "8789600276"
     }
   ],
+    
   "Stage Management": [
+  
     {
       title: "Lead",
-      name: "Aditya",
-      email: "shreshthaditya44@gmail.com",
-      phone: "7814114046"
+      name: "Mir Sakib",
+      email: "mirsaqib_2023mmba007@gmail.com",
+      phone: "8825028610"
+    },
+    {
+      title: "Co-Lead",
+      name: "Ujjwal chowdary",
+      email: "",
+      phone: "7007219296"
     },
     {
       title: "Co-Lead",
@@ -379,58 +465,33 @@ export const teams = {
       phone: "95417 07784"
     }
   ],
-  "Startup Event": [
+ 
+
+  "Technical Support and Control": [
+   
     {
       title: "Lead",
-      name: "Prudhvi Ram",
-      email: "prudhvi_2021bcse027@nitsri.ac.in",
-      phone: "9381726665"
+      name: " Fahad Makhdoomi",
+      email: "fahad_2021bele062@nitsri.ac.in",
+      phone: "6006020990"
+    },
+    {
+      title: "Lead",
+      name: "Aliza Mushtaq",
+      email: "aliza_2021bite021@nitsri.ac.in",
+      phone: "9103256010"
     },
     {
       title: "Co-Lead",
-      name: "Lakshmi Swati",
-      email: "lakshmi_2022bmme045@nitsri.ac.in",
-      phone: "91103 16547"
-    }
-  ],
-  "Technical Events and ExpertTalks": [
-    {
-      title: "Lead",
-      name: "Fahad Makdoomi",
-      email: "fahad_2021bele062@nitsri.ac.in",
-      phone: "60060 20990"
-    },
-    {
-      title: "Lead",
       name: "Tushar Kumar",
       email: "tushar_2022bele010@nitsri.ac.in",
       phone: "60056 58753"
     },
     {
       title: "Co-Lead",
-      name: "Zeeshan Bashir",
-      email: "Zeeshan_2022bmec062@nitsri.ac.in",
-      phone: "788 943 5547"
-    },
-  ],
-  "Technical Support and Control": [
-    {
-      title: "Lead",
-      name: "Altamash Tamboli",
-      email: "altamash_2021bmec066@nitsri.ac.in",
-      phone: "93098 18885"
-    },
-    {
-      title: "Co-Lead",
-      name: "Ashvick Bandral",
-      email: "ashvick_2022bele013@nitsri.ac.in",
-      phone: "70513 50645"
-    },
-    {
-      title: "Co-Lead",
-      name: "Akshita Singh",
-      email: "akshita_2021bcse017@nitsri.ac.in",
-      phone: "93349 62740"
+      name: "Aman",
+      email: "",
+      phone: "6306894707"
     }
   ],
   "Technical Workshops": [
@@ -447,86 +508,127 @@ export const teams = {
       phone: "9284614472"
     }
   ],
-  "TechnoCultural Events": [
+  
+
+  "Tender Purchase Accounts": [
+  
     {
       title: "Lead",
-      name: "Manjeet Kumar",
-      email: "manjeet_2021bele002@nitsri.ac.in",
-      phone: "60053 36839"
+      name: "Syed Maroof",
+      email: "smaroof_2023mmba005@nitsri.ac.in",
+      phone: "9469093780"
     },
     {
       title: "Lead",
-      name: "Reeba Amin",
-      email: "reeba_2021bciv106@nitsri.ac.in",
-      phone: "6006993971"
+      name: "Ponugoti Sreeja",
+      email: "ponugoti_2022bcse054@nitsri.ac.in",
+      phone: "6302457897"
     },
+    
     {
       title: "Co-Lead",
-      name: "Janvi",
-      email: "janvidugejd@gmail.com",
-      phone: "9699408586"
-    }
-  ],
-  "Tender Purchase Accounts": [
-    {
-      title: "Lead",
-      name: "Suhail Fayaz",
-      email: "suhail_2021bche007@nitsri.ac.in",
+      name: "Lakshya Gandotra",
+      email: "",
       phone: "60060 97056"
     },
     {
-      title: "Lead",
-      name: "Pranaya",
-      email: "pranaya_2021bmec097@nitsri.ac.in",
-      phone: "7893475849"
+      title: "Co-Lead",
+      name: "Javed Iqbal",
+      email: "",
+      phone: "8494024664"
     },
     {
       title: "Co-Lead",
-      name: "Rohit Kumar",
-      email: "rohit_2021bche078@nitsri.ac.in",
-      phone: "62007 84064"
-    }
+      name: "Adnan amin",
+      email: "2023nitsgr604@nitsri.ac.in",
+      phone: "8491887483"
+    },
+    
+    
+   
   ],
-  "Videography": [
+"Accounts": [
+  
     {
       title: "Lead",
-      name: "Ashiq Hussain",
-      email: "Ashiq_2021bmme091@nitsri.ac.in",
-      phone: "88992 50591"
+      name: "Janani Jaishree. k",
+      email: "smaroof_2023mmba005@nitsri.ac.in",
+      phone: ""
+    },
+    {
+      title: "Lead",
+      name: "Khushboo Baghel",
+      email: "ponugoti_2022bcse054@nitsri.ac.in",
+      phone: ""
+    },
+    
+    {
+      title: "Co-Lead",
+      name: "Tanmay Kulkarni",
+      email: "",
+      phone: "7083293190"
     },
     {
       title: "Co-Lead",
-      name: "Shakil HUssain",
-      email: "shakil_2021bite080@nitsri.ac.in",
-      phone: "6005079530"
-    }
-  ],
-  "Women In Tech": [
-    {
-      title: "Lead",
-      name: "Hurmat Khalid",
-      email: "hurmat_2021bcse020@nitsri.ac.in",
-      phone: "80822 51200"
+      name: "Vaibhav Singh",
+      email: "",
+      phone: "8899220772"
     },
     {
       title: "Co-Lead",
-      name: "Neharika Bajaj",
-      email: "2023nitsge182@nitsri.ac.in",
+      name: "KVN Akshaya Sri Nidhi",
+      email: "2023nitsgr604@nitsri.ac.in",
+      phone: "8500510674"
+    }],
+    "Workshops": [
+  
+    {
+      title: "Lead",
+      name: "Alok Rajan",
+      email: "smaroof_2023mmba005@nitsri.ac.in",
       phone: "9149494702"
     },
     {
       title: "Co-Lead",
-      name: "Janvi Sharma",
-      email: "2023nitsgr166@nitsri.ac.in",
-      phone: "8899005236"
-    }
-  ],
-  "Creative":[
+      name: "Chirag Dubey",
+      email: "ponugoti_2022bcse054@nitsri.ac.in",
+      phone: "9169414180"
+    },
+    
+    {
+      title: "Co-Lead",
+      name: "Vaibhav Patel",
+      email: "",
+      phone: "9055656210"
+    },
+    {
+      title: "Co-Lead",
+      name: "Saloni",
+      email: "",
+      phone: "9317404474"
+    }],
+    "Performances": [
+  
     {
       title: "Lead",
-      name: "Riya Kannoly",
-      email: "riya_2021bmme026@nitsri.ac.in",
-      phone: "9833344050"
+      name: "Aditya",
+      email: "smaroof_2023mmba005@nitsri.ac.in",
+      phone: "8082525295"
     },
-  ]
-};
+    {
+      title: "Lead",
+      name: "Reeba Amin ",
+      email: "ponugoti_2022bcse054@nitsri.ac.in",
+      phone: "6006993971"
+    },
+    
+    {
+      title: "Co-Lead",
+      name: "Siddhant Raghav",
+      email: "",
+      phone: "7599741707"
+    }]
+  }
+//  accounts
+// performance
+// workshop
