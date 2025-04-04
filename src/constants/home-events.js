@@ -1,15 +1,17 @@
 export const cards = [
   {
-    title: "StartupFest",
-    description:
-      "Startup Fest is a groundbreaking startup event where aspiring entrepreneurs and innovators can present their ideas to address pressing challenges in various themes such as Energy Management, Waste Management, Agricultural Technology, and more. Top ideas will receive incubation support, seed funding, and office space.",
+    title: "Performances",
+    description: `Spectacular Performances Await!
+    Get ready to be mesmerized! From soul-stirring music to electrifying dance and captivating acts, our stage is set for an unforgettable experience.   
+    Feel the rhythm, witness the artistry, and immerse yourself in performances that inspire and entertain. 
+    Let the show begin!`,
     image: "common/Autumns Golden Veil.jpeg",
     link: "https://unstop.com/competitions/start-up-fest-techvaganza-24-techvaganza-24-national-institute-of-technology-srinagar-1145666",
   },
   {
-    title: "Women in Tech (Exclusively for Women)",
+    title: "Haunted House",
     description:
-      "Women in Tech involves exciting events designed to celebrate, empower, and connect women in the technology sector. Our lineup includes inspiring keynote speeches, thought-provoking round table conference and hands-on workshops tailored to enhance your skills. It also includes innovative debate and essay competitions and engaging Scavenger Hunt. Don’t miss this chance to be part of a vibrant community advocating for gender equality in the tech industry!",
+      "Enter If You Dare...  Step into the shadows and face your fears in our bone-chilling Haunted House! Twisting hallways, eerie whispers, and lurking surprises await those brave enough to enter. Will you make it out unscathed, or will the spirits claim another soul?",
     image: "common/Autumns Golden Veil.jpeg",
     link: "/events/women-in-tech",
   },
