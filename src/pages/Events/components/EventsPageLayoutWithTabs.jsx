@@ -12,6 +12,7 @@ const EventsPageLayoutWithTabs = ({ events, tabs }) => {
       </div>
       <div>
         <Tabs>
+          {/* Below is the code for Tab List */}
           <TabList className="flex my-2">
             <div className="flex items-center justify-center w-full gap-1 md:gap-5">
               {tabs.map((tab, index) => (
