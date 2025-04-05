@@ -1,50 +1,68 @@
-import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
+import { useEffect, useRef } from "react";
 
-const ResourceDropdownMenu = ({ isDropdownOpen, position }) => {
-  const { top, bottom, left, right } = position || {}; 
-  return createPortal(
-    <div
-      className={`absolute ${right ? "right-0" : left ? "left-0" : ""} ${
-        bottom ? "bottom-0" : top ? "top-0" : ""
-      } w-48 bg-white backdrop-blur-lg font-figtree rounded-md shadow-lg py-1 z-50 transition-all duration-300 ease-in-out ${
-        isDropdownOpen
-          ? "opacity-100 transform translate-y-0"
-          : "opacity-0 transform -translate-y-2 pointer-events-none"
-      }`}
-      style={{
-        top: top || undefined,
-        bottom: bottom || undefined,
-        left: left || undefined,
-        right: right || undefined,
+const ResourceDropdownMenu = ({ isDropdownOpen, setIsDropdownOpen }) => {
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    if (isDropdownOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isDropdownOpen]);
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsDropdownOpen(false);
+    }
+  };
+
+  if (!isDropdownOpen) {
+    return null;
+  }
+
+  return (
+    <div 
+      ref={dropdownRef}
+      className="fixed w-48 bg-white/10 backdrop-blur-md border border-white/20 rounded-md shadow-lg"
+      style={{ 
         zIndex: 9999,
-        background: "rgba(225, 225, 225, 0.1)",
-        border: "1px solid rgba(255, 255, 255, 0.2)", // Custom border with 20% opacity
+        top: "80px",  // Adjust based on your header height
+        right: "8%",  // Position near the Resources button
       }}
     >
       <Link
-        to="/Technical Fest 2024_final.pdf"
+        to="/public/gereral brochure_250404_234757.pdf"
         target="_blank"
-        className="block px-4 py-2 text-sm text-white hover:bg-background hover:bg-opacity-30"
+        className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200 first:rounded-t-md"
       >
         Brochure
       </Link>
       <Link
-        to="/Techvaganza 2024 General Guidelines.pdf"
+        to="/"
         target="_blank"
-        className="block px-4 py-2 text-sm text-white hover:bg-background hover:bg-opacity-30"
+        className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200"
       >
         Guidelines
       </Link>
       <Link
-        to="https://docs.google.com/spreadsheets/d/1jrNBm7qVfFSy9gtt1Tx5g3JNCwClE9XVNqV2grU80BE/edit?gid=766239620#gid=766239620"
+        to=""
         target="_blank"
-        className="block px-4 py-2 text-sm text-white hover:bg-background hover:bg-opacity-30"
+        className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200"
       >
         Time Table
       </Link>
-    </div>,
-    document.getElementById("dropdown-root")
+      <Link
+      to="public/Scan20250321101700_organized (1).pdf"
+        target="_blank"
+        className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200 last:rounded-b-md"
+      >
+        Coordinator List
+      </Link>
+    </div>
   );
 };
 
