@@ -17,9 +17,9 @@ function About() {
   return (
     <div
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative"
-      style={{ backgroundImage: "url('/nit.png')" , marginBottom:"30px"}}
+      style={{ backgroundImage: "url('/nit.png')", marginBottom: "30px" }}
     >
-      {/* Optional: Dark or Blur Overlay for text readability */}
+      {/* Optional: Overlay */}
       <div className="absolute inset-0 bg-[#eaf8f0]/30 backdrop-blur-sm z-0" />
 
       {/* Content */}
@@ -30,23 +30,29 @@ function About() {
             NIT Srinagar's Annual Cultural Festival
           </p>
 
-          <p className="text-base md:text-lg text-gray-700 leading-relaxed bg-white/70 rounded-xl p-6 shadow-md">
-            Rang-E-Chinar is the annual cultural festival of NIT Srinagar, celebrating the vibrant fusion of art, culture,
-            and technology. This year's theme, <strong>"Roots and Rythm" "The Rythm begins in"</strong>,
-            infuses every aspect of the fest with an eco-conscious spirit.
-            <br /><br />
-            The heart of Rang-E-Chinar beats with intense hackathons, where teams race against the clock to develop
-            sustainable solutions for real-world problems. The startup pitch competition gives budding entrepreneurs a
-            platform to showcase their green business ideas, with potential investors in the audience.
-            <br /><br />
-            Throughout the event, a wide array of competitions challenges participants' technical skills and creativity, from
-            coding marathons to robotics face-offs, all with an environmental twist.
-            <br /><br />
-            The highlight of Rang-E-Chinar is undoubtedly the breathtaking drone show, painting the night sky with dazzling
-            formations that tell the story of a greener tomorrow. With its perfect blend of competition, innovation, and
-            spectacle, Rang-E-Chinar at NIT Srinagar isn't just a fest – it's a glimpse into a more sustainable future,
-            powered by the bright minds of tomorrow's tech leaders.
-          </p>
+          {/* Main Card */}
+          <div className="relative z-10 bg-white/60 backdrop-blur-sm py-16 px-6 md:px-16 font-quicksand text-gray-800 rounded-2xl shadow-md max-w-5xl mx-auto" data-aos="fade-up">
+
+            {/* Image Block */}
+            <div className="w-full mb-8 rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="/common/nitsrii.jpg"
+                alt="NIT Srinagar Campus"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+
+            {/* Text Content */}
+            <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+              <strong>Rang-e-Chinar – NIT Srinagar’s vibrant annual cultural fest – returns in 2025 as <span className="text-black">Rang-e-Chinar 2.0</span></strong>, <strong>bigger, bolder, and better than before</strong>, celebrating the timeless harmony of <strong>‘Roots and Rhythms’</strong>!
+              <br /><br />
+              A dazzling fusion of heritage and contemporary artistry, this reimagined edition brings together <strong>music, dance, drama, and innovation</strong> under the canopy of tradition.
+              <br /><br />
+              With electrifying performances, competitive events, and star-studded showcases, we honor our roots while riding the rhythms of creativity.
+              <br /><br />
+              <strong>Join us on 2<sup>nd</sup> & 3<sup>rd</sup> May</strong> as we paint the campus in the hues of <strong>passion, talent, and cultural brilliance</strong>!
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -112,7 +112,7 @@ function Hero() {
             className="my-12 md:my-16 w-full flex justify-center"
           >
             <p className="text-3xl ss:text-4xl md:text-5xl lg:text-6xl font-semibold text-white font-quicksand px-3 py-2 border-white/30">
-              The Rhythm Begins In
+              The Rhythm Begins In...
             </p>
           </div>
 
@@ -137,6 +137,13 @@ function Hero() {
           </div>
 
           {/* Register Button Section Commented Out */}
+          <div><button style={
+            {background:"black",
+            color:"white",
+            border:"2px solid white",
+            padding:"10px",
+            marginTop:"20px"
+          }}>REGISTRATIONS WILL BE LIVE SOON </button></div>
           {/*
           <div className="mt-10 py-4 flex justify-center opacity-90">
             <Link 
