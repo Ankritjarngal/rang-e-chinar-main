@@ -1,5 +1,5 @@
 export const teams = {
-  "Core Team": [
+  "Core": [
     {
       title: "Chairperson",
       name: "Adnan Zahoor",

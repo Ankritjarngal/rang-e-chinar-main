@@ -1,0 +1,19 @@
+import PageLayout from "../../../Components/PageLayout";
+import { DancingEvents as dancingEventsData } from "../../../constants/eventDetails-final";
+import EventsPageLayout from "../components/EventPageLayout";
+
+export default function DancingEvents() {
+  return (
+    <PageLayout 
+      title={"Dancing Events"} 
+      imgUrl={'/common/performance.jpeg'}
+      breadcrumbs={[
+        { label: "Home", path: "/" },
+        { label: "Events", path: "/events" },
+        { label: "Dancing Events", path: "/events/dancingevents" }
+      ]}
+    >
+      <EventsPageLayout events={dancingEventsData} />
+    </PageLayout>
+  );
+}
