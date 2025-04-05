@@ -813,7 +813,20 @@ export const womenPerformances = [
   }
 ];
 
-export const gamezone = [
+export const gamezone = [[
+  {
+    "Event Name": "",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NULL",
+    "Outside Entry Fee": "To Be Decided",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "",
+    "Card Image" : "vihang.png"
+  },
   {
     "Event Name": "",
     "Description": "Singing performance from NIT Srinagar Student band",
@@ -827,7 +840,61 @@ export const gamezone = [
     "Venue": "",
     "Card Image" : "vihang.png"
   }
-];
+],[
+  {
+    "Event Name": "",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NULL",
+    "Outside Entry Fee": "To Be Decided",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NULL",
+    "Outside Entry Fee": "To Be Decided",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "",
+    "Card Image" : "vihang.png"
+  }
+],[
+  {
+    "Event Name": "",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NULL",
+    "Outside Entry Fee": "To Be Decided",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NULL",
+    "Outside Entry Fee": "To Be Decided",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "",
+    "Card Image" : "vihang.png"
+  }
+]];
 
 // Donot comment these until reqd changes are made else the whole site breaks
 export const talks = [
