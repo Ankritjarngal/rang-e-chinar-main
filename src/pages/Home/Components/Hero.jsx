@@ -99,7 +99,7 @@ function Hero() {
 
           <div className="mt-8 mb-12 flex justify-center items-center w-full overflow-hidden">
             <h1 
-              className="mb-10 text-5xl ss:text-8xl sm:text-9xl md:text-9xl font-bold font-inter text-white tracking-wider overflow-visible"
+              className="mb-10 text-4xl ss:text-8xl sm:text-9xl md:text-9xl font-bold font-inter text-white tracking-wider overflow-visible"
               style={{ letterSpacing: '0.05em', maxWidth: '100%', lineHeight: '1.1' }}
             >
               {scrambledText}
@@ -111,7 +111,7 @@ function Hero() {
             data-aos="fade-up" 
             className="my-12 md:my-16 w-full flex justify-center"
           >
-            <p className="text-3xl ss:text-4xl md:text-5xl lg:text-6xl font-semibold text-white font-quicksand px-3 py-2 border-white/30">
+            <p className="text-2xl ss:text-2xl md:text-5xl lg:text-6xl font-semibold text-white font-quicksand px-3 py-2 border-white/30">
               The Rhythm Begins In...
             </p>
           </div>
