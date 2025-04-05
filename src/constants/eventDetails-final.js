@@ -160,6 +160,7 @@ export const DancingEvents = [
     "Card Image" : "vihang.png"
   }
 ];
+
 export const Workshop = [
   {
     "Event Name": "Heena Art",
@@ -240,6 +241,8 @@ export const Workshop = [
     "Card Image" : "vihang.png"
   }
 ];
+
+// Donot delete till resolved
 export const competitions = [
   {
     "Event Name": "Heena Art",
@@ -414,6 +417,8 @@ export const Performances  = [
     "Card Image" : "vihang.png"
   }
 ];
+
+// Donot delete till resolved
 export const womenCompetitions  = [
   {
     "Event Name": "Stand-Up Comedy",
@@ -523,6 +528,8 @@ export const HauntedHouse = [
     "Card Image" : "vihang.png"
   }
 ];
+
+// Donot delete till resolved
 export const performingEvents = [
   {
     "Event Name": "Haunted House",
@@ -672,6 +679,7 @@ export const OtherEvents = [
   }
 ];
 
+// Donot delete till resolved
 export const womenPerformances = [
   {
     "Event Name": "Mr & Miss Rang-e-Chinar",
