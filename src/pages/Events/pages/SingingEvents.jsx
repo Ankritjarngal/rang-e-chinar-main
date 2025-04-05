@@ -10,7 +10,7 @@ export default function SingingEvents() {
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },
-        { label: "Singing Events", path: "/events/singingevents" }
+        { label: "Singing Events", path: "/events/singing-events" }
       ]}
     >
       <EventsPageLayout events={singingEventsData} />

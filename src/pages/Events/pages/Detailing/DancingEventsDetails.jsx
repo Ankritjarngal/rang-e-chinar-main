@@ -11,11 +11,20 @@ export default function DancingEventsDetails() {
   }
 
   const event = dancingEventsData[eventIndex];
+  
+  const breadcrumbs = [
+    { label: "Home", path: "/" },
+    { label: "Events", path: "/events" },
+    { label: "Dancing Events", path: "/events/dancing-events" },
+    { label: event["Event Name"], path: `/events/dancing-events/${index}` }
+  ];
+
   return (
     <>
       <PerformingEventsDetailsLayout
         data={event}
         index={eventIndex}
+        breadcrumbs={breadcrumbs}
       />
     </>
   );

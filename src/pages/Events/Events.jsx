@@ -25,10 +25,10 @@ export default function Events() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<EventCategory />} />
-        <Route path="/singingevents" element={<SingingEvents />} />
-        <Route path="singingevents/:index" element={<SingingEventsDetails />} />
-        <Route path="/dancingevents" element={<DancingEvents />} />
-        <Route path="dancingevents/:index" element={<DancingEventsDetails />} />
+        <Route path="/singing-events" element={<SingingEvents />} />
+        <Route path="singing-events/:index" element={<SingingEventsDetails />} />
+        <Route path="/dancing-events" element={<DancingEvents />} />
+        <Route path="dancing-events/:index" element={<DancingEventsDetails />} />
         <Route path="/competitions" element={<Competitions />} />
         <Route path="/talks-and-workshops" element={<TalksAndWorkshops />} />
         <Route path="/performances" element={<Performances />} />

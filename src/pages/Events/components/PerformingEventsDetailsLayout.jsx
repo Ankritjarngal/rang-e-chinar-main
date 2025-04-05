@@ -3,18 +3,27 @@ import PageLayout from "../../../Components/PageLayout";
 import PropTypes from "prop-types";
 
 
-export default function PerformingEventsDetailsLayout({data, index}) {
-  const descriptions = data["Description"].split(";").map(desc => desc.trim()).filter(desc => desc !== "");
+export default function PerformingEventsDetailsLayout({data, index, breadcrumbs}) {
+  // If description contains semicolons, split it; otherwise, use the full description
+  const descriptions = data["Description"].includes(';') 
+    ? data["Description"].split(";").map(desc => desc.trim()).filter(desc => desc !== "")
+    : [data["Description"]];
+    
+  // Default breadcrumbs if none provided
+  const defaultBreadcrumbs = [
+    { label: "Home", path: "/" },
+    { label: "Events", path: "/events" },
+    { label: "Performances", path: "/events/performances" },
+    { label: data["Event Name"], path: `/events/performances/${index}` }
+  ];
+  
+  const pageBreadcrumbs = breadcrumbs || defaultBreadcrumbs;
+  
   return (
     <PageLayout 
       title={data["Event Name"]} 
       imgUrl={`/common/performance.jpeg`}
-      breadcrumbs={[
-        { label: "Home", path: "/" },
-        { label: "Events", path: "/events" },
-        { label: "Performances", path: "/events/performances" },
-        { label: data["Event Name"], path: `/events/performances/${index}` }
-      ]}
+      breadcrumbs={pageBreadcrumbs}
     >
       <div className="px-4 md:px-12 py-4 md:py-12 font-playfair bg-background ShadowLarge">
         <div className="mb-4">
@@ -81,4 +90,6 @@ export default function PerformingEventsDetailsLayout({data, index}) {
 
 PerformingEventsDetailsLayout.propTypes = {  
   data: PropTypes.object.isRequired,
+  index: PropTypes.number.isRequired,
+  breadcrumbs: PropTypes.array,
 };

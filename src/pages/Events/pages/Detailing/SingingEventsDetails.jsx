@@ -11,11 +11,20 @@ export default function SingingEventsDetails() {
   }
 
   const event = singingEventsData[eventIndex];
+  
+  const breadcrumbs = [
+    { label: "Home", path: "/" },
+    { label: "Events", path: "/events" },
+    { label: "Singing Events", path: "/events/singing-events" },
+    { label: event["Event Name"], path: `/events/singing-events/${index}` }
+  ];
+
   return (
     <>
       <PerformingEventsDetailsLayout
         data={event}
         index={eventIndex}
+        breadcrumbs={breadcrumbs}
       />
     </>
   );
