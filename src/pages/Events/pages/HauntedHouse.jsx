@@ -1,19 +1,19 @@
 import PageLayout from "../../../Components/PageLayout";
-import { Performances as performancesData } from "../../../constants/eventDetails-final";
+import { HauntedHouse as hauntedHouseData } from "../../../constants/eventDetails-final";
 import EventsPageLayout from "../components/EventPageLayout";
 
-export default function Performances() {
+export default function HauntedHouse() {
   return (
     <PageLayout 
-      title={"Performances"} 
+      title={"Haunted House"} 
       imgUrl={'/common/performance.jpeg'}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },
-        { label: "Performances", path: "/events/performances" }
+        { label: "Haunted House", path: "/events/haunted-house" }
       ]}
     >
-      <EventsPageLayout events={performancesData} />
+      <EventsPageLayout events={hauntedHouseData} />
     </PageLayout>
   );
-}
+} 

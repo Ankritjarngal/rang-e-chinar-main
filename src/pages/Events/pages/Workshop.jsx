@@ -1,19 +1,19 @@
 import PageLayout from "../../../Components/PageLayout";
-import { Performances as performancesData } from "../../../constants/eventDetails-final";
+import { Workshop as workshopData } from "../../../constants/eventDetails-final";
 import EventsPageLayout from "../components/EventPageLayout";
 
-export default function Performances() {
+export default function Workshop() {
   return (
     <PageLayout 
-      title={"Performances"} 
+      title={"Workshop"} 
       imgUrl={'/common/performance.jpeg'}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },
-        { label: "Performances", path: "/events/performances" }
+        { label: "Workshop", path: "/events/workshop" }
       ]}
     >
-      <EventsPageLayout events={performancesData} />
+      <EventsPageLayout events={workshopData} />
     </PageLayout>
   );
-}
+} 

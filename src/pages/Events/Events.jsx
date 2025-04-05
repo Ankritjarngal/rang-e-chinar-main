@@ -15,6 +15,12 @@ import SingingEvents from "./pages/SingingEvents";
 import SingingEventsDetails from "./pages/Detailing/SingingEventsDetails";
 import DancingEvents from "./pages/DancingEvents";
 import DancingEventsDetails from "./pages/Detailing/DancingEventsDetails";
+import Workshop from "./pages/Workshop";
+import WorkshopDetails from "./pages/Detailing/WorkshopDetails";
+import OtherEvents from "./pages/OtherEvents";
+import OtherEventsDetails from "./pages/Detailing/OtherEventsDetails";
+import HauntedHouse from "./pages/HauntedHouse";
+import HauntedHouseDetails from "./pages/Detailing/HauntedHouseDetails";
 
 export default function Events() {
   useEffect(() => {
@@ -29,14 +35,20 @@ export default function Events() {
         <Route path="singing-events/:index" element={<SingingEventsDetails />} />
         <Route path="/dancing-events" element={<DancingEvents />} />
         <Route path="dancing-events/:index" element={<DancingEventsDetails />} />
+        <Route path="/performances" element={<Performances />} />
+        <Route path="performances/:index" element={<PerformanceDetails />} />
+        <Route path="/workshop" element={<Workshop />} />
+        <Route path="workshop/:index" element={<WorkshopDetails />} />
+        <Route path="/other-events" element={<OtherEvents />} />
+        <Route path="other-events/:index" element={<OtherEventsDetails />} />
+        <Route path="/haunted-house" element={<HauntedHouse />} />
+        <Route path="haunted-house/:index" element={<HauntedHouseDetails />} />
         <Route path="/competitions" element={<Competitions />} />
         <Route path="/talks-and-workshops" element={<TalksAndWorkshops />} />
-        <Route path="/performances" element={<Performances />} />
         <Route path="/gaming-zone" element={<GamingZone />} />
         <Route path="/women-in-tech/*" element={<WomenTech />} />
         <Route path="gaming-zone/:index" element={<GameZoneDetails />} />
         <Route path="competitions/:index" element={<EventDetails />} />
-        <Route path="performances/:index" element={<PerformanceDetails />} />
         <Route path="talks-and-workshops/:index" element={<TalksAndWorkshopsDetails />} />
       </Routes>
     </>

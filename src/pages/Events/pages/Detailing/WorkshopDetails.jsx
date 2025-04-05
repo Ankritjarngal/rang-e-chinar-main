@@ -1,23 +1,23 @@
 import PerformingEventsDetailsLayout from "../../components/PerformingEventsDetailsLayout";
 import { useParams } from "react-router-dom";
-import { Performances as performancesData } from "../../../../constants/eventDetails-final";
+import { Workshop as workshopData } from "../../../../constants/eventDetails-final";
 
-export default function PerformanceDetails() {
+export default function WorkshopDetails() {
   const { index } = useParams();
   const eventIndex = parseInt(index, 10); // Convert index to integer
   
   // Validate index
-  if (isNaN(eventIndex) || eventIndex < 0 || eventIndex >= performancesData.length) {
+  if (isNaN(eventIndex) || eventIndex < 0 || eventIndex >= workshopData.length) {
     return <div>Event not found</div>;
   }
 
-  const event = performancesData[eventIndex];
+  const event = workshopData[eventIndex];
   
   const breadcrumbs = [
     { label: "Home", path: "/" },
     { label: "Events", path: "/events" },
-    { label: "Performances", path: "/events/performances" },
-    { label: event["Event Name"], path: `/events/performances/${index}` }
+    { label: "Workshop", path: "/events/workshop" },
+    { label: event["Event Name"], path: `/events/workshop/${index}` }
   ];
 
   return (
@@ -29,4 +29,4 @@ export default function PerformanceDetails() {
       />
     </>
   );
-}
+} 
