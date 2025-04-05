@@ -1,36 +1,31 @@
 export const teams = {
-  "Chairperson": [
+  "Core Team": [
     {
       title: "Chairperson",
       name: "Adnan Zahoor",
       email: "adnan_2021bche017@nitsri.ac.in",
       phone: "7780969467"
-    }
-  ],
-  "ViceChairperson": [
+    },
     {
       title: "Vice Chairperson",
       name: "Anjali Kacher",
       email: "anjali_2023meleep001@nitsri.ac.in",
       phone: "8400357741"
-    }
-  ],
-  "Secretary": [
+    },
     {
       title: "Secretary",
       name: "Yasir Ahmad Shah",
       email: "yasir_2021bche009@nitsri.ac.in",
       phone: "7780887743"
-    }
-  ],
-  "Treasurer": [
+    },
     {
       title: "Treasurer",
       name: "Ayush Singh",
       email: "ayushsingh-2022bmme055@nitsri.ac.in",
       phone: "8957026806"
     }
-  ],
+  ]
+  ,
   "Outreach": [
     {
       title: "Lead",

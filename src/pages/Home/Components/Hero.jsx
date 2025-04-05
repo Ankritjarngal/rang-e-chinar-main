@@ -27,9 +27,9 @@ function Hero() {
     return () => clearInterval(timer);
   }, []);
 
-  const [scrambledText, setScrambledText] = useState("Rang-E-Chinar");
-  const letters = "abcdefghijklmnopqrstuvwxyz-";
-  const originalText = "Rang-E-Chinar";
+  const [scrambledText, setScrambledText] = useState("Rang-E-Chinar 2.0");
+  const letters = "abcdefklmrstyz-016789";
+  const originalText = "Rang-E-Chinar 2.0";
 
   const scrambleText = useCallback(() => {
     let iteration = 0;

@@ -5,9 +5,9 @@ const ExcitingEvents = () => {
   return (
     <div className="px-4 md:px-[140px] lg:px-[160px] lg2:px-[200px] xl:px-[280px] xl2:px-[320px]">
       <div className="text-left mb-20">
-        <p className="text-xl textShadow font-bold font-quicksand text-gray-100">JUST THE BEST</p>
+        <p className="text-xl textShadow font-bold font-quicksand text-gray-100">ONLY THE BEST</p>
         <h2 className="text-5xl font-playfair font-bold uppercase overflow-hidden textShadow text-white">
-          The Most Exciting Event Lineup
+        GET READY FOR THE ULTIMATE EVENT EXPERIENCE
         </h2>
       </div>
       <div className="space-y-8">

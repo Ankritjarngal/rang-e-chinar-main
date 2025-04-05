@@ -86,27 +86,33 @@ export const demoEvents = [
 
 export const images = [
   {
-    src: '/slider-1.jpg',
+    src: '/common/sliderMAinStage.jpg',
+    alt: 'Slider 1',
+    title: 'Rang-e-Chinar 24',
+    description: 'Main Stage'
+  },
+  {
+    src: '/slider7.jpg',
     alt: 'Slider 1',
     title: 'Vihang Performance',
     description: 'Main Stage'
   },
   {
-    src: '/slider-2.jpg',
+    src: '/slider-1paint.jpg',
     alt: 'Slider 2',
-    title: 'Yawar Abdaal',
-    description: 'Main Stage'
+    title: 'Wall Painting',
+    description: 'PF HALL'
   },
   {
-    src: '/slider-3.jpg',
+    src: '/common/teamslider.jpg',
     alt: 'Slider 3',
     title: 'Group Photo',
     description: 'Organizing team'
   },
   {
-    src: '/slider-4.jpg',
+    src: '/slider5.jpg',
     alt: 'Slider 3',
-    title: 'Yawar Abdaal',
-    description: 'Main Stage'
+    title: 'Dance Battle',
+    description: 'Common Hall'
   },
 ];
