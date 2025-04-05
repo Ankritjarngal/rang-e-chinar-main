@@ -1,6 +1,6 @@
-import DancingEventsDetailsLayout from "../../components/DancingEventsDetailsLayout";
+import PerformingEventsDetailsLayout from "../../components/PerformingEventsDetailsLayout";
 import { useParams } from "react-router-dom";
-import { dancingEvents as dancingEventsData } from "../../../../constants/eventDetails-final";
+import { performingEvents, DancingEvents as dancingEventsData } from "../../../../constants/eventDetails-final";
 
 export default function DancingEventsDetails() {
   const { index } = useParams();
@@ -13,7 +13,7 @@ export default function DancingEventsDetails() {
   const event = dancingEventsData[eventIndex];
   return (
     <>
-      <DancingEventsDetailsLayout
+      <PerformingEventsDetailsLayout
         data={event}
         index={eventIndex}
       />

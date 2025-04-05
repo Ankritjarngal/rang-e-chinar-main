@@ -8,7 +8,7 @@ export const EventCategoryList = [
   {
     id: 2,
     title: "Dancing Events",
-    url: "performances",
+    url: "dancingevents",
     img: "common/extra/two.png",
   },
   {

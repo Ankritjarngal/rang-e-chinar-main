@@ -6,7 +6,7 @@ export default function SingingEventsDetails() {
   const { index } = useParams();
   const eventIndex = parseInt(index, 10); // Convert index to integer
   // Validate index
-  if (isNaN(eventIndex) || eventIndex < 0 || eventIndex >= performingEvents.length) {
+  if (isNaN(eventIndex) || eventIndex < 0 || eventIndex >= singingEventsData.length) {
     return <div>Event not found</div>;
   }
 
