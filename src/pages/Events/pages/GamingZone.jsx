@@ -1,13 +1,16 @@
 import { useState } from "react";
 import PageLayout from "../../../Components/PageLayout";
 import { gamezone } from "../../../constants/eventDetails-final";
-import EventsPageLayout from "../components/EventPageLayout";
+import GamingZoneLayout from "./GamingZoneLayout";
 
 export default function GamingZone() {
   const [activeTab, setActiveTab] = useState(0);
   
   // Custom tab names
   const tabNames = ["Esports", "Stage", "Cultural"];
+  const gm0 = gamezone[0];
+  const gm1 = gamezone[1];
+  const gm2 = gamezone[2];
 
   return (
     <PageLayout
@@ -56,7 +59,10 @@ export default function GamingZone() {
                 activeTab === index ? "block opacity-100" : "hidden opacity-0"
               }`}
             >
-              <EventsPageLayout events={section} />
+              <GamingZoneLayout 
+                events={index === 0 ? gm0 : index === 1 ? gm1 : gm2} 
+                categoryIndex={index}
+              />
             </div>
           ))}
         </div>

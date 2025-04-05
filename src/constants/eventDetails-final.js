@@ -813,88 +813,293 @@ export const womenPerformances = [
   }
 ];
 
-export const gamezone = [[
-  {
-    "Event Name": "",
-    "Description": "Singing performance from NIT Srinagar Student band",
-    "NIT Entry Fee": "NULL",
-    "Outside Entry Fee": "To Be Decided",
-    "Lead Name": "",
-    "Lead Contact Number": "",
-    "Start Time": "To Be Decided",
-    "End Time": "To Be Decided",
-    "Day":"",
-    "Venue": "",
-    "Card Image" : "vihang.png"
-  },
-  {
-    "Event Name": "",
-    "Description": "Singing performance from NIT Srinagar Student band",
-    "NIT Entry Fee": "NULL",
-    "Outside Entry Fee": "To Be Decided",
-    "Lead Name": "",
-    "Lead Contact Number": "",
-    "Start Time": "To Be Decided",
-    "End Time": "To Be Decided",
-    "Day":"",
-    "Venue": "",
-    "Card Image" : "vihang.png"
-  }
-],[
-  {
-    "Event Name": "",
-    "Description": "Singing performance from NIT Srinagar Student band",
-    "NIT Entry Fee": "NULL",
-    "Outside Entry Fee": "To Be Decided",
-    "Lead Name": "",
-    "Lead Contact Number": "",
-    "Start Time": "To Be Decided",
-    "End Time": "To Be Decided",
-    "Day":"",
-    "Venue": "",
-    "Card Image" : "vihang.png"
-  },
-  {
-    "Event Name": "",
-    "Description": "Singing performance from NIT Srinagar Student band",
-    "NIT Entry Fee": "NULL",
-    "Outside Entry Fee": "To Be Decided",
-    "Lead Name": "",
-    "Lead Contact Number": "",
-    "Start Time": "To Be Decided",
-    "End Time": "To Be Decided",
-    "Day":"",
-    "Venue": "",
-    "Card Image" : "vihang.png"
-  }
-],[
-  {
-    "Event Name": "",
-    "Description": "Singing performance from NIT Srinagar Student band",
-    "NIT Entry Fee": "NULL",
-    "Outside Entry Fee": "To Be Decided",
-    "Lead Name": "",
-    "Lead Contact Number": "",
-    "Start Time": "To Be Decided",
-    "End Time": "To Be Decided",
-    "Day":"",
-    "Venue": "",
-    "Card Image" : "vihang.png"
-  },
-  {
-    "Event Name": "",
-    "Description": "Singing performance from NIT Srinagar Student band",
-    "NIT Entry Fee": "NULL",
-    "Outside Entry Fee": "To Be Decided",
-    "Lead Name": "",
-    "Lead Contact Number": "",
-    "Start Time": "To Be Decided",
-    "End Time": "To Be Decided",
-    "Day":"",
-    "Venue": "",
-    "Card Image" : "vihang.png"
-  }
-]];
+export const gamezone = [
+  // Esports category (index 0)
+  [
+    {
+      "Event Name": "BGMI",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-2,3,4",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Free Fire",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-5",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "FIFA",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-6",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Valorant",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "CS Lab 2,3",
+      "Card Image": "vihang.png"
+    }
+  ],
+  
+  // Stage/Stall Games category (index 1)
+  [
+    {
+      "Event Name": "Pairing Dice Game",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-2,3,4",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Dice Battle",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-5",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Pairing Cards Game",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-6",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Higher And Lower Cards Game",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "CS Lab 2,3",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Bottle Flip",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-2,3,4",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Arm Wrestling",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-5",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Pass The Wire",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-6",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Dart Throw",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "CS Lab 2,3",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Baloon Pop",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-6",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Pairing Bangles Game",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "CS Lab 2,3",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Pairing Cups",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "CS Lab 2,3",
+      "Card Image": "vihang.png"
+    }
+  ],
+  
+  // Cultural Games category (index 2)
+  [
+    {
+      "Event Name": "Song Guessing Challenge",
+      "Description": "The goal is for the player wearing the headphones to describe the song to their partner without directly singing or playing the song aloud. The partner must guess the song correctly.",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-2,3,4",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Paper Dance Challenge",
+      "Description": "The goal is for the two players to dance together on a piece of paper without stepping off the paper. The team with the best performance in each round, judged on creativity, synchronization, and foot placement, wins points.",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-5",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "TIARAS MAKING",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-6",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Guess My Favorites",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "CS Lab 2,3",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Waste Jeans Creativity Competition",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-2,3,4",
+      "Card Image": "vihang.png"
+    },
+    {
+      "Event Name": "Guess the Movie Name Using Emoji",
+      "Description": "",
+      "NIT Entry Fee": "NULL",
+      "Outside Entry Fee": "To Be Decided",
+      "Lead Name": "",
+      "Lead Contact Number": "",
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day": "To Be Decided",
+      "Venue": "PF-5",
+      "Card Image": "vihang.png"
+    }
+  ]
+];
+
 
 // Donot comment these until reqd changes are made else the whole site breaks
 export const talks = [
