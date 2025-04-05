@@ -14,7 +14,7 @@ const Footer = () => {
               className="text-5xl md:text-7xl lg:text-8xl font-neotriad font-bold"
               style={{ textShadow: "2px 2px 8px rgba(0, 0, 0, 0.3)" }}
             >
-              Rang-E-Chinar'25
+              Rang-E-Chinar 2.0
             </a>
           </div>
 
