@@ -2,13 +2,13 @@ export const EventCategoryList = [
   {
     id: 1,
     title: "Singing Events",
-    url: "singingevents",
+    url: "singing-events",
     img: "common/extra/one.png",
   },
   {
     id: 2,
     title: "Dancing Events",
-    url: "dancingevents",
+    url: "dancing-events",
     img: "common/extra/two.png",
   },
   {
@@ -20,19 +20,19 @@ export const EventCategoryList = [
   {
     id: 4,
     title: "Workshop",
-    url: "gaming-zone",
+    url: "workshop",
     img: "common/extra/four.png",
   },
   {
     id: 5,
     title: "Other Events",
-    url: "women-in-tech",
+    url: "other-events",
     img: "common/extra/five.png",
   },
   {
     id: 6,
     title: "Haunted House",
-    url: "women-in-tech",
+    url: "haunted-house",
     img: "common/second.png",
   },
   {

@@ -160,7 +160,86 @@ export const DancingEvents = [
     "Card Image" : "vihang.png"
   }
 ];
-
+export const Workshop = [
+  {
+    "Event Name": "Heena Art",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day": "1",
+    "Venue": "LH",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Salsa Dance Workshop",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day": "1",
+    "Venue": "Amphitheatre (near activity centre)",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Clay Art (sculpture making)",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day": "2",
+    "Venue": "Amphitheatre (near activity centre)",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Crochet",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day": "2",
+    "Venue": "LH",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Fabric Painting",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NULL",
+    "Outside Entry Fee": "To Be Decided",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "LH",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Tattoo Fashion (temporary)",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "100rs",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day": "2",
+    "Venue": "LH",
+    "Card Image" : "vihang.png"
+  }
+];
 export const competitions = [
   {
     "Event Name": "Heena Art",
@@ -242,6 +321,99 @@ export const competitions = [
   }
 ];
 
+export const Performances  = [
+  {
+    "Event Name": "Stand-Up Comedy",
+    "Description": "Serious About Comedy, Giggles loaded Ahead: Stand-Up Comedy Brace yourselves for an unforgettable evening packed with belly laughs, quick wit, and relatable humor! Featuring a lineup of comedic geniuses, this show promises to tickle your funny bone and brighten your day. From hilarious observations about life to side-splitting anecdotes, you'll be taken on a comedic rollercoaster like no other. Whether you're a connoisseur of clever punchlines or a fan of absurd humor, this show guarantees non-stop laughter and entertainment. Grab your friends, and let's turn ordinary moments into extraordinary memories. Are you ready for the fun? Let's get the giggles rolling! ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "ABHI BADHERA ",
+    "Lead Contact Number": 7732803858,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Common Hall",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Mimicry",
+    "Description": "SGet ready for a fun-filled evening at our college's Mimicry! Watch your favorite celebrities, characters, and professors come to life as talented performers bring them to the stage with hilarious and spot-on impersonations. An event full of laughter, creativity, and unexpected surprises—don’t miss out on the show!",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "ROHIT PRAJAPAT ",
+    "Lead Contact Number": 9596271532,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Open Mic Stage",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Mushaira",
+    "Description": "Mushaira is a gathering of poets where words take center stage and emotions flow effortlessly. It is a celebration of expression, rhythm, and storytelling through poetry. With no fixed theme, poets from all genres are welcome to captivate the audience with their verses. Step forward, let your voice be heard, and create an unforgettable experience through the power of words!",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Akanksha Shukla ",
+    "Lead Contact Number": 9555615498,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "HiTech",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Monoacting",
+    "Description": "Whether it's a heartfelt monologue, an intense dramatic act, or a light-hearted yet meaningful performance, every expression, every gesture, and every word will bring a story to life. Participants will be judged on their ability to captivate the audience, their expressions, dialogue delivery, and stage presence.So, take the stage, let your voice echo through the fest, and leave the audience mesmerized with your performance. Because sometimes, a single voice is all it takes to move a thousand hearts!",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Rishabh Shukla ",
+    "Lead Contact Number": 8527109671,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Common Hall",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Poetry",
+    "Description": "Step into a world where words paint landscapes, and emotions echo through time! Wel come to an evening of lyrical beauty and heartfelt expressions at NIT Srinagar’s Poetry Event. Under the enchanting theme of Nature & Nostalgia, poets and enthusiasts will gather to celebrate the magic of poetry—where memories intertwine with the whispers of the wind and verses bloom like wildflowers. Whether you seek solace in nature’s embrace or cherish the bittersweet echoes of the past, this event promises a soulful journey through spoken artistry. Come, immerse yourself in rhythm, rhyme, and raw emotion! ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Aakash Kumar",
+    "Lead Contact Number": 8493866076,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Open Mic Stage",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Drama",
+    "Description": "Dramatics is the art of storytelling through performance, blending emotion, expression, and stagecraft to bring characters and narratives to life. It encompasses theater, improvisation, and scripted plays, offering a powerful medium for creativity, entertainment, and social commentary. ",
+   "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "100rs",
+    "Lead Name": "Kumar Sangyanam  ",
+    "Lead Contact Number": 9797435297,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Common Hall",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Ladishah",
+    "Description": "Participants will showcase their talent by performing Ladishah, a traditional Kashmiri satirical storytelling art form. The act should be engaging, humorous, and reflect social or cultural themes in an entertaining manner. Rhythm, wit, and creative expression are encouraged to captivate the audience.",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Reeba",
+    "Lead Contact Number": 6006993971,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "HiTech",
+    "Card Image" : "vihang.png"
+  }
+];
 export const womenCompetitions  = [
   {
     "Event Name": "Stand-Up Comedy",
@@ -336,6 +508,21 @@ export const womenCompetitions  = [
   }
 ];
 
+export const HauntedHouse = [
+  {
+    "Event Name": "Haunted House",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NULL",
+    "Outside Entry Fee": "To Be Decided",
+    "Lead Name": "",
+    "Lead Contact Number": "",
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Civil Attick",
+    "Card Image" : "vihang.png"
+  }
+];
 export const performingEvents = [
   {
     "Event Name": "Haunted House",
@@ -348,6 +535,139 @@ export const performingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Civil Attick",
+    "Card Image" : "vihang.png"
+  }
+];
+
+export const OtherEvents = [
+  {
+    "Event Name": "Mr & Miss Rang-e-Chinar",
+    "Description": "Step into the spotlight and embrace your true essence, 'Mr. and Ms. Rang-e-Chinar' is more than just a pageant—it's a celebration of individuality, confidence, and cultural elegance. This competition is designed to bring out the charisma, creativity, and personal expression of every participant.From showcasing impeccable style in couture to exuding unmatched grace and charm, contestants will embark on a journey of self-discovery and artistic presentation. Whether through fashion, performance, or personality, each round will challenge participants to embrace their roots while defining their unique rhythm.This is your chance to shine, to unveil your true self, and to redefine glamour with a touch of authenticity. The stage is yours—own it with Couture and Charisma: The Ultimate Blend! ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Deepti Badyal ",
+    "Lead Contact Number": 7006863809,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Main Stage",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Face Painting",
+    "Description": "'Parallel Realities: The World Through Different Eyes' Imagine how the world looks through the eyes of animals, AI, aliens, or even different emotions. ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Shivangi Basu ",
+    "Lead Contact Number": 9638298285,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "LH",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Wall Painting",
+    "Description": "Singing performance from NIT Srinagar Student band",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Shivangi Basu ",
+    "Lead Contact Number": 9638298285,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Campus",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Stone Painting",
+    "Description": "'Cultural Tapestry: Heritage and Traditions of Kashmir' Encourages artists to showcase Kashmir’s rich culture, traditions, folklore, and symbols on stones.",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Shivangi Basu ",
+    "Lead Contact Number": 9638298285,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "LH",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Live Photography",
+    "Description": "Step into the world of photography and freeze time with your lens! The Live Photography Event is an exciting competition where participants will showcase their ability to capture stunning moments in real-time. This event is all about creativity, perspective, and storytelling through photographs. Let your camera narrate the world as you see it! ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Akshay Kumar ",
+    "Lead Contact Number": 6005523966,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Campus",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "30 Sec Reel Making",
+    "Description": "Unleash your creativity in just 30 seconds! Show off your storytelling, editing, and filming skills by creating a short yet impactful reel that captivates the audience. Whether it’s comedy, drama, action, or pure aesthetics—your vision, your story, your moment to shine! Are you ready to reel it, feel it and win it? ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Gyan",
+    "Lead Contact Number": 8051005656,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "No Venue",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Meme Making",
+    "Description": "Unleash your creativity and humor at our meme-making event . Join us for an evening of laughter and fun as we create hilarious memes that will make your friends LOL! ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "NO Fee",
+    "Lead Name": "Yash Pratap Singh ",
+    "Lead Contact Number": 9103582285,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "LH",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Short Movie Making",
+    "Description": "Step into the world of storytelling where culture meets creativity! 'Lights, Culture, Action!' is a short film competition that invites filmmakers to explore the rhythms of tradition and the roots of identity. From folklore and heritage to music and dance, this event celebrates the vibrant fusion of the past and present through the lens of cinema. Participants will craft compelling short films that showcase cultural narratives, artistic expressions, and the evolution of traditions in today’s world. Whether through powerful storytelling, mesmerizing visuals, or rhythmic beats, each film will bring culture to life on screen. Join us for an unforgettable cinematic journey—where every frame echoes heritage, and every rhythm tells a story! ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "100rs",
+    "Lead Name": "Zeeshan Nazir ",
+    "Lead Contact Number": 914957803,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "LH",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Open Talent Show For Faculties",
+    "Description": "Join us for an exciting evening where faculty members step beyond the lecture halls and into the spotlight! This open talent show is a celebration of the hidden artistic, musical, and performance skills of our educators. From singing and dancing to poetry, comedy, and beyond, watch as professors, lecturers, and staff showcase their incredible talents in a fun, engaging, and unforgettable event. ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Anjali Kacher ",
+    "Lead Contact Number": 8400357741,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Open Mic Stage",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Tea Cronicals",
+    "Description": "Teatime Chronicles is a simple and fun storytelling event where students share their stories, and we serve them tea. It is a place to talk, listen, and connect over a warm cup of tea",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Disha ",
+    "Lead Contact Number": 6005177134,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "Amphitheatre (near activity centre)",
     "Card Image" : "vihang.png"
   }
 ];
@@ -501,6 +821,7 @@ export const gamezone = [
   }
 ];
 
+// Donot comment these until reqd changes are made else the whole site breaks
 export const talks = [
   {
     "Event Name": "Microcontrollers, \nHands on practice \nwith Arduino UNO",
