@@ -58,18 +58,18 @@ export default function EventDetailsLayout({data, index}) {
           </p>
         </div>
         <div className="flex gap-4">
-          <button className="px-6 md:px-8 py-2 text-sm md:text-[#F5E1C6] rounded-md font-semibold text-[#F5E1C6] bg-[#D97706] border-[#D97706] shadow-lg focus:outline-none text-center mb-4">
+          {/* <button className="px-6 md:px-8 py-2 text-sm md:text-[#F5E1C6] rounded-md font-semibold text-[#F5E1C6] bg-[#D97706] border-[#D97706] shadow-lg focus:outline-none text-center mb-4">
             <Link
               to={"https://erp.nitsri.ac.in/Academic/Event/iitms59kYF9lC0cj3VbTS6unBiAl+l75Pr6We0g1qjBoOkzq3f3cNp1dZ7YOKj7wb+MDkvhXLxOyJOP47ksp5DwqNGQ==?%2fAcademic%2fEvent%2fEventRegistrationDetails.aspx"}
             >
               Register
             </Link>
-          </button>
+          </button> */}
           <button className="px-6 md:px-8 py-2 text-sm md:text-[#F5E1C6] rounded-md font-semibold text-[#F5E1C6] bg-[#D97706] border-[#D97706] shadow-lg focus:outline-none text-center mb-4">
             <Link
               to={"/register/nit-register"}
             >
-              Register: NIT Students
+              Register
             </Link>
           </button>
         </div>
