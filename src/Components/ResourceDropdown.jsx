@@ -35,7 +35,7 @@ const ResourceDropdownMenu = ({ isDropdownOpen, setIsDropdownOpen }) => {
       }}
     >
       <Link
-        to="/gereral brochure_250404_234757.pdf"
+        to="/"
         target="_blank"
         className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200 first:rounded-t-md"
       >
@@ -49,14 +49,14 @@ const ResourceDropdownMenu = ({ isDropdownOpen, setIsDropdownOpen }) => {
         Guidelines
       </Link>
       <Link
-        to=""
+        to="/"
         target="_blank"
         className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200"
       >
         Time Table
       </Link>
       <Link
-      to="/Scan20250321101700_organized (1).pdf"
+      to="/"
         target="_blank"
         className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200 last:rounded-b-md"
       >
