@@ -27,15 +27,15 @@ const ResourceDropdownMenu = ({ isDropdownOpen, setIsDropdownOpen }) => {
   return (
     <div 
       ref={dropdownRef}
-      className="fixed w-48 bg-white/10 backdrop-blur-md border border-white/20 rounded-md shadow-lg"
+      className="fixed w-48 bg-black/80 backdrop-blur-md border border-white/20 rounded-md shadow-lg"
       style={{ 
         zIndex: 9999,
-        top: "80px",  // Adjust based on your header height
+        top: "85px",  // Adjust based on your header height
         right: "8%",  // Position near the Resources button
       }}
     >
       <Link
-        to="/public/gereral brochure_250404_234757.pdf"
+        to="/gereral brochure_250404_234757.pdf"
         target="_blank"
         className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200 first:rounded-t-md"
       >
@@ -56,7 +56,7 @@ const ResourceDropdownMenu = ({ isDropdownOpen, setIsDropdownOpen }) => {
         Time Table
       </Link>
       <Link
-      to="public/Scan20250321101700_organized (1).pdf"
+      to="/Scan20250321101700_organized (1).pdf"
         target="_blank"
         className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200 last:rounded-b-md"
       >

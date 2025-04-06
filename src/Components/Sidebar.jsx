@@ -51,8 +51,15 @@ const Sidebar = ({ isOpen, onClose }) => {
         >
           <p className="underline-animate relative inline-block">Events</p>
         </Link>
-        <Link
+        {/* <Link
           to={'/register'}
+          className="text-gray-200 hover:text-secondary flex justify-center text-xl py-2"
+          onClick={onClose}
+        >
+          <p className="underline-animate relative inline-block">Register</p>
+        </Link> */}
+        <Link
+          to={'/schedule'}
           className="text-gray-200 hover:text-secondary flex justify-center text-xl py-2"
           onClick={onClose}
         >
@@ -82,7 +89,7 @@ const Sidebar = ({ isOpen, onClose }) => {
           <div className="absolute left-0 w-full bg-neutral-700 bg-opacity-80 rounded-md mt-2">
             <ResourceDropdown
               isDropdownOpen={isResourceDropdownOpen}
-              position={{ left: 100, top: 290 }}
+              position={{ left: 300, top: 790 }}
             />
           </div>
         </div>
