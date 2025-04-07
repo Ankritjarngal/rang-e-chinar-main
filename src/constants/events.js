@@ -1,46 +1,28 @@
 export const EventCategoryList = [
   {
     id: 1,
-    title: "Singing Events",
-    url: "singing-events",
-    img: "common/extra/one.png",
-  },
-  {
-    id: 2,
-    title: "Dancing Events",
-    url: "dancing-events",
-    img: "common/extra/two.png",
-  },
-  {
-    id: 3,
-    title: "Performances",
-    url: "performances",
-    img: "common/extra/three.png",
-  },
-  {
-    id: 4,
     title: "Workshop",
     url: "workshop",
     img: "common/extra/four.png",
   },
   {
-    id: 5,
-    title: "Other Events",
-    url: "other-events",
-    img: "common/extra/five.png",
-  },
-  {
-    id: 6,
+    id: 2,
     title: "Haunted House",
     url: "haunted-house",
     img: "common/second.png",
   },
   {
-    id: 4,
+    id: 3,
     title: "Gaming Zone",
     url: "gaming-zone",
     img: "common/third.png",
   },
+  {
+    id: 4,
+    title: "Performance Events",
+    url: "performance-events",
+    img: "common/performance.jpeg",
+  }
 ];
 
 export const FormLinks = [
@@ -68,4 +50,4 @@ export const FormLinks = [
     "Form Name": "Photography and Videography",
     "Form Url": "https://forms.gle/f23ZBWiYdE6FhVvCA",
   }
-]
+];

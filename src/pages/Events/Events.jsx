@@ -21,16 +21,19 @@ import OtherEvents from "./pages/OtherEvents";
 import OtherEventsDetails from "./pages/Detailing/OtherEventsDetails";
 import HauntedHouse from "./pages/HauntedHouse";
 import HauntedHouseDetails from "./pages/Detailing/HauntedHouseDetails";
+import PerformanceEvents from "./pages/PerformanceEvents";
 
 export default function Events() {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top
   }, []);
+  
   return (
     <>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<EventCategory />} />
+        <Route path="/performance-events" element={<PerformanceEvents />} />
         <Route path="/singing-events" element={<SingingEvents />} />
         <Route path="singing-events/:index" element={<SingingEventsDetails />} />
         <Route path="/dancing-events" element={<DancingEvents />} />
