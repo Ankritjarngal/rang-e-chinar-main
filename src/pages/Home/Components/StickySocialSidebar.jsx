@@ -45,17 +45,7 @@ const StickySocialSidebar = () => {
           </a>
         </li>
 
-        {/* Custom Spring Link */}
-        {/* changed to schedule , change it when register page is ready */}
-        <li>
-          <a
-            href="/"
-            className="flex items-center justify-center w-12 h-12 bg-green-600 text-white rounded-l-md hover:bg-green-500 hover:w-20 transition-all duration-300 hover:shadow-xl group"
-            aria-label="Spring"
-          >
-            <FaLeaf size={28} className="group-hover:scale-125 transition-transform duration-300" />
-          </a>
-        </li>
+       
       </ul>
     </div>
   );
