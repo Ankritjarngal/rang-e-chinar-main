@@ -676,7 +676,99 @@ export const OtherEvents = [
     "Day":"",
     "Venue": "Amphitheatre (near activity centre)",
     "Card Image" : "vihang.png"
-  }
+  },
+    {
+      "Event Name": "Stand-Up Comedy",
+      "Description": "Serious About Comedy, Giggles loaded Ahead: Stand-Up Comedy Brace yourselves for an unforgettable evening packed with belly laughs, quick wit, and relatable humor! Featuring a lineup of comedic geniuses, this show promises to tickle your funny bone and brighten your day. From hilarious observations about life to side-splitting anecdotes, you'll be taken on a comedic rollercoaster like no other. Whether you're a connoisseur of clever punchlines or a fan of absurd humor, this show guarantees non-stop laughter and entertainment. Grab your friends, and let's turn ordinary moments into extraordinary memories. Are you ready for the fun? Let's get the giggles rolling! ",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50rs",
+      "Lead Name": "ABHI BADHERA ",
+      "Lead Contact Number": 7732803858,
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day":"",
+      "Venue": "Common Hall",
+      "Card Image" : "vihang.png"
+    },
+    {
+      "Event Name": "Mimicry",
+      "Description": "SGet ready for a fun-filled evening at our college's Mimicry! Watch your favorite celebrities, characters, and professors come to life as talented performers bring them to the stage with hilarious and spot-on impersonations. An event full of laughter, creativity, and unexpected surprises—don’t miss out on the show!",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50rs",
+      "Lead Name": "ROHIT PRAJAPAT ",
+      "Lead Contact Number": 9596271532,
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day":"",
+      "Venue": "Open Mic Stage",
+      "Card Image" : "vihang.png"
+    },
+    {
+      "Event Name": "Mushaira",
+      "Description": "Mushaira is a gathering of poets where words take center stage and emotions flow effortlessly. It is a celebration of expression, rhythm, and storytelling through poetry. With no fixed theme, poets from all genres are welcome to captivate the audience with their verses. Step forward, let your voice be heard, and create an unforgettable experience through the power of words!",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50rs",
+      "Lead Name": "Akanksha Shukla ",
+      "Lead Contact Number": 9555615498,
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day":"",
+      "Venue": "HiTech",
+      "Card Image" : "vihang.png"
+    },
+    {
+      "Event Name": "Monoacting",
+      "Description": "Whether it's a heartfelt monologue, an intense dramatic act, or a light-hearted yet meaningful performance, every expression, every gesture, and every word will bring a story to life. Participants will be judged on their ability to captivate the audience, their expressions, dialogue delivery, and stage presence.So, take the stage, let your voice echo through the fest, and leave the audience mesmerized with your performance. Because sometimes, a single voice is all it takes to move a thousand hearts!",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50rs",
+      "Lead Name": "Rishabh Shukla ",
+      "Lead Contact Number": 8527109671,
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day":"",
+      "Venue": "Common Hall",
+      "Card Image" : "vihang.png"
+    },
+    {
+      "Event Name": "Poetry",
+      "Description": "Step into a world where words paint landscapes, and emotions echo through time! Wel come to an evening of lyrical beauty and heartfelt expressions at NIT Srinagar’s Poetry Event. Under the enchanting theme of Nature & Nostalgia, poets and enthusiasts will gather to celebrate the magic of poetry—where memories intertwine with the whispers of the wind and verses bloom like wildflowers. Whether you seek solace in nature’s embrace or cherish the bittersweet echoes of the past, this event promises a soulful journey through spoken artistry. Come, immerse yourself in rhythm, rhyme, and raw emotion! ",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50rs",
+      "Lead Name": "Aakash Kumar",
+      "Lead Contact Number": 8493866076,
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day":"",
+      "Venue": "Open Mic Stage",
+      "Card Image" : "vihang.png"
+    },
+    {
+      "Event Name": "Drama",
+      "Description": "Dramatics is the art of storytelling through performance, blending emotion, expression, and stagecraft to bring characters and narratives to life. It encompasses theater, improvisation, and scripted plays, offering a powerful medium for creativity, entertainment, and social commentary. ",
+     "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "100rs",
+      "Lead Name": "Kumar Sangyanam  ",
+      "Lead Contact Number": 9797435297,
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day":"",
+      "Venue": "Common Hall",
+      "Card Image" : "vihang.png"
+    },
+    {
+      "Event Name": "Ladishah",
+      "Description": "Participants will showcase their talent by performing Ladishah, a traditional Kashmiri satirical storytelling art form. The act should be engaging, humorous, and reflect social or cultural themes in an entertaining manner. Rhythm, wit, and creative expression are encouraged to captivate the audience.",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50rs",
+      "Lead Name": "Reeba",
+      "Lead Contact Number": 6006993971,
+      "Start Time": "To Be Decided",
+      "End Time": "To Be Decided",
+      "Day":"",
+      "Venue": "HiTech",
+      "Card Image" : "vihang.png"
+    }
+  
 ];
 
 // Donot delete till resolved

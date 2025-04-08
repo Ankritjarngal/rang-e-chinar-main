@@ -14,11 +14,11 @@ export default function PerformanceEvents() {
       path: "/events/dancing-events",
       imgUrl: "/common/performance.jpeg",
     },
-    {
-      title: "Performances",
-      path: "/events/performances",
-      imgUrl: "/common/performance.jpeg",
-    },
+    // {
+    //   title: "Performances",
+    //   path: "/events/performances",
+    //   imgUrl: "/common/performance.jpeg",
+    // },
     {
       title: "Other Events",
       path: "/events/other-events",
@@ -28,7 +28,7 @@ export default function PerformanceEvents() {
 
   return (
     <PageLayout
-      title="Performance Events"
+      title="Events And Competitions"
       imgUrl="/common/performance.jpeg"
       breadcrumbs={[
         { label: "Home", path: "/" },

@@ -1,16 +1,18 @@
 export const cards = [
   {
-    title: "Performances",
+    title: "Events And Competitions",
     description: `Spectacular Performances Await!
     Get ready to be mesmerized! From soul-stirring music to electrifying dance and captivating acts, our stage is set for an unforgettable experience.   
     Feel the rhythm, witness the artistry, and immerse yourself in performances that inspire and entertain. 
     Let the show begin!`,
     image: "common/first.png",
-    link: "/events/performances",
+    link: "/events/performance-events",
   },
+
   {
     title: "Haunted House",
     description:
+    
       "Enter If You Dare...  Step into the shadows and face your fears in our bone-chilling Haunted House! Twisting hallways, eerie whispers, and lurking surprises await those brave enough to enter. Will you make it out unscathed, or will the spirits claim another soul?",
     image: "common/second.png",
     link: "/events/haunted-house",

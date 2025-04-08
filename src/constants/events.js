@@ -19,7 +19,7 @@ export const EventCategoryList = [
   },
   {
     id: 4,
-    title: "Performance Events",
+    title: "Events And Competitions",
     url: "performance-events",
     img: "common/performance.jpeg",
   }

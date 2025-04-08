@@ -36,14 +36,14 @@ export const teams = {
     {
       title: "Lead",
       name: "Tuaha Aijaz",
-      email: "mir_2021bmme042@nitsri.ac.in",
+      email: "mohammad_2021bele108@nitsri.ac.in",
       phone: "7006126554"
     },
     {
       title: "Co-Lead",
-      name: "Asra Zubair",
-      email: "asra_2022bciv062@nitsri.ac.in",
-      phone: "8899823991"
+      name: "Mohammad Huzaif",
+      email: "mhuzaif103@gmail.com",
+      phone: "9541451787"
     },
     {
       title: "Co-Lead",
@@ -66,9 +66,9 @@ export const teams = {
       phone: "6005370132"
     },
     {
-      title: "Co-Lead",
+      title: "Lead",
       name: "Ikjot Kour",
-      email: "2023nitsgr181@nitsri.ac.in",
+      email: "ikjotkour.27@gmail.com",
       phone: "70061 54937"
     },
     {
@@ -347,6 +347,12 @@ export const teams = {
       name: "Nagavath Rithwik",
       email: "2023nitsgr237@nitsri.ac.in",
       phone: "9055249289"
+    },
+    {
+      title: "Co-Lead",
+      name: "Ayushman Yadav",
+      email: "2023nitsgr237@nitsri.ac.in",
+      phone: "6006915370"
     }
   ],
 
@@ -560,7 +566,7 @@ export const teams = {
     {
       title: "Co-Lead",
       name: "Tanmay Kulkarni",
-      email: "",
+      email: "tanmay_2022bmme060@nitrsri.ac.in",
       phone: "7083293190"
     },
     {
@@ -580,26 +586,26 @@ export const teams = {
     {
       title: "Lead",
       name: "Alok Rajan",
-      email: "smaroof_2023mmba005@nitsri.ac.in",
-      phone: "9149494702"
+      email: "ralok8843@gmail.com",
+      phone: "7209666594"
     },
     {
       title: "Co-Lead",
       name: "Chirag Dubey",
-      email: "ponugoti_2022bcse054@nitsri.ac.in",
+      email: "chirag_2022bche063@gmail.com",
       phone: "9169414180"
     },
     
     {
       title: "Co-Lead",
       name: "Vaibhav Patel",
-      email: "",
+      email: "vaibhav.gusknp2022@gmail.com",
       phone: "9055656210"
     },
     {
       title: "Co-Lead",
       name: "Saloni",
-      email: "",
+      email: "salonisalhotra7@gmail.com",
       phone: "9317404474"
     }],
     "Performances": [
