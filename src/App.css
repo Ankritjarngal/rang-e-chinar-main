@@ -26,13 +26,20 @@
     url("./fonts/Cinzel_Decorative/CinzelDecorative-Bold.ttf");
 }
 
-/* Global Reset */
+/* Global Reset with Disabled Scrollbars */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Hide WebKit scrollbars (Chrome, Safari, etc.) */
+*::-webkit-scrollbar {
+  display: none;
 }
 
 /* Body Styling */
