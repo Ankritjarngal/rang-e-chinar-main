@@ -44,13 +44,18 @@ const Header = () => {
       >
         <div className="flex flex-row items-center w-full">
           {/* Logo */}
-          <Link to="/" className="group">
-            <img
-              src="/common/Rang_E_Chinar-removebg-preview.png"
-              className="h-16 md:h-20 lg:h-24 transition-transform duration-300 group-hover:scale-110"
-              alt="Logo"
-            />
-          </Link>
+          <Link to="/">
+  <div className="inline-block rounded-full bg-gradient-to-br from-orange-200 via-rose-300 to-pink-400 p-[2px] shadow-md hover:shadow-lg transition-shadow duration-300">
+    <img
+      src="/common/Rang_E_Chinar-removebg-preview.png"
+      alt="Rang-e-Chinar Logo"
+      className="h-12 w-12 md:h-14 md:w-14 lg:h-16 lg:w-16 rounded-full bg-white p-1 transition-transform duration-300 ease-in-out hover:scale-105"
+    />
+  </div>
+</Link>
+
+
+
 
           {/* Navbar Links */}
           <div className="hidden lg:flex font-semibold items-center ml-auto md:space-x-6 lg:space-x-8 xl:space-x-10">

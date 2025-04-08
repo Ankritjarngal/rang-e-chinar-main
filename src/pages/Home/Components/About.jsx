@@ -13,14 +13,17 @@ function About() {
       mirror: true,
     });
   }, []);
+  
 
   return (
     <div
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative"
+      // style={{ backgroundImage: "url('/nit.png')", marginBottom: "30px" }}
       style={{ backgroundImage: "url('/nit.png')", marginBottom: "30px" }}
+
     >
       {/* Optional: Overlay */}
-      <div className="absolute inset-0 bg-[#eaf8f0]/30 backdrop-blur-sm z-0" />
+      <div className="absolute inset-0 bg-[rgba(71, 41, 41, 0.1)]/90 backdrop-blur-sm z-0" />
 
       {/* Content */}
       <div className="relative z-10 px-6 py-20 lg:px-20 flex flex-col items-center justify-center min-h-screen">
@@ -31,7 +34,6 @@ function About() {
           <p className="text-lg md:text-xl font-semibold text-green-700 mb-6">
             NIT Srinagar's Annual Cultural Festival
           </p>
-
           {/* Main Card */}
           <div className="relative z-10 bg-white/60 backdrop-blur-sm py-16 px-6 md:px-16 font-quicksand text-gray-800 rounded-2xl shadow-md max-w-5xl mx-auto" data-aos="fade-up">
 

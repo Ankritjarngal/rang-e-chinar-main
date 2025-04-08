@@ -27,8 +27,8 @@ const Sidebar = ({ isOpen, onClose }) => {
       } z-50`}
       style={{
         zIndex: 9999,
-        background: "rgba(255, 255, 255, 0.1)", // Custom background with 10% opacity
-        borderRight: "1px solid rgba(255, 255, 255, 0.2)", // Custom border with 20% opacity
+        background: "rgba(0, 0, 0, 0.1)", // Custom background with 10% opacity
+        borderRight: "1px solid rgba(23, 15, 15, 0.2)", // Custom border with 20% opacity
       }}
     >
       <div className="flex justify-end p-4">
