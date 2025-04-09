@@ -665,7 +665,7 @@ export const OtherEvents = [
     "Card Image" : "vihang.png"
   },
   {
-    "Event Name": "Tea Cronicals",
+    "Event Name": "Tea Time Cronicals",
     "Description": "Teatime Chronicles is a simple and fun storytelling event where students share their stories, and we serve them tea. It is a place to talk, listen, and connect over a warm cup of tea",
     "NIT Entry Fee": "NO Fee",
     "Outside Entry Fee": "50rs",
@@ -788,6 +788,19 @@ export const womenPerformances = [
   },
   {
     "Event Name": "Face Painting",
+    "Description": "'Parallel Realities: The World Through Different Eyes' Imagine how the world looks through the eyes of animals, AI, aliens, or even different emotions. ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "Shivangi Basu ",
+    "Lead Contact Number": 9638298285,
+    "Start Time": "To Be Decided",
+    "End Time": "To Be Decided",
+    "Day":"",
+    "Venue": "LH",
+    "Card Image" : "vihang.png"
+  },
+  {
+    "Event Name": "Sketching",
     "Description": "'Parallel Realities: The World Through Different Eyes' Imagine how the world looks through the eyes of animals, AI, aliens, or even different emotions. ",
     "NIT Entry Fee": "NO Fee",
     "Outside Entry Fee": "50rs",

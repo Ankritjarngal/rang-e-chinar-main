@@ -45,10 +45,11 @@ const Header = () => {
         <div className="flex flex-row items-center w-full">
           {/* Logo */}
           <Link to="/">
-  <div className="inline-block rounded-full bg-gradient-to-br from-orange-200 via-rose-300 to-pink-400 p-[2px] shadow-md hover:shadow-lg transition-shadow duration-300">
+  <div className=" rounded-full bg-gradient-to-br from-orange-200 via-rose-300 to-pink-400 p-[2px] shadow-md hover:shadow-lg transition-shadow duration-300">
     <img
       src="/common/Rang_E_Chinar-removebg-preview.png"
       alt="Rang-e-Chinar Logo"
+      style={{height:"60px", width: "60px" , padding:"-20px"}}
       className="h-12 w-12 md:h-14 md:w-14 lg:h-16 lg:w-16 rounded-full bg-white p-1 transition-transform duration-300 ease-in-out hover:scale-105"
     />
   </div>
