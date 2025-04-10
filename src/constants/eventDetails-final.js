@@ -11,7 +11,7 @@ export const SingingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Common Hall",
-    "Card Image" : "vihang.png"
+    "Card Image" : "eastern_solo_singing.png"
   },
   {
     "Event Name": "Solo Singing Western",
@@ -24,7 +24,7 @@ export const SingingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Open Mic Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "western_solo_singing.png"
   },
   {
     "Event Name": "Duet Singing",
@@ -37,7 +37,7 @@ export const SingingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Open Mic Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "duet singing.png"
   },
   {
     "Event Name": "Battle of Bands",
@@ -50,7 +50,7 @@ export const SingingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Main Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "battle of bands.png"
   },
   {
     "Event Name": "Solo Instrumental",
@@ -63,7 +63,7 @@ export const SingingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Open Mic Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "solo instrumental.png"
   },
   {
     "Event Name": "Rap Battle",
@@ -76,7 +76,7 @@ export const SingingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Open Mic Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "rap battle.png"
   },
   {
     "Event Name": "Beatbox",
@@ -89,7 +89,7 @@ export const SingingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Open Mic Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "beatbox.png"
   }
 ];
 
@@ -105,7 +105,7 @@ export const DancingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Common Hall",
-    "Card Image" : "vihang.png"
+    "Card Image" : "solo dance eastern.png"
   },
   {
     "Event Name": "Solo Dance Western",
@@ -118,7 +118,7 @@ export const DancingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Common Hall",
-    "Card Image" : "vihang.png"
+    "Card Image" : "solo dance western.png"
   },
   {
     "Event Name": "Duet Freestyle",
@@ -131,7 +131,7 @@ export const DancingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Main Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "DuetFreeStyle.png"
   },
   {
     "Event Name": "Dance Battle",
@@ -144,7 +144,7 @@ export const DancingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Common Hall",
-    "Card Image" : "vihang.png"
+    "Card Image" : "dancebattle.png"
   },
   {
     "Event Name": "Choreonight",
@@ -157,7 +157,7 @@ export const DancingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Main Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "choreo night.png"
   }
 ];
 
@@ -171,9 +171,9 @@ export const Workshop = [
     "Lead Contact Number": "7209666594",
     "Start Time": "To Be Decided",
     "End Time": "To Be Decided",
-    "Day": "1",
+    "Day": "2",
     "Venue": "LH",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Heen Art.png"
   },
   {
     "Event Name": "Salsa Dance Workshop",
@@ -186,7 +186,7 @@ export const Workshop = [
     "End Time": "To Be Decided",
     "Day": "1",
     "Venue": "Amphitheatre (near activity centre)",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Salsa dance workshop.png"
   },
   {
     "Event Name": "Sculpture Making",
@@ -210,9 +210,9 @@ export const Workshop = [
     "Lead Contact Number": "7209666594",
     "Start Time": "To Be Decided",
     "End Time": "To Be Decided",
-    "Day": "2",
+    "Day": "1",
     "Venue": "LH",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Crochet.png"
   },
   {
     "Event Name": "Fabric Painting",
@@ -225,7 +225,7 @@ export const Workshop = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "LH",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Fabric Painting.png"
   },
   {
     "Event Name": "Tattoo Fashion (temporary)",
@@ -238,7 +238,7 @@ export const Workshop = [
     "End Time": "To Be Decided",
     "Day": "2",
     "Venue": "LH",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Tattoo Fusion.png"
   }
 ];
 
@@ -281,7 +281,7 @@ export const competitions = [
     "End Time": "To Be Decided",
     "Day": "2",
     "Venue": "Amphitheatre (near activity centre)",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Clay Art.png"
   },
   {
     "Event Name": "Crochet",
@@ -336,7 +336,7 @@ export const Performances  = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Common Hall",
-    "Card Image" : "vihang.png"
+    "Card Image" : "StandupComedy.png"
   },
   {
     "Event Name": "Mimicry",
@@ -375,7 +375,7 @@ export const Performances  = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Common Hall",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Monoacting.png"
   },
   {
     "Event Name": "Poetry",
@@ -401,7 +401,7 @@ export const Performances  = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Common Hall",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Drama.png"
   },
   {
     "Event Name": "Ladishah",
@@ -414,7 +414,7 @@ export const Performances  = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "HiTech",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Ladishah.png"
   }
 ];
 
@@ -444,7 +444,7 @@ export const womenCompetitions  = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Open Mic Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Mimicry.png"
   },
   {
     "Event Name": "Mushaira",
@@ -483,7 +483,7 @@ export const womenCompetitions  = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Open Mic Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "poetry.png"
   },
   {
     "Event Name": "Drama",
@@ -509,7 +509,7 @@ export const womenCompetitions  = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "HiTech",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Ladishah.png"
   }
 ];
 
@@ -525,7 +525,7 @@ export const HauntedHouse = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Civil Attick",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Haunted House.png"
   }
 ];
 
@@ -558,7 +558,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Main Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Mr. & Miss Rangechinar.png"
   },
   {
     "Event Name": "Face Painting",
@@ -571,7 +571,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "LH",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Face Painting_ Stone Painting.png"
   },
   {
     "Event Name": "Wall Painting",
@@ -584,7 +584,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Campus",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Wall Painting.png"
   },
   {
     "Event Name": "Stone Painting",
@@ -597,7 +597,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "LH",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Face Painting_ Stone Painting.png"
   },
   {
     "Event Name": "Live Photography",
@@ -610,7 +610,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Campus",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Live Photography.png"
   },
   {
     "Event Name": "30 Sec Reel Making",
@@ -623,7 +623,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "No Venue",
-    "Card Image" : "vihang.png"
+    "Card Image" : "reel.png"
   },
   {
     "Event Name": "Meme Making",
@@ -636,7 +636,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "LH",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Meme Making.png"
   },
   {
     "Event Name": "Short Movie Making",
@@ -649,7 +649,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "LH",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Short Movie Making.png"
   },
   {
     "Event Name": "Open Talent Show For Faculties",
@@ -662,7 +662,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Open Mic Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Open Talent Show for Faculties.png"
   },
   {
     "Event Name": "Tea Time Cronicals",
@@ -675,7 +675,7 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Amphitheatre (near activity centre)",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Tea cronicals.png"
   },
     {
       "Event Name": "Stand-Up Comedy",
@@ -688,7 +688,7 @@ export const OtherEvents = [
       "End Time": "To Be Decided",
       "Day":"",
       "Venue": "Common Hall",
-      "Card Image" : "vihang.png"
+      "Card Image" : "StandupComedy.png"
     },
     {
       "Event Name": "Mimicry",
@@ -701,7 +701,7 @@ export const OtherEvents = [
       "End Time": "To Be Decided",
       "Day":"",
       "Venue": "Open Mic Stage",
-      "Card Image" : "vihang.png"
+      "Card Image" : "Mimicry.png"
     },
     {
       "Event Name": "Mushaira",
@@ -714,7 +714,7 @@ export const OtherEvents = [
       "End Time": "To Be Decided",
       "Day":"",
       "Venue": "HiTech",
-      "Card Image" : "vihang.png"
+      "Card Image" : "Mushaira.png"
     },
     {
       "Event Name": "Monoacting",
@@ -727,7 +727,7 @@ export const OtherEvents = [
       "End Time": "To Be Decided",
       "Day":"",
       "Venue": "Common Hall",
-      "Card Image" : "vihang.png"
+      "Card Image" : "Monoacting.png"
     },
     {
       "Event Name": "Poetry",
@@ -740,7 +740,7 @@ export const OtherEvents = [
       "End Time": "To Be Decided",
       "Day":"",
       "Venue": "Open Mic Stage",
-      "Card Image" : "vihang.png"
+      "Card Image" : "Poetry.png"
     },
     {
       "Event Name": "Drama",
@@ -753,7 +753,7 @@ export const OtherEvents = [
       "End Time": "To Be Decided",
       "Day":"",
       "Venue": "Common Hall",
-      "Card Image" : "vihang.png"
+      "Card Image" : "Drama.png"
     },
     {
       "Event Name": "Ladishah",
@@ -766,7 +766,7 @@ export const OtherEvents = [
       "End Time": "To Be Decided",
       "Day":"",
       "Venue": "HiTech",
-      "Card Image" : "vihang.png"
+      "Card Image" : "Ladishah.png"
     }
   
 ];
@@ -784,7 +784,7 @@ export const womenPerformances = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Main Stage",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Mr. & Miss Rangechinar.png"
   },
   {
     "Event Name": "Face Painting",
@@ -849,7 +849,7 @@ export const womenPerformances = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Campus",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Live Photography.png"
   },
   {
     "Event Name": "30 Sec Reel Making",
@@ -932,7 +932,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-2,3,4",
-      "Card Image": "vihang.png"
+      "Card Image": "gamezone (3).png"
     },
     {
       "Event Name": "Free Fire",
@@ -945,7 +945,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-5",
-      "Card Image": "vihang.png"
+      "Card Image": "gamezone (4).png"
     },
     {
       "Event Name": "FIFA",
@@ -958,7 +958,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-6",
-      "Card Image": "vihang.png"
+      "Card Image": "gamezone (8).png"
     },
     {
       "Event Name": "Valorant",
@@ -971,7 +971,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "CS Lab 2,3",
-      "Card Image": "vihang.png"
+      "Card Image": "gamezone (2).png"
     }
   ],
   
@@ -1053,7 +1053,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-5",
-      "Card Image": "vihang.png"
+      "Card Image": "gamezone (13).png"
     },
     {
       "Event Name": "Pass The Wire",
@@ -1066,7 +1066,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-6",
-      "Card Image": "vihang.png"
+      "Card Image": "gamezone (20).png"
     },
     {
       "Event Name": "Dart Throw",
@@ -1079,7 +1079,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "CS Lab 2,3",
-      "Card Image": "vihang.png"
+      "Card Image": "gamezone (15).png"
     },
     {
       "Event Name": "Baloon Pop",
@@ -1118,7 +1118,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "CS Lab 2,3",
-      "Card Image": "vihang.png"
+      "Card Image": "gamezone (19).png"
     }
   ],
   
