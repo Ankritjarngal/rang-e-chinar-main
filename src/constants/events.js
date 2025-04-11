@@ -3,25 +3,25 @@ export const EventCategoryList = [
     id: 1,
     title: "Workshop",
     url: "workshop",
-    img: "common/extra/four.png",
+    img: "events/Workshop.png",
   },
   {
     id: 2,
     title: "Haunted House",
     url: "haunted-house",
-    img: "common/second.png",
+    img: "events/Haunted House.png",
   },
   {
     id: 3,
     title: "Gaming Zone",
     url: "gaming-zone",
-    img: "common/third.png",
+    img: "events/gamezone.png",
   },
   {
     id: 4,
     title: "Events And Competitions",
     url: "performance-events",
-    img: "common/performance.jpeg",
+    img: "events/Events and Competitions.png",
   }
 ];
 

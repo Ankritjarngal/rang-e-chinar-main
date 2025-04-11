@@ -199,7 +199,7 @@ export const Workshop = [
     "End Time": "To Be Decided",
     "Day": "2",
     "Venue": "Amphitheatre (near activity centre)",
-    "Card Image" : "vihang.png"
+    "Card Image" : "Sculpture making.png"
   },
   {
     "Event Name": "Crochet",
@@ -988,7 +988,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-2,3,4",
-      "Card Image": "vihang.png"
+      "Card Image": "Pairing Dice Game.png"
     },
     {
       "Event Name": "Dice Battle",
@@ -1001,7 +1001,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-5",
-      "Card Image": "vihang.png"
+      "Card Image": "Battle of dices.png"
     },
     {
       "Event Name": "Pairing Cards Game",
@@ -1014,7 +1014,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-6",
-      "Card Image": "vihang.png"
+      "Card Image": "Card Game.png"
     },
     {
       "Event Name": "Higher And Lower Cards Game",
@@ -1027,7 +1027,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "CS Lab 2,3",
-      "Card Image": "vihang.png"
+      "Card Image": "higher and lower cards game.png"
     },
     {
       "Event Name": "Bottle Flip",
@@ -1040,7 +1040,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-2,3,4",
-      "Card Image": "vihang.png"
+      "Card Image": "bottle flip.png"
     },
     {
       "Event Name": "Arm Wrestling",
@@ -1092,7 +1092,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-6",
-      "Card Image": "vihang.png"
+      "Card Image": "Ballon pop.png"
     },
     {
       "Event Name": "Pairing Bangles Game",
@@ -1105,7 +1105,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "CS Lab 2,3",
-      "Card Image": "vihang.png"
+      "Card Image": "Pairing Bangles Game.png"
     },
     {
       "Event Name": "Pairing Cups",
@@ -1135,7 +1135,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-2,3,4",
-      "Card Image": "vihang.png"
+      "Card Image": "song guessing challenge.png"
     },
     {
       "Event Name": "Paper Dance Challenge",
@@ -1148,7 +1148,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-5",
-      "Card Image": "vihang.png"
+      "Card Image": "paper dance challenge.png"
     },
     {
       "Event Name": "TIARAS MAKING",
@@ -1161,7 +1161,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-6",
-      "Card Image": "vihang.png"
+      "Card Image": "tiara making.png"
     },
     {
       "Event Name": "Guess My Favorites",
@@ -1174,7 +1174,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "CS Lab 2,3",
-      "Card Image": "vihang.png"
+      "Card Image": "guess my favourite.png"
     },
     {
       "Event Name": "Waste Jeans Creativity Competition",
@@ -1187,7 +1187,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-2,3,4",
-      "Card Image": "vihang.png"
+      "Card Image": "waste jeans creativity competition.png"
     },
     {
       "Event Name": "Guess the Movie Name Using Emoji",
@@ -1200,7 +1200,7 @@ export const gamezone = [
       "End Time": "To Be Decided",
       "Day": "To Be Decided",
       "Venue": "PF-5",
-      "Card Image": "vihang.png"
+      "Card Image": "guess movie challenge.png"
     }
   ]
 ];

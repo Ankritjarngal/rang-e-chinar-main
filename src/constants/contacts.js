@@ -281,9 +281,9 @@ export const teams = {
     },
     {
       title: "Co-Lead",
-      name: "Abhiraj Kanteshwar Roy",
-      email: "abhiraj_2022bmec024@nitsri.ac.in",
-      phone: "7298212637"
+      name: "Krish Mahajan",
+      email: "mkrish726@gmail.com",
+      phone: "7006152565"
     }
   ],
   "Photography and Videography": [

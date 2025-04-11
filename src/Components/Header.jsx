@@ -49,7 +49,7 @@ const Header = () => {
     <img
       src="/common/Rang_E_Chinar-removebg-preview.png"
       alt="Rang-e-Chinar Logo"
-      style={{height:"60px", width: "60px" , padding:"-20px"}}
+      style={{height:"80px", width: "90px" }}
       className="h-12 w-12 md:h-14 md:w-14 lg:h-16 lg:w-16 rounded-full bg-white p-1 transition-transform duration-300 ease-in-out hover:scale-105"
     />
   </div>
