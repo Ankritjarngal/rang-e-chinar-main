@@ -63,6 +63,16 @@ const Header = () => {
             <NavLink to="/" label="Home" />
             <NavLink to="/events" label="Events" />
             <NavLink to="/schedule" label="Schedule" />
+            <a
+  href="https://rangechinar-registration-from.vercel.app"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-white hover:text-white/80 text-lg lg:text-xl xl:text-2xl font-semibold relative group transition-all duration-300 font-quicksand"
+>
+  Register
+  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white/60 group-hover:w-full transition-all duration-300 group-hover:shadow-glow"></span>
+</a>
+
 
             {/* Resources Dropdown */}
             <div className="relative inline-block" ref={dropdownRef}>

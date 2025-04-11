@@ -118,6 +118,16 @@ function Hero() {
             <span className="ml-3">May 2025</span>
           </div>
 
+          {/* "The Rhythm Begins In" section */}
+          <div 
+            data-aos="fade-up" 
+            className="my-12 md:my-16 w-full flex justify-center"
+          >
+            <p className=" bg-color:blue text-xl ss:text-3xl md:text-4xl font-cursive font-cursive text-white px-6 py-3 border border-pink-900">
+              ROOTS AND RYTHMS 
+            </p>
+          </div>
+          
           {/* Main Event Title */}
           <div className="mt-16 mb-12 flex justify-center items-center w-full overflow-hidden">
   <h1

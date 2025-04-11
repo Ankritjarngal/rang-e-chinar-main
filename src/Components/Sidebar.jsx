@@ -58,13 +58,17 @@ const Sidebar = ({ isOpen, onClose }) => {
         >
           <p className="underline-animate relative inline-block">Register</p>
         </Link> */}
-        <Link
-          to={'/schedule'}
-          className="text-gray-200 hover:text-secondary flex justify-center text-xl py-2"
-          onClick={onClose}
-        >
-          <p className="underline-animate relative inline-block">Register</p>
-        </Link>
+
+                <a
+        href="https://rangechinar-registration-from.vercel.app"
+        target="_blank"
+
+        rel="noopener noreferrer"
+        className="text-gray-200 hover:text-secondary flex justify-center text-xl py-2 "
+      >
+        Register
+        <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white/60 group-hover:w-full transition-all duration-300 group-hover:shadow-glow"></span>
+      </a>
 
         <Link
           to="/schedule"

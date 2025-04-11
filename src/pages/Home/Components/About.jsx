@@ -19,19 +19,19 @@ function About() {
     <div
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat relative"
       // style={{ backgroundImage: "url('/nit.png')", marginBottom: "30px" }}
-      style={{ backgroundImage: "url('/nit.png')", marginBottom: "30px" }}
+      // style={{ backgroundImage: "url('/nit.png')", marginBottom: "30px" }}
 
     >
       {/* Optional: Overlay */}
-      <div className="absolute inset-0 bg-[rgba(71, 41, 41, 0.1)]/90 backdrop-blur-sm z-0" />
+      <div className="absolute  inset-0 bg-[rgba(71, 41, 41, 0.1)]/90 z-0" />
 
       {/* Content */}
-      <div className="relative z-10 px-6 py-20 lg:px-20 flex flex-col items-center justify-center min-h-screen">
-        <div className="max-w-4xl text-center" data-aos="fade-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-green-800 mb-4">Rang-E-Chinar 2.0</h2>
+      <div className="relative z-10  px-6 py-20 lg:px-20 flex flex-col items-center justify-center min-h-screen">
+        <div className="max-w-4xl  text-center" data-aos="fade-up">
+          <h2 className="text-4xl md:text-5xl font-bold text-white  mb-4">Rang-E-Chinar 2.0</h2>
           <a href="https://nitsri.ac.in/"> <div style={{ backgroundImage: "url('/common/nitlogo.png')", backgroundPosition: 'center', height: '80px' , backgroundRepeat: 'no-repeat', backgroundSize: 'contain', marginTop: '20px' }}>
           </div></a>
-          <p className="text-lg md:text-xl font-semibold text-green-700 mb-6">
+          <p className="text-lg md:text-xl font-semibold text-white mb-6">
             NIT Srinagar's Annual Cultural Festival
           </p>
           {/* Main Card */}

@@ -45,6 +45,19 @@ const StickySocialSidebar = () => {
           </a>
         </li>
 
+         <a
+        href="https://rangechinar-registration-from.vercel.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center justify-center w-12 h-12 bg-pink-600 text-white rounded-r-md hover:bg-pink-500 hover:w-32 transition-all duration-300 hover:shadow-xl group"
+        aria-label="Register"
+      >
+        <span className="hidden group-hover:inline-block text-sm font-semibold transition-opacity duration-300 mr-2">
+          Register
+        </span>
+        <FaLeaf size={24} className="group-hover:scale-125 transition-transform duration-300" />
+      </a>
+
        
       </ul>
     </div>
