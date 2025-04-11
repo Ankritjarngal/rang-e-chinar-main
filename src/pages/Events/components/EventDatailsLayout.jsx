@@ -67,7 +67,7 @@ export default function EventDetailsLayout({data, index}) {
           </button> */}
           <button className="px-6 md:px-8 py-2 text-sm md:text-[#F5E1C6] rounded-md font-semibold text-[#F5E1C6] bg-[#D97706] border-[#D97706] shadow-lg focus:outline-none text-center mb-4">
             <Link
-              to={"/register/nit-register"}
+              to={"https://rangechinar-registration-from.vercel.app/"}
             >
               Register
             </Link>

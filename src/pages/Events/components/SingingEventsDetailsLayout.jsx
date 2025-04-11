@@ -60,7 +60,7 @@ export default function SingingEventsDetailsLayout({data, index}) {
           </button>
           <button className="px-6 md:px-8 py-2 ShadowBlur text-sm md:text-base rounded-md font-semibold text-gray-800 bg-primary border border-primary focus:outline-none text-center mb-4">
             <Link
-              to={"/register/nit-register"}
+              to={"https://rangechinar-registration-from.vercel.app/"}
             >
               Register: NIT Students
             </Link>
