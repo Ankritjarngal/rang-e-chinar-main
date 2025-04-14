@@ -49,14 +49,30 @@ export default function PerformingEventsDetailsLayout({data, index, breadcrumbs}
           </p>
         </div>
         <div className="mb-4">
-          <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">
-            Entry Fee
-          </p>
+          <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Entry Fee</p>
           <p className="text-base mb-2">
             <span className="font-bold mr-2">Entry Fee:</span>
             {data["Outside Entry Fee"] === ""
               ? "Free"
               : `₹ ${data["Outside Entry Fee"]}`}
+          </p>
+        </div>
+        <div className="mb-4">
+          <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Rules</p>
+          <p className="text-base mb-2">
+            {data["Rules"]}
+          </p>
+        </div>
+        <div className="mb-4">
+          <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Judging Criteria</p>
+          <p className="text-base mb-2">
+            {data["Judging Criteria"]}
+          </p>
+        </div>
+        <div className="mb-4">
+          <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Certifications</p>
+          <p className="text-base mb-2">
+            {data["Certifications"]}
           </p>
         </div>
         <div className="flex gap-4">
