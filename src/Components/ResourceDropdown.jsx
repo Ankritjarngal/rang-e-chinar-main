@@ -35,13 +35,13 @@ const ResourceDropdownMenu = ({ isDropdownOpen, setIsDropdownOpen }) => {
       }}
     >
       <Link
-      to="https://drive.google.com/file/d/1pUFw0ySZ_FDDdqbRNui1v3lV-PwjUWRI/view?usp=sharing"
+      to="brochure.pdf"
         target="_blank"
         className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200 first:rounded-t-md"
       >
         Brochure
       </Link>
-      <Link
+      {/* <Link
         to="/"
         target="_blank"
         className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200"
@@ -54,7 +54,7 @@ const ResourceDropdownMenu = ({ isDropdownOpen, setIsDropdownOpen }) => {
         className="block px-4 py-3 text-sm text-white hover:bg-white/20 transition-all duration-200"
       >
         Time Table
-      </Link>
+      </Link> */}
       <Link
       to="https://drive.google.com/file/d/1nmZIT78sw1fDVUAYR0ki54arHs-6ecvT/view?usp=sharing"
         target="_blank"
