@@ -79,18 +79,12 @@ export default function SingingEventsDetailsLayout({data, index, breadcrumbs}) {
           </p>
         </div>
         <div className="flex gap-4">
-          <button className="px-6 md:px-8 py-2 ShadowBlur text-sm md:text-base rounded-md font-semibold text-gray-800 bg-primary border border-primary focus:outline-none text-center mb-4">
-            <Link
-              to={"https://erp.nitsri.ac.in/Academic/Event/iitms59kYF9lC0cj3VbTS6unBiAl+l75Pr6We0g1qjBoOkzq3f3cNp1dZ7YOKj7wb+MDkvhXLxOyJOP47ksp5DwqNGQ==?%2fAcademic%2fEvent%2fEventRegistrationDetails.aspx"}
-            >
-              Register
-            </Link>
-          </button>
+          
           <button className="px-6 md:px-8 py-2 ShadowBlur text-sm md:text-base rounded-md font-semibold text-gray-800 bg-primary border border-primary focus:outline-none text-center mb-4">
             <Link
               to={"https://rangechinar-registration-from.vercel.app/"}
             >
-              Register: NIT Students
+              Register
             </Link>
           </button>
         </div>
