@@ -11,7 +11,10 @@ export const SingingEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "Common Hall",
-    "Card Image" : "eastern_solo_singing.png"
+    "Card Image" : "eastern_solo_singing.png",
+    "Rules" : "Rules" ,
+    "Judging Criteria" : "Judging Criteria",
+    "Certifications" : "Certifications"
   },
   {
     "Event Name": "Solo Singing Western",
