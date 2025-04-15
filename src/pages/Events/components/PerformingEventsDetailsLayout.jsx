@@ -60,8 +60,9 @@ export default function PerformingEventsDetailsLayout({data, index, breadcrumbs}
         <div className="mb-4">
           <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Rules</p>
           <p className="text-base mb-2">
-            {data["Rules"]}
+            {data["Rules"]} 
           </p>
+
         </div>
         <div className="mb-4">
           <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Judging Criteria</p>
@@ -83,8 +84,15 @@ export default function PerformingEventsDetailsLayout({data, index, breadcrumbs}
               Register
             </Link>
           </button>
-          
+          <button className="px-6 md:px-8 py-2 ShadowBlur text-sm md:text-base rounded-md font-semibold text-gray-800 bg-primary border border-primary focus:outline-none text-center mb-4">
+            <Link
+              to={"https://docs.google.com/document/d/153QMgBIilcQvmxG78jfg8YkGTFA_-NG0/edit?usp=sharing&ouid=110432715013503289843&rtpof=true&sd=true"}
+            >
+              Rule Book
+            </Link>
+          </button>
         </div>
+        
         <div className="mb-4">
           <p className="text-base mb-2">For Any Queries Contact</p>
           <ul className="list-disc list-inside pl-5 font-semibold">
