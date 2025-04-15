@@ -6,7 +6,7 @@ export default function DancingEvents() {
   return (
     <PageLayout 
       title={"Dancing Events"} 
-      imgUrl={'/common/performance.jpeg'}
+      imgUrl={'/slider5.jpg'}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },

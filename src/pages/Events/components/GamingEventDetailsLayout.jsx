@@ -10,7 +10,7 @@ export default function GamingEventDetailsLayout({ data, index }) {
   return (
     <PageLayout 
       title={data["Event Name"]} 
-      imgUrl={`/common/gamezone.jpeg`}
+      imgUrl={`/GameZone.png`}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },

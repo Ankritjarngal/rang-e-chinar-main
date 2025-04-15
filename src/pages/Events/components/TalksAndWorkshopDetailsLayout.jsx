@@ -8,7 +8,7 @@ export default function TalksAndWorkshopDetailsLayout({data, index}) {
   return (
     <PageLayout 
       title={data["Event Name"]} 
-      imgUrl={"/common/worksop-and-talk.png"}
+      imgUrl={"/workshop.png"}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },

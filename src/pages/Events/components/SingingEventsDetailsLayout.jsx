@@ -23,7 +23,7 @@ export default function SingingEventsDetailsLayout({data, index, breadcrumbs}) {
   return (
     <PageLayout 
       title={data["Event Name"]} 
-      imgUrl={`/common/performance.jpeg`}
+      imgUrl={`/common/Singingevents.png`}
       breadcrumbs={pageBreadcrumbs}
     >
       <div className="px-4 md:px-12 py-4 md:py-12 font-playfair bg-background ShadowLarge">

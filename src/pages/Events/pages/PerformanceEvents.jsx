@@ -7,12 +7,12 @@ export default function PerformanceEvents() {
     {
       title: "Singing Events",
       path: "/events/singing-events",
-      imgUrl: "/common/performance.jpeg",
+      imgUrl: "/common/Singingevents.png",
     },
     {
       title: "Dancing Events",
       path: "/events/dancing-events",
-      imgUrl: "/common/performance.jpeg",
+      imgUrl: "/slider5.jpg",
     },
     // {
     //   title: "Performances",
@@ -22,14 +22,14 @@ export default function PerformanceEvents() {
     {
       title: "Other Events",
       path: "/events/other-events",
-      imgUrl: "/common/performance.jpeg",
+      imgUrl: "/Other Events.png",
     },
   ];
 
   return (
     <PageLayout
       title="Events And Competitions"
-      imgUrl="/common/performance.jpeg"
+      imgUrl="/eventsss.png"
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },

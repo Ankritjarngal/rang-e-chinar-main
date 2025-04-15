@@ -6,7 +6,7 @@ export default function HauntedHouse() {
   return (
     <PageLayout 
       title={"Haunted House"} 
-      imgUrl={'/common/performance.jpeg'}
+      imgUrl={'/HauntedHouse.png'}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },

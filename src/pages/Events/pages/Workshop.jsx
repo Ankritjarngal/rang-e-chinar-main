@@ -6,7 +6,7 @@ export default function Workshop() {
   return (
     <PageLayout 
       title={"Workshop"} 
-      imgUrl={'/common/performance.jpeg'}
+      imgUrl={'/workshop.png'}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },

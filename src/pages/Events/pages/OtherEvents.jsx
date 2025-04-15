@@ -6,7 +6,7 @@ export default function OtherEvents() {
   return (
     <PageLayout 
       title={"Other Events"} 
-      imgUrl={'/common/performance.jpeg'}
+      imgUrl={'/OtherEvents.png'}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },

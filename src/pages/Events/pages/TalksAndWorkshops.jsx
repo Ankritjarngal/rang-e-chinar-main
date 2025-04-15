@@ -14,7 +14,7 @@ export default function TalksAndWorkshops() {
   return (
     <PageLayout 
       title={"Talks And Workshops"} 
-      imgUrl={"/common/worksop-and-talk.png"}
+      imgUrl={"/common/workshop.png"}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },
