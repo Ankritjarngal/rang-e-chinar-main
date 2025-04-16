@@ -1,4 +1,4 @@
-import PerformingEventsDetailsLayout from "../../components/PerformingEventsDetailsLayout";
+import HauntedHouseDetailsLayout from "../../components/HauntedHouseDetailsLayout";
 import { useParams } from "react-router-dom";
 import { HauntedHouse as hauntedHouseData } from "../../../../constants/eventDetails-final";
 
@@ -22,7 +22,7 @@ export default function HauntedHouseDetails() {
 
   return (
     <>
-      <PerformingEventsDetailsLayout
+      <HauntedHouseDetailsLayout
         data={event}
         index={eventIndex}
         breadcrumbs={breadcrumbs}
