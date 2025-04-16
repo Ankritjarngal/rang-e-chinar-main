@@ -3,15 +3,20 @@ import PageLayout from "../../../Components/PageLayout";
 import PropTypes from "prop-types";
 import TabView from "./Tabview";
 
-export default function DancingEventsDetailsLayout({ data, index, breadcrumbs }) {
+export default function OtherEventsDetailsLayout({ data, index, breadcrumbs }) {
+  console.log("OtherEventsDetailsLayout data:", data);
+  console.log("Rules:", data["Rules"]);
+  console.log("Judging Criteria:", data["Judging Criteria"]);
+  console.log("Certifications:", data["Certifications"]);
+  
   const descriptions = data["Description"].split(";").map(desc => desc.trim()).filter(desc => desc !== "");
   
   // Default breadcrumbs if none provided
   const defaultBreadcrumbs = [
     { label: "Home", path: "/" },
     { label: "Events", path: "/events" },
-    { label: "Dancing Events", path: "/events/dancing-events" },
-    { label: data["Event Name"], path: `/events/dancing-events/${index}` }
+    { label: "Other Events", path: "/events/other-events" },
+    { label: data["Event Name"], path: `/events/other-events/${index}` }
   ];
   
   const pageBreadcrumbs = breadcrumbs || defaultBreadcrumbs;
@@ -19,7 +24,7 @@ export default function DancingEventsDetailsLayout({ data, index, breadcrumbs })
   return (
     <PageLayout 
       title={data["Event Name"]} 
-      imgUrl={`/common/Dancingevents.png`}
+      imgUrl={`/OtherEvents.png`}
       breadcrumbs={pageBreadcrumbs}
     >
       <div className="px-4 md:px-12 py-4 md:py-12 font-playfair bg-background ShadowLarge">
@@ -49,20 +54,40 @@ export default function DancingEventsDetailsLayout({ data, index, breadcrumbs })
           <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Entry Fee</p>
           <p className="text-base mb-2">
             <span className="font-bold mr-2">Entry Fee:</span>
-            {data["Outside Entry Fee"] === ""
+            {data["Outside Entry Fee"] === "" || data["Outside Entry Fee"] === "NO Fee"
               ? "Free"
               : `₹ ${data["Outside Entry Fee"]}`}
           </p>
         </div>
         
-        {/* Rules and Judging Criteria in Tab View */}
-        <TabView data={data} />
+        {/* Rules section */}
+        <div className="mb-4">
+          <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Rules</p>
+          {data["Rules"] ? (
+            <p className="text-base mb-2">{data["Rules"]}</p>
+          ) : (
+            <p className="text-base mb-2">Details will be announced soon.</p>
+          )}
+        </div>
 
+        {/* Judging Criteria section */}
+        <div className="mb-4">
+          <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Judging Criteria</p>
+          {data["Judging Criteria"] ? (
+            <p className="text-base mb-2">{data["Judging Criteria"]}</p>
+          ) : (
+            <p className="text-base mb-2">Details will be announced soon.</p>
+          )}
+        </div>
+
+        {/* Certifications section */}
         <div className="mb-4">
           <p className="font-semibold text-gray-600 font-figtree textShadow-sm text-3xl overflow-visible mb-4">Certifications</p>
-          <p className="text-base mb-2">
-            {data["Certifications"]}
-          </p>
+          {data["Certifications"] ? (
+            <p className="text-base mb-2">{data["Certifications"]}</p>
+          ) : (
+            <p className="text-base mb-2">Details will be announced soon.</p>
+          )}
         </div>
 
         <div className="flex gap-4">
@@ -95,8 +120,8 @@ export default function DancingEventsDetailsLayout({ data, index, breadcrumbs })
   );
 }
 
-DancingEventsDetailsLayout.propTypes = {  
+OtherEventsDetailsLayout.propTypes = {  
   data: PropTypes.object.isRequired,
   index: PropTypes.number.isRequired,
   breadcrumbs: PropTypes.array,
-};
+}; 

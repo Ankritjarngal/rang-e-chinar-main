@@ -1,4 +1,4 @@
-import PerformingEventsDetailsLayout from "../../components/PerformingEventsDetailsLayout";
+import OtherEventsDetailsLayout from "../../components/OtherEventsDetailsLayout";
 import { useParams } from "react-router-dom";
 import { OtherEvents as otherEventsData } from "../../../../constants/eventDetails-final";
 
@@ -22,7 +22,7 @@ export default function OtherEventsDetails() {
 
   return (
     <>
-      <PerformingEventsDetailsLayout
+      <OtherEventsDetailsLayout
         data={event}
         index={eventIndex}
         breadcrumbs={breadcrumbs}
