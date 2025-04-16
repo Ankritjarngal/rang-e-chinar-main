@@ -4,10 +4,12 @@ import PropTypes from "prop-types";
 import TabView from "./Tabview";
 
 export default function OtherEventsDetailsLayout({ data, index, breadcrumbs }) {
-  console.log("OtherEventsDetailsLayout data:", data);
-  console.log("Rules:", data["Rules"]);
-  console.log("Judging Criteria:", data["Judging Criteria"]);
-  console.log("Certifications:", data["Certifications"]);
+  // // Detailed console logging
+  // console.log("Full data object:", data);
+  // console.log("FormLink value:", data["FormLink"]);
+  // console.log("FormLink type:", typeof data["FormLink"]);
+  // console.log("FormLink exists:", "FormLink" in data);
+  // console.log("FormLink is truthy:", !!data["FormLink"]);
   
   const descriptions = data["Description"].split(";").map(desc => desc.trim()).filter(desc => desc !== "");
   
@@ -89,6 +91,23 @@ export default function OtherEventsDetailsLayout({ data, index, breadcrumbs }) {
             <p className="text-base mb-2">Details will be announced soon.</p>
           )}
         </div>
+
+        {/* Form Link section - only shown if FormLink exists in data */}
+        {data["FormLink"] && (
+          <div className="mb-6">
+            <a 
+              href={data["FormLink"]} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex items-center justify-center gap-2 text-blue-600 hover:text-blue-800 font-medium text-lg px-6 py-3 rounded-md border-2 border-blue-200 hover:border-blue-300 bg-transparent hover:bg-blue-50/30 transition-all"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+              Ready to join the fun? Register now and check out the rules!
+            </a>
+          </div>
+        )}
 
         <div className="flex gap-4">
           <button className="px-6 md:px-8 py-2 ShadowBlur text-sm md:text-base rounded-md font-semibold text-gray-800 bg-primary border border-primary focus:outline-none text-center mb-4">

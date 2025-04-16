@@ -660,7 +660,8 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "No Venue",
-    "Card Image" : "reel.png"
+    "Card Image" : "reel.png",
+    "FormLink" : "https://forms.gle/FFcJMTwC6DqhZ4rv7"
   },
   {
     "Event Name": "Meme Making",
@@ -673,7 +674,8 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "LH",
-    "Card Image" : "Meme Making.png"
+    "Card Image" : "Meme Making.png",
+    "FormLink" : "https://docs.google.com/forms/d/e/1FAIpQLScZhvCShBFuqza7Eg0A4P98_hEXn0lJgH9dH_500KiHXsmC2A/viewform?usp=dialog"
   },
   {
     "Event Name": "Short Movie Making",
@@ -686,7 +688,8 @@ export const OtherEvents = [
     "End Time": "To Be Decided",
     "Day":"",
     "Venue": "LH",
-    "Card Image" : "Short Movie Making.png"
+    "Card Image" : "Short Movie Making.png",
+    "FormLink" : "https://docs.google.com/forms/d/e/1FAIpQLSeXCbKCsuOyvbFLlt_EkrlYiBF7t7LVLYm26E_8OOONEwb6Ew/viewform?usp=dialog"
   },
   {
     "Event Name": "Open Talent Show For Faculties",
