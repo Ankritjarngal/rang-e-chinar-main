@@ -214,9 +214,9 @@ export const Workshop = [
   },
   {
     "Event Name": "Salsa Dance Workshop",
-    "Description": "ONLY COUPLE ENTRY ALLOWED > NO SINGLE ENTRY . Learn energetic and passionate Salsa dance styles. Discover Cuban, Puerto Rican, and Colombian rhythms. Learn basics, including steps and movements. Practice leading and following techniques. Improve coordination and dance skills. Learn from experienced instructors and get feedback.",
-    "NIT Entry Fee": "500 Entry fee",
-    "Outside Entry Fee": "500 rs",
+    "Description": "Learn energetic and passionate Salsa dance styles. Discover Cuban, Puerto Rican, and Colombian rhythms. Learn basics, including steps and movements. Practice leading and following techniques. Improve coordination and dance skills. Learn from experienced instructors and get feedback.",
+    "NIT Entry Fee": "SOLO ENTRY : 300rs  , DUO ENTRY : 500rs",
+    "Outside Entry Fee": "SOLO ENTRY : 300rs  , DUO ENTRY : 500rs",
     "Lead Name": "Alok Ranjan",
     "Lead Contact Number": "7209666594",
     "Start Time": "To Be Decided",
