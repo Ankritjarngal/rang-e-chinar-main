@@ -124,7 +124,7 @@ function Hero() {
             className="my-12 md:my-16 w-full flex justify-center"
           >
             <p className=" bg-color:blue text-xl ss:text-3xl md:text-4xl font-cursive font-cursive text-white px-6 py-3 border border-pink-900">
-              ROOTS AND RYTHMS 
+              ROOTS AND RHYTHMS 
             </p>
           </div>
           
