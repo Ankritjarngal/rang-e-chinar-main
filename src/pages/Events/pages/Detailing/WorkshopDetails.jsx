@@ -1,4 +1,4 @@
-import PerformingEventsDetailsLayout from "../../components/PerformingEventsDetailsLayout";
+import WorkshopDetailsLayout from "../../components/WorkshopDetailsLayout";
 import { useParams } from "react-router-dom";
 import { Workshop as workshopData } from "../../../../constants/eventDetails-final";
 
@@ -22,7 +22,7 @@ export default function WorkshopDetails() {
 
   return (
     <>
-      <PerformingEventsDetailsLayout
+      <WorkshopDetailsLayout
         data={event}
         index={eventIndex}
         breadcrumbs={breadcrumbs}
