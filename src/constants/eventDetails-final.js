@@ -200,8 +200,8 @@ export const DancingEvents = [
 
 export const Workshop = [
   {
-    "Event Name": "Heena Art",
-    "Description": "Discover the ancient art of Heena design and application. Learn various patterns and techniques from experienced artists. Get hands-on experience and create intricate designs. Take home your creations and learn about Heena aftercare. Explore cultural significance and traditional art forms.",
+    "Event Name": "Henna Art",
+    "Description": "Discover the ancient art of Henna design and application. Learn various patterns and techniques from experienced artists. Get hands-on experience and create intricate designs. Take home your creations and learn about Heena aftercare. Explore cultural significance and traditional art forms.",
     "NIT Entry Fee": "NO Fee",
     "Outside Entry Fee": "50rs",
     "Lead Name": "Alok Ranjan",
@@ -210,7 +210,7 @@ export const Workshop = [
     "End Time": "To Be Decided",
     "Day": "2",
     "Venue": "LH",
-    "Card Image" : "Heen Art.png"
+    "Card Image" : "henna.png"
   },
   {
     "Event Name": "Salsa Dance Workshop",
@@ -223,7 +223,7 @@ export const Workshop = [
     "End Time": "To Be Decided",
     "Day": "1",
     "Venue": "Amphitheatre (near activity centre)",
-    "Card Image" : "Salsa dance workshop.png"
+    "Card Image" : "salsa.png"
   },
   {
     "Event Name": "Sculpture Making",
@@ -249,7 +249,7 @@ export const Workshop = [
     "End Time": "To Be Decided",
     "Day": "1",
     "Venue": "LH",
-    "Card Image" : "Crochet.png"
+    "Card Image" : "crochet.png"
   },
   {
     "Event Name": "Fabric Painting",
@@ -275,7 +275,7 @@ export const Workshop = [
     "End Time": "To Be Decided",
     "Day": "2",
     "Venue": "LH",
-    "Card Image" : "Tattoo Fusion.png"
+    "Card Image" : "tattoo.png"
   }
 ];
 
