@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import Header from "../../../Components/Header";
 
 function Hero() {
-  const targetDate = new Date("2025-05-20T00:00:00");
+  const targetDate = new Date("2025-10-25T00:00:00");
 
   const calculateTimeLeft = () => {
     const difference = targetDate - new Date();
@@ -110,13 +110,13 @@ function Hero() {
             data-aos="fade-down" 
             className="inline-block px-8 py-3 rounded-full bg-pink-900/40 backdrop-blur-sm border border-pink-300/30 text-xl ss:text-2xl md:text-3xl font-cormorant text-white"
           >
-            {/* <span>20</span>
+            <span>25</span>
             <sup className="text-lg">th</sup>
             <span className="mx-2">-</span>
-            <span>22</span>
-            <sup className="text-lg">nd</sup> */}
-            {/* <span className="ml-3">May 2025</span> */}
-            📅 <span>New Dates Will Be Announced Soon</span>
+            <span>26</span>
+            <sup className="text-lg">th</sup>
+            <span className="ml-3">October 2025</span>
+            {/* 📅 <span>New Dates Will Be Announced Soon</span> */}
           </div>
 
           {/* "The Rhythm Begins In" section */}
@@ -160,7 +160,7 @@ function Hero() {
           </div>
 
           {/* Countdown Timer */}
-          {/* <div className="mt-10 md:mt-16 flex justify-center">
+          <div className="mt-10 md:mt-16 flex justify-center">
             <div className="w-full min-w-150 px-8 lg:px-32 flex flex-wrap gap-6 justify-center">
               {Object.entries(timeLeft).map(([unit, value], index) => (
                 <div 
@@ -177,7 +177,7 @@ function Hero() {
                   </div>
                 </div>
               ))}
-            </div> */}
+            </div>
           </div>
 
           {/* Register Button */}
