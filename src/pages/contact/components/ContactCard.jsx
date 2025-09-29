@@ -1,7 +1,7 @@
 // src/pages/contact/components/ContactCard.jsx
 import React from 'react';
 
-export default function ContactCard({ title, name, email, phone }) {
+export default function ContactCard({ title, name, enrollment, contact }) {
     return (
         <div className="rounded-lg overflow-hidden bg-cover bg-center shadow-lg transition-transform duration-300 hover:transform hover:scale-105 mb-6 w-full sm:w-auto">
             <div
@@ -28,12 +28,11 @@ export default function ContactCard({ title, name, email, phone }) {
                     <span className="font-bold text-emerald-700">Name:</span> {name}
                 </p>
                 <p className="text-base sm:text-lg my-1 sm:my-2 font-medium text-gray-800 font-sans break-words">
-                    <span className="font-bold text-emerald-700">Email:</span>{" "}
-                    <a href={`mailto:${email}`} className="text-amber-700 hover:text-amber-900 hover:underline transition-colors">{email}</a>
+                    <span className="font-bold text-emerald-700">Enrollment:</span> {enrollment}
                 </p>
                 <p className="text-base sm:text-lg my-1 sm:my-2 font-medium text-gray-800 font-sans">
                     <span className="font-bold text-emerald-700">Phone:</span>{" "}
-                    <a href={`tel:${phone}`} className="text-amber-700 hover:text-amber-900 hover:underline transition-colors">{phone}</a>
+                    <a href={`tel:${contact}`} className="text-amber-700 hover:text-amber-900 hover:underline transition-colors">{contact}</a>
                 </p>
             </div>
         </div>
