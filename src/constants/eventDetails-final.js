@@ -610,7 +610,7 @@ export const otherPerformances  = [
     "End Time": "3:00PM",
     "Day":"1",
     "Venue": "DH",
-    "Card Image" : ""
+    "Card Image" : "HauntedHouse.png"
   },
   {
     "Event Name": "FlashMob",
@@ -675,7 +675,7 @@ export const otherPerformances  = [
     "End Time": "3:00PM",
     "Day":"1",
     "Venue": "PF'S & CS Labs & Counselling Centre",
-    "Card Image" : ""
+    "Card Image" : "GameZone.png"
   },
   {
     "Event Name": "Sketching",
