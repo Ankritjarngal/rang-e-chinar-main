@@ -599,3 +599,99 @@ export const Performances  = [
   }
 
 ];
+export const otherPerformances  = [
+  {
+    "Event Name": "Haunted-House",
+    "Description": "Abandon all hope, you who enter here. This isn't just a haunted house; it's an immersive nightmare where your deepest fears come to life. Navigate through pitch-black corridors where things bump and whisper in the dark. Your heart will race, your hands will tremble, and your screams will be met only by the laughter of the twisted souls who call this place home. Do you have the courage to face what lurks around every dark corner, or will you become just another lost soul added to their collection?",    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": " ",
+    "Lead Contact Number": ,
+    "Start Time": "12:00PM",
+    "End Time": "3:00PM",
+    "Day":"1",
+    "Venue": "DH",
+    "Card Image" : ""
+  },
+  {
+    "Event Name": "FlashMob",
+    "Description": "Experience a moment of exhilarating spontaneity at the annual college fest's Flash Mob. During this dynamic showcase, a large group of students will converge in a public space for a high-energy, synchronized dance performance before dispersing just as suddenly as they appeared. This event, organized by the cultural committee, is a vibrant celebration of unity, creativity, and college spirit, featuring intricate choreography and infectious energy." ,
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": " ",
+    "Lead Contact Number": ,
+    "Start Time": "3:00PM",
+    "End Time": "4:00PM",
+    "Day":"1",
+    "Venue": "Main Ground",
+    "Card Image" : ""
+  },
+  {
+    "Event Name": "India United Through Folk",
+    "Description": "A celebration of India's vibrant folk traditions! Get ready for an electrifying showcase of diverse folk dances, music, and artistry from every corner of the nation. One stage, one spirit, countless cultures. This is where India unites through the power of folk." ,
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": " ",
+    "Lead Contact Number": ,
+    "Start Time": "12:00PM",
+    "End Time": "2:00PM",
+    "Day":"1",
+    "Venue": "Main Stage",
+    "Card Image" : ""
+  },
+  {
+    "Event Name": "Kashmir's Best Influencer Award",
+    "Description": "The Kashmir Influencer Awards is a prestigious event dedicated to celebrating the innovative spirit and creative impact of the region's top digital content creators. Hosted by [Your College Name], this gala recognizes the voices that are shaping conversations, driving positive change, and inspiring audiences across Jammu and Kashmir. The evening will feature an awards ceremony honoring influencers across various categories, insightful sessions with industry leaders, and valuable networking opportunities for brands and aspiring creators. Join us as we shine a spotlight on the digital pioneers representing Kashmir's vibrant creative community.",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "",
+    "Lead Contact Number": ,
+    "Start Time": "2:00PM",
+    "End Time": "3:30PM",
+    "Day":"1",
+    "Venue": "Main Stage",
+    "Card Image" : ""
+  },
+  {
+    "Event Name": "FinXplore - Financial Literacy Quiz",
+    "Description": "FinXplore is an intellectual challenge designed to test and expand your knowledge of finance, economics, and investment strategies. This event serves as a platform for students to demonstrate their financial acumen and problem-solving skills in a competitive yet educational environment. The multi-round quiz will cover a wide range of topics, including personal finance, stock markets, budgeting, and global economic trends. Join us to fuel your future with financial wisdom." ,
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "",
+    "Lead Contact Number": 8493866076,
+    "Start Time": "11:00AM",
+    "End Time": "1:00PM",
+    "Day":"2",
+    "Venue": "LH-3",
+    "Card Image" : ""
+  },
+  {
+    "Event Name": "GameZone",
+    "Description": "Level up your experience at the Game Zone! Dive into esports, explore VR worlds, and challenge friends to classic arcade and board games. Your game is waiting! ",
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "100rs",
+    "Lead Name": "",
+    "Lead Contact Number": ,
+    "Start Time": "9:00AM",
+    "End Time": "3:00PM",
+    "Day":"1",
+    "Venue": "PF'S & CS Labs & Counselling Centre",
+    "Card Image" : ""
+  },
+  {
+    "Event Name": "Sketching",
+    "Description": "Showcase your talent and creativity at "Sketchscape," our annual sketching competition. This event provides a dedicated platform for artists to translate their vision onto paper, exploring and interpreting a given theme through the power of pencil, charcoal, and ink. Participants are invited to join us for an inspiring session of artistic expression and healthy competition. All skill levels are welcome. The winner will be awarded based on creativity, technical skill, and originality." ,
+    "NIT Entry Fee": "NO Fee",
+    "Outside Entry Fee": "50rs",
+    "Lead Name": "",
+    "Lead Contact Number": ,
+    "Start Time": "11:00AM",
+    "End Time": "12:30PM",
+    "Day":"2",
+    "Venue": "LH-1",
+    "Card Image" : ""
+  }
+  
+
+];
+
+
