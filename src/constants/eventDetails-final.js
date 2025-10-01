@@ -679,7 +679,7 @@ export const otherPerformances  = [
   },
   {
     "Event Name": "Sketching",
-    "Description": "Showcase your talent and creativity at "Sketchscape," our annual sketching competition. This event provides a dedicated platform for artists to translate their vision onto paper, exploring and interpreting a given theme through the power of pencil, charcoal, and ink. Participants are invited to join us for an inspiring session of artistic expression and healthy competition. All skill levels are welcome. The winner will be awarded based on creativity, technical skill, and originality." ,
+    "Description": "Showcase your talent and creativity at our annual sketching competition. This event provides a dedicated platform for artists to translate their vision onto paper, exploring and interpreting a given theme through the power of pencil, charcoal, and ink. Participants are invited to join us for an inspiring session of artistic expression and healthy competition. All skill levels are welcome. The winner will be awarded based on creativity, technical skill, and originality." ,
     "NIT Entry Fee": "NO Fee",
     "Outside Entry Fee": "50rs",
     "Lead Name": "",
