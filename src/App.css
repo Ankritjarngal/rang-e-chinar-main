@@ -127,15 +127,15 @@ body {
 }
 
 .spring-blossom-left {
-  background-image: url("/spring/blossom-left.png");
+  background-image: url("spring-bg.jpeg");
 }
 
 .spring-blossom-right {
-  background-image: url("/spring/blossom-right.png");
+  background-image: url("spring-bg.jpeg");
 }
 
 .spring-blossom-divider {
-  background-image: url("/spring/blossom-divider.png");
+  background-image: url("spring-bg.jpeg");
   width: 60px;
   height: 20px;
   background-size: contain;
