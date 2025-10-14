@@ -79,7 +79,7 @@ const Sidebar = ({ isOpen, onClose }) => {
       
 
         <Link
-          to="/register"
+          to="https://rangechinar-registration-from.vercel.app/"
           className="text-gray-200 hover:text-secondary flex justify-center text-xl py-2"
           onClick={onClose}
         >

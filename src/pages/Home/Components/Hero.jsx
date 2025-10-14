@@ -81,8 +81,8 @@ function Hero() {
           className="absolute inset-0 w-full h-full object-cover z-1 opacity-30"
           onError={handleVideoError}
         >
-          <source src="/common/videoplayback.mp4" type="video/mp4" />
-          <source src="/common/videoplayback.mp4" type="video/webm" />
+          {/* <source src="/common/videoplayback.mp4" type="video/mp4" />
+          <source src="/common/videoplayback.mp4" type="video/webm" /> */}
         </video>
       ) : (
         <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-green-800 to-green-700"></div>
@@ -181,7 +181,7 @@ function Hero() {
           </div>
 
           {/* Register Button */}
-          {/* <div className="mt-12 py-6 flex justify-center">
+          <div className="mt-12 py-6 flex justify-center">
             <button 
               data-aos="fade-up" 
               data-aos-delay="500"
@@ -190,7 +190,7 @@ function Hero() {
             >
               REGISTER NOW
             </button>
-          </div> */}
+          </div>
 
            {/* <div className="mt-12 py-6 flex justify-center">
             {/* <button 
