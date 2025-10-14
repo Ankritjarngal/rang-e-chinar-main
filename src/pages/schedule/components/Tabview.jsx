@@ -30,7 +30,7 @@ const Tabview = ({ tab1, tab2 }) => {
         </Tab>
       </TabList>
       
-      {/* Content Box
+       Content Box
       <div className="mx-2 my-1 px-4 py-4 pb-8 rounded-lg font-quicksand">
         <TabPanel className="space-y-4">
           {day1Events.map((item, index) => (
@@ -57,7 +57,7 @@ const Tabview = ({ tab1, tab2 }) => {
             />
           ))}
         </TabPanel>
-      </div> */}
+      </div> 
       <div className="text-center text-6xl font-marcellus text-lightPrimaryBg py-12">WILL BE UPDATED SOON</div>
     </Tabs>
   );
