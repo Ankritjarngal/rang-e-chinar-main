@@ -1,4 +1,4 @@
-export const teams = {
+export const  s = {
     "Core": [
         {
             title: "Chairperson",
@@ -71,7 +71,7 @@ export const teams = {
             contact: "9341681195"
         }
     ],
-    "Ground Management and Crowd Control Team": [
+    "Ground Management and Crowd Control": [
         {
             title: "Lead",
             name: "Rameez Ul Akbar",
@@ -80,9 +80,9 @@ export const teams = {
         },
         {
             title: "Lead",
-            name: "Mubashir Reyaz",
-            enrollment: "2022BELE048",
-            contact: "7051658317"
+            name: "Kumar Gaurav",
+            enrollment: "2022BMEC049",
+            contact: "8579977503"
         },
         {
             title: "Lead",
@@ -92,24 +92,18 @@ export const teams = {
         },
         {
             title: "Lead",
-            name: "M. Kushala",
-            enrollment: "2022BECE069",
-            contact: "9032656344"
+            name: "Ahsan Ul Haq",
+            enrollment: "2022BCIV038",
+            contact: "6005498686"
         },
         {
-            title: "Co-Lead",
-            name: "Kumar Gaurav",
-            enrollment: "2022BMEC049",
-            contact: "8579977503"
-        },
-        {
-            title: "Co-Lead",
+            title: "Lead",
             name: "Tanisha Khan",
             enrollment: "2022BCIV172",
             contact: "9149844814"
         }
     ],
-    "Infrastructure Control Team": [
+    "Infrastructure Control ": [
         {
             title: "Lead",
             name: "Paramjeet Kumar",
@@ -129,7 +123,7 @@ export const teams = {
             contact: "6005737445"
         }
     ],
-    "Technical Support and Control Team": [
+    "Technical Support and Control ": [
         {
             title: "Lead",
             name: "Kundan Singh",
@@ -149,7 +143,7 @@ export const teams = {
             contact: "9055006079"
         }
     ],
-    "Gamezone Team": [
+    "Gamezone ": [
         {
             title: "Lead",
             name: "Ayush Ranjan",
@@ -169,7 +163,7 @@ export const teams = {
             contact: "7500279308"
         }
     ],
-    "Outreach Team": [
+    "Outreach ": [
         {
             title: "Lead",
             name: "Mohammad Huzaif",
@@ -189,7 +183,7 @@ export const teams = {
             contact: "9103014289"
         }
     ],
-    "Sponsorship Team": [
+    "Sponsorship ": [
         {
             title: "Lead",
             name: "Abhishek Kumar",
@@ -209,7 +203,7 @@ export const teams = {
             contact: "9596276249"
         }
     ],
-    "Hospitality and Logistics Team": [
+    "Hospitality and Logistics ": [
         {
             title: "Lead",
             name: "Neeti Thakur",
@@ -235,7 +229,7 @@ export const teams = {
             contact: "9596082944"
         }
     ],
-    "Tender & Purchase Team": [
+    "Tender & Purchase  ": [
         {
             title: "Lead",
             name: "Ch. Javed Iqbal",
@@ -255,7 +249,7 @@ export const teams = {
             contact: "9682188544"
         }
     ],
-    "Hosting and Content Team": [
+    "Hosting and Content  ": [
         {
             title: "Lead",
             name: "Janvi Sharma",
@@ -271,7 +265,7 @@ export const teams = {
     ],
     "Social Media and Publicity": [
         {
-            title: "Lead", 
+            title: "Lead",
             name: "S. Santhosh Aryan",
             enrollment: "2022BECE095",
             contact: "9541359848"
@@ -303,7 +297,7 @@ export const teams = {
             contact: "7083293190"
         }
     ],
-    "Documentation & Certification Team": [
+    "Documentation & Certification  ": [
         {
             title: "Lead",
             name: "Shaheen",
@@ -323,7 +317,7 @@ export const teams = {
             contact: "7752991428"
         }
     ],
-    "Decoration & Ambience Team": [
+    "Decoration & Ambience  ": [
         {
             title: "Lead",
             name: "Shivangi Basu",
@@ -343,7 +337,7 @@ export const teams = {
             contact: "8082406117"
         }
     ],
-    "Performance Team": [
+    "Performance  ": [
         {
             title: "Lead (Singing)",
             name: "Jayant Bavouria",
@@ -363,7 +357,7 @@ export const teams = {
             contact: "8303779858"
         }
     ],
-    "Workshops Team": [
+    "Workshops  ": [
         {
             title: "Lead",
             name: "Alok Ranjan",
@@ -377,7 +371,7 @@ export const teams = {
             contact: "9622865018"
         }
     ],
-    "Photography & Videography Team": [
+    "Photography & Videography  ": [
         {
             title: "Lead",
             name: "Pankaj Jamkar",
@@ -397,27 +391,27 @@ export const teams = {
             contact: "7571025083"
         }
     ],
-    "Graphic Design Team": [
+    "Graphic Design  ": [
         {
             title: "Lead",
-            name: "Zaid",
-            enrollment: "2023BCHE008",
-            contact: "9149701810"
+            name: "Ujjawal Rai",
+            enrollment: "2022BCIV",
+            contact: "9103000643"
         },
         {
             title: "Co-Lead",
-            name: "Hriday Raj",
-            enrollment: "2023BCIV018",
-            contact: "9262669078"
+            name: "Anmolabjot Singh",
+            enrollment: "2023BECE011",
+            contact: "8899787613"
         },
         {
             title: "Co-Lead",
-            name: "Sneha",
-            enrollment: "2023BCSE033",
-            contact: "9596737253"
+            name: "Abhiraj Das",
+            enrollment: "2024BCHE",
+            contact: "7044302127"
         }
     ],
-    "Stage Management Team": [
+    "Stage Management  ": [
         {
             title: "Lead",
             name: "Ujjwal Chaudhary",
@@ -432,7 +426,3 @@ export const teams = {
         }
     ]
 }
-
-//  accounts
-// performance
-// workshop

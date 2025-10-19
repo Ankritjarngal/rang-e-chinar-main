@@ -30,10 +30,6 @@ export default function ContactCard({ title, name, enrollment, contact }) {
                 <p className="text-base sm:text-lg my-1 sm:my-2 font-medium text-gray-800 font-sans break-words">
                     <span className="font-bold text-emerald-700">Enrollment:</span> {enrollment}
                 </p>
-                <p className="text-base sm:text-lg my-1 sm:my-2 font-medium text-gray-800 font-sans">
-                    <span className="font-bold text-emerald-700">Phone:</span>{" "}
-                    <a href={`tel:${contact}`} className="text-amber-700 hover:text-amber-900 hover:underline transition-colors">{contact}</a>
-                </p>
             </div>
         </div>
     );
