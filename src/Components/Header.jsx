@@ -61,7 +61,7 @@ const Header = () => {
           {/* Navbar Links */}
           <div className="hidden lg:flex font-semibold items-center ml-auto md:space-x-6 lg:space-x-8 xl:space-x-10">
             <NavLink to="/" label="Home" />
-            {/* <NavLink to="/events" label="Events" /> */}
+            <NavLink to="/events" label="Events" />
             <NavLink to="/schedule" label="Schedule" />
             <NavLink to="/register" label="Register" />
 

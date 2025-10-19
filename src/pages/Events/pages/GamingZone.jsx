@@ -1,16 +1,35 @@
+// src/pages/Events/pages/GamingZone.jsx
+
 import { useState } from "react";
 import PageLayout from "../../../Components/PageLayout";
-import { gamezone } from "../../../constants/eventDetails-final";
-import GamingZoneLayout from "./GamingZoneLayout";
+import { gamezone } from "../../../constants/eventDetails-final"; // This is likely empty now based on previous steps
+import EventCard from "../components/EventCard"; // Import EventCard directly
+
+// Helper function to process gamezone arrays (if needed later)
+const processGamezone = (gzArray) => {
+  let processed = [];
+  if (Array.isArray(gzArray)) {
+      gzArray.forEach((category) => {
+          if (Array.isArray(category)) {
+              processed = processed.concat(category);
+          }
+      });
+  }
+  return processed;
+};
+
+// Flatten the gamezone data IF it's populated later. For now, it will be empty.
+const allGamezoneEvents = processGamezone(gamezone);
+
+// Define categories based on the original structure (even if empty)
+const gameCategories = [
+    { name: "Esports", events: gamezone[0] || [] },
+    { name: "Stage/Stall", events: gamezone[1] || [] },
+    { name: "Cultural", events: gamezone[2] || [] },
+];
 
 export default function GamingZone() {
   const [activeTab, setActiveTab] = useState(0);
-  
-  // Custom tab names
-  const tabNames = ["Esports", "Stage", "Cultural"];
-  const gm0 = gamezone[0];
-  const gm1 = gamezone[1];
-  const gm2 = gamezone[2];
 
   return (
     <PageLayout
@@ -23,7 +42,7 @@ export default function GamingZone() {
       ]}
     >
       <div className="w-full max-w-7xl mx-auto">
-        {/* Title Section with updated font styling */}
+        {/* Title */}
         <div className="px-8 pt-8 overflow-visible mb-6">
           <h1 className="font-bold font-montserrat text-5xl md:text-6xl text-gray-800 tracking-tight leading-none mb-2 uppercase">
             <span className="text-green-600">GAMING ZONE </span>
@@ -31,38 +50,59 @@ export default function GamingZone() {
           <div className="w-24 h-1 bg-green-600 mb-4"></div>
         </div>
 
-        {/* Tab Navigation with custom names */}
+        {/* Tab Navigation */}
         <div className="px-8 mb-2">
-          <div className="flex overflow-x-auto gap-2 pb-2 scrollbar-hide">
-            {gamezone.map((section, index) => (
+          <div className="flex overflow-x-auto gap-2 pb-2 scrollbar-hide border-b border-gray-200"> {/* Added border */}
+            {gameCategories.map((category, index) => (
               <button
                 key={index}
                 onClick={() => setActiveTab(index)}
-                className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
+                 // Adjusted styling for better tab appearance
+                className={`px-5 py-2 whitespace-nowrap font-medium text-sm md:text-base rounded-t-lg transition-all duration-300 border-b-2 ${
                   activeTab === index
-                    ? "bg-green-600 text-white shadow-md transform scale-105"
-                    : "bg-green-100 text-gray-700 hover:bg-gray-200"
+                    ? "border-primary text-primary"
+                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
                 }`}
               >
-                {tabNames[index] || `Category ${index + 1}`}
+                {category.name}
               </button>
             ))}
           </div>
         </div>
 
         {/* Tab Content */}
-        <div className="mt-6">
-          {gamezone.map((section, index) => (
+        <div className="mt-6 px-5 py-8">
+          {gameCategories.map((category, index) => (
             <div
               key={index}
               className={`transition-opacity duration-300 ${
                 activeTab === index ? "block opacity-100" : "hidden opacity-0"
               }`}
             >
-              <GamingZoneLayout 
-                events={index === 0 ? gm0 : index === 1 ? gm1 : gm2} 
-                categoryIndex={index}
-              />
+              {/* Check if there are events in the active category */}
+              {category.events && category.events.length > 0 ? (
+                 <div className="flex flex-wrap gap-8 justify-center items-start">
+                   {category.events.map((event, eventIndex) => {
+                     const imageUrl = event["Card Image"] ? `/events/${event["Card Image"]}` : undefined;
+                     const timeString = `${event["Start Time"] || ""} ${event["End Time"] ? `- ${event["End Time"]}` : ""}`;
+                     const detailUrl = `/events/detail/${event.url}`;
+
+                     return (
+                       <EventCard
+                         key={event.url || eventIndex}
+                         title={event["Event Name"]}
+                         time={timeString}
+                         venue={event["Venue"]}
+                         url={detailUrl}
+                         image={imageUrl}
+                       />
+                     );
+                   })}
+                 </div>
+               ) : (
+                 // Display message if gamezone array is empty or category has no events
+                 <p className="text-center text-gray-500">No events listed for this category yet.</p>
+               )}
             </div>
           ))}
         </div>

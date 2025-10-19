@@ -1,58 +1,60 @@
+// src/pages/Events/Events.jsx
+
 import { Route, Routes } from "react-router-dom";
-import EventCategory from "./pages/EventCategory";
-import Competitions from "./pages/Competitions";
-import TalksAndWorkshops from "./pages/TalksAndWorkshops";
-import Performances from "./pages/Performances";
-import GamingZone from "./pages/GamingZone";
-import EventDetails from "./pages/Detailing/EventDetails";
 import { useEffect } from "react";
 import ScrollToTop from "../../Components/ScrollToTop";
-import GameZoneDetails from "./pages/Detailing/GameZoneDetails";
-import PerformanceDetails from "./pages/Detailing/PerformanceDetails";
-import TalksAndWorkshopsDetails from "./pages/Detailing/TalksAndWorkshopsDetails";
-import WomenTech from "./pages/women in tech/WomenTech";
-import SingingEvents from "./pages/SingingEvents";
-import SingingEventsDetails from "./pages/Detailing/SingingEventsDetails";
-import DancingEvents from "./pages/DancingEvents";
-import DancingEventsDetails from "./pages/Detailing/DancingEventsDetails";
-import Workshop from "./pages/Workshop";
-import WorkshopDetails from "./pages/Detailing/WorkshopDetails";
-import OtherEvents from "./pages/OtherEvents";
-import OtherEventsDetails from "./pages/Detailing/OtherEventsDetails";
-import HauntedHouse from "./pages/HauntedHouse";
-import HauntedHouseDetails from "./pages/Detailing/HauntedHouseDetails";
-import PerformanceEvents from "./pages/PerformanceEvents";
+
+// --- Page Imports ---
+import EventCategory from "./pages/EventCategory";
+import Workshop from "./pages/Workshop";          // List Page
+import HauntedHouse from "./pages/HauntedHouse";    // List Page (or Detail?)
+import GamingZone from "./pages/GamingZone";        // List Page
+import PerformanceEvents from "./pages/PerformanceEvents"; // Maps to "Events And Competitions" card
+import Competitions from "./pages/Competitions";      // Optional List Page
+import Performances from "./pages/Performances";      // Optional List Page
+import SingingEvents from "./pages/SingingEvents";    // Optional List Page
+import DancingEvents from "./pages/DancingEvents";    // Optional List Page
+
+// Import the Centralized Detail Page
+import EventDetailsPage from "./pages/Detailing/EventDetailsPage";
 
 export default function Events() {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top
   }, []);
-  
+
   return (
     <>
       <ScrollToTop />
       <Routes>
+        {/* Main Category Page */}
         <Route path="/" element={<EventCategory />} />
-        <Route path="/performance-events" element={<PerformanceEvents />} />
-        <Route path="/singing-events" element={<SingingEvents />} />
-        <Route path="singing-events/:index" element={<SingingEventsDetails />} />
-        <Route path="/dancing-events" element={<DancingEvents />} />
-        <Route path="dancing-events/:index" element={<DancingEventsDetails />} />
-        <Route path="/performances" element={<Performances />} />
-        <Route path="performances/:index" element={<PerformanceDetails />} />
+
+        {/* --- List Pages --- */}
+        {/* These correspond to the URLs in EventCategoryList */}
         <Route path="/workshop" element={<Workshop />} />
-        <Route path="workshop/:index" element={<WorkshopDetails />} />
-        <Route path="/other-events" element={<OtherEvents />} />
-        <Route path="other-events/:index" element={<OtherEventsDetails />} />
+        {/* If Haunted House card should link directly to details: */}
+        {/* <Route path="/haunted-house" element={<Navigate to="/events/detail/haunted-house" replace />} /> */}
+        {/* Or if it's a list page (assuming only one item for now): */}
         <Route path="/haunted-house" element={<HauntedHouse />} />
-        <Route path="haunted-house/:index" element={<HauntedHouseDetails />} />
-        <Route path="/competitions" element={<Competitions />} />
-        <Route path="/talks-and-workshops" element={<TalksAndWorkshops />} />
         <Route path="/gaming-zone" element={<GamingZone />} />
-        <Route path="/women-in-tech/*" element={<WomenTech />} />
-        <Route path="gaming-zone/:index" element={<GameZoneDetails />} />
-        <Route path="competitions/:index" element={<EventDetails />} />
-        <Route path="talks-and-workshops/:index" element={<TalksAndWorkshopsDetails />} />
+        <Route path="/performance-events" element={<PerformanceEvents />} />
+
+        {/* --- Optional/Specific List Pages --- */}
+        {/* Add these if you need separate pages listing only these types */}
+        <Route path="/competitions" element={<Competitions />} />
+        <Route path="/performances" element={<Performances />} />
+        <Route path="/singing-events" element={<SingingEvents />} />
+        <Route path="/dancing-events" element={<DancingEvents />} />
+
+        {/* --- Centralized Detail Route --- */}
+        {/* Handles details for ALL event types using the slug */}
+        <Route path="detail/:eventSlug" element={<EventDetailsPage />} />
+
+        {/* --- Fallback/Not Found (Optional) --- */}
+        {/* You might want a catch-all route here or handle it higher up */}
+        {/* <Route path="*" element={<Navigate to="/events" replace />} /> */}
+
       </Routes>
     </>
   );

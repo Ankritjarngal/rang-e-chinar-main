@@ -19,11 +19,11 @@ export default function PerformanceEvents() {
     //   path: "/events/performances",
     //   imgUrl: "/common/performance.jpeg",
     // },
-    {
-      title: "Other Events",
-      path: "/events/other-events",
-      imgUrl: "/Other Events.png",
-    },
+    // {
+    //   title: "Other Events",
+    //   path: "/events/other-events",
+    //   imgUrl: "/Other Events.png",
+    // },
   ];
 
   return (
