@@ -2,7 +2,7 @@
 
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import ScheduleItem from "./ScheduleItem";
-import { day1Events, day2Events } from "../../../constants/eventDetails-final";
+import { day1Events, day2Events } from "../../../constants/schedule-items";
 
 const Tabview = ({ tab1, tab2 }) => {
   return (
