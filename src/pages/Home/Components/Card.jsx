@@ -60,12 +60,12 @@ const Card = ({ event, index }) => {
             {event.title}
           </div>
           <p className="mb-6 md:mb-8 text-text text-lg font-quicksand">{event.description}</p>
-          <Link
+          {/* <Link
             to={event.link}
             className={`px-3 md:px-6 py-3 ${springButtonBg} font-quicksand text-sm md:text-base rounded-md font-medium text-white transition-all duration-300 text-center flex items-center justify-center gap-2`}
           >
             🌸 EXPLORE
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
