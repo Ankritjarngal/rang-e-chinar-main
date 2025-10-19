@@ -1,3 +1,5 @@
+// src/pages/Schedule/components/Tabview.jsx
+
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import ScheduleItem from "./ScheduleItem";
 import { day1Events, day2Events } from "../../../constants/eventDetails-final";
@@ -30,7 +32,7 @@ const Tabview = ({ tab1, tab2 }) => {
         </Tab>
       </TabList>
       
-      {/* Content Box
+      {/* Content Box */}
       <div className="mx-2 my-1 px-4 py-4 pb-8 rounded-lg font-quicksand">
         <TabPanel className="space-y-4">
           {day1Events.map((item, index) => (
@@ -40,7 +42,7 @@ const Tabview = ({ tab1, tab2 }) => {
               startTime={item["Start Time"]}
               endTime={item["End Time"]}
               venue={item["Venue"]}
-              exploreUrl={`/events/${item.url}`}
+              // exploreUrl prop removed
             />
           ))}
         </TabPanel>
@@ -53,14 +55,12 @@ const Tabview = ({ tab1, tab2 }) => {
               startTime={item["Start Time"]}
               endTime={item["End Time"]}
               venue={item["Venue"]}
-              exploreUrl={`/events/${item.url}`}
+              // exploreUrl prop removed
             />
           ))}
         </TabPanel>
-      </div> */}
-      <div className="text-center text-6xl font-marcellus text-lightPrimaryBg py-12">WILL BE UPDATED SOON</div>
+      </div>
     </Tabs>
   );
 };
-
 export default Tabview;
