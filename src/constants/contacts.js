@@ -1,4 +1,4 @@
-export const  s = {
+export const  teams = {
     "Core": [
         {
             title: "Chairperson",
