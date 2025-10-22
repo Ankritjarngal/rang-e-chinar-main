@@ -51,6 +51,13 @@ const Sidebar = ({ isOpen, onClose }) => {
         >
           <p className="underline-animate relative inline-block">Events</p>
         </Link>
+        <Link
+          to="/sponsors"
+          className="text-gray-200 hover:text-secondary flex justify-center text-xl py-2"
+          onClick={onClose}
+        >
+          <p className="underline-animate relative inline-block">Sponsors</p>
+        </Link>
         {/* <Link
           to={'/register'}
           className="text-gray-200 hover:text-secondary flex justify-center text-xl py-2"

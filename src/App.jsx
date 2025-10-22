@@ -8,6 +8,7 @@ import ScrollToTop from "./Components/ScrollToTop";
 import Register from "./pages/Register/Register";
 import GamingZone from "./pages/Events/pages/GamingZone";
 import GamingZoneDetails from "./pages/Events/pages/GamingZoneDetails"; // You'll need to create this component
+import Sponsors from "./pages/sponsors/Sponsors";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path="/events/gaming-zone/:categoryIndex/:eventIndex" element={<GamingZoneDetails />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+
         </Routes>
       </Router>
     </>
