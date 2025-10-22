@@ -1,10 +1,10 @@
 // src/pages/Events/pages/SingingEvents.jsx
 
 import PageLayout from "../../../Components/PageLayout";
-import {OtherEvents  as Drama } from "../../../constants/eventDetails-final";
+import {PhotographyEvents  as Drama } from "../../../constants/eventDetails-final";
 import EventCard from "../components/EventCard"; // Import EventCard
 
-export default function OtherEvents() {
+export default function PhotographyEvents() {
 
   if (!Drama || Drama.length === 0) {
      return (

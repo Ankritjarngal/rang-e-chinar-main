@@ -16,7 +16,8 @@ import SingingEvents from "./pages/SingingEvents";    // Optional List Page
 import DancingEvents from "./pages/DancingEvents";    // Optional List Page
 import DramaEvents from "./pages/DramaEvents";
 import PaintingEvents from "./pages/PaintingEvents";
-
+import PhotographyEvents from "./pages/PhotographyEvents";
+import OtherEvents from "./pages/OtherEvents";
 // Import the Centralized Detail Page
 import EventDetailsPage from "./pages/Detailing/EventDetailsPage";
 
@@ -50,6 +51,8 @@ export default function Events() {
         <Route path="/dancing-events" element={<DancingEvents />} />
         <Route path="/drama-events" element={< DramaEvents/>} />
         <Route path="/painting-events" element={<PaintingEvents />} />
+        <Route path="/photography-events" element={<PhotographyEvents />} />
+        <Route path="/other-events" element={<OtherEvents />} />
 
         {/* --- Centralized Detail Route --- */}
         {/* Handles details for ALL event types using the slug */}

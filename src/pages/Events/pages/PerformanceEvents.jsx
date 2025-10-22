@@ -24,6 +24,15 @@ export default function PerformanceEvents() {
       path: "/events/painting-events",
       imgUrl: "/common/performance.jpeg",
     },
+    {
+      title :"Photography Events",
+      path: "/events/photography-events",
+      imgUrl: "/common/performance.jpeg",
+    },{
+      title:"Other Events",
+      path: "/events/other-events",
+      imgUrl: "/common/performance.jpeg",
+    }
   ];
 
   return (

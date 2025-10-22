@@ -1,6 +1,157 @@
 // src/constants/eventDetails-final.js
 
 // --- Event Data Arrays ---
+
+
+export const PhotographyEvents = [
+    {
+      "Event Name": "Live Photography-\"Capture the Moment, Create the Story\"",
+      "Description": "Step into the world of photography and freeze time with your lens! This event is all about creativity, perspective, and storytelling through photographs. Let your camera narrate the world as you see it!",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50 INR",
+      "Lead Name": "Jatin Kumar, Rohit Kumar",
+      "Lead Contact Number": "7296937581, 7780912095",
+      "Start Time": "2:00PM",
+      "End Time": "3:00PM (RESULTS)",
+      "Day": "1",
+      "Venue": "Campus Premises & Hi-Tech",
+      "Card Image": "Live Photography.png",
+      "Rules": "Theme will be announced on the spot. Time: 1 hour to capture and submit. Any digital camera or smartphone allowed. Editing permitted using in-camera or mobile apps only. All photos must be taken during the event. Submit one final photograph in JPEG format. No AI-generated or stock images. Must respect public/private property and consent.",
+      "Judging Criteria": "Total Marks :- 50\nCreativity & Uniqueness - 10 Points\nRelevance to Theme - 10 Points\nComposition & Framing - 10 Points\nOverall Impact - 10 Points\nTechnical Excellence - 10 Points",
+      "Certifications": "Cash prizes as well as certificates will be provided to the top 3 winners.",
+      "category": "Photography",
+      "url": "live-photography"
+    },
+    {
+      "Event Name": "30 Sec Reel Making - “reel it, feel it and win it”",
+      "Description": "Theme - “My city, my culture” Unleash your creativity in just 30 seconds! Show off your storytelling, editing, and filming skills by creating a short yet impactful reel... your vision, your story, your moment to shine!",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50 INR",
+      "Lead Name": "Kumar Sangyanam, Kumari Tania",
+      "Lead Contact Number": "9797435297, 9469960441",
+      "Start Time": "2:00PM",
+      "End Time": "3:00PM",
+      "Day": "2",
+      "Venue": "LH-3",
+      "Card Image": "reel.png",
+      "Rules": "Theme: 'My city, my culture' & 'Roots and rhythm'. Reel Duration: 30 seconds (marks deduction for exceeding). Original content (give credit for existing audio). No offensive, inappropriate, or disrespectful content. Editing, filters, and effects are allowed. No AI-generated content without creative input (disqualification). Submit before deadline.",
+      "Judging Criteria": "Total: 50 points\nCreativity & Originality – 10 points\nVisual & Editing Skills – 10 points\nEngagement & Impact – 10 points\nOverall Presentation – 10 points\nTechnical Excellence - 10 Points",
+      "Certifications": "Certificates and Cash prizes will be provided to top 3 winners. E-certificates will be given to all participants.",
+      "category": "Photography",
+      "url": "30-sec-reel-making"
+    },
+    {
+      "Event Name": "Short Movie Making- “Lights, Culture, Action \"",
+      "Description": "Theme: A short film competition celebrating the fusion of tradition and creativity. Participants will showcase stories of cultural roots, music, dance, and identity... where every frame echoes heritage, and every rhythm tells a story!",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "100 INR",
+      "Lead Name": "Abhi Badhera, Kartik Borana",
+      "Lead Contact Number": "7732803858, 9149492497",
+      "Start Time": "1:00PM",
+      "End Time": "2:00PM",
+      "Day": "2",
+      "Venue": "LH-1",
+      "Card Image": "Short Movie Making.png",
+      "Rules": "Films must align with theme (culture, heritage, rhythm). Duration: 5 to 10 minutes. Must be original, no copyright infringement. Any language, but English subtitles are required. Submit in MP4 or MOV, min 720p. Individuals or teams (max 5 members). No offensive content, hate speech, or cuss words (disqualification). Submit before deadline.",
+      "Judging Criteria": "Total Marks: 50\nCreativity (10 marks) - New and interesting ideas.\nStorytelling (10 marks) - Clear and engaging story.\nCultural relevance (10 marks) - Connects to culture/social themes.\nTechnical quality (10 marks) - Good video, sound, editing.\nOverall impact (10 marks) - Strong message, lasting impression.",
+      "Certifications": "Attractive Cash prizes & certificates will be given to final top 3 winners E-certificates will be given to all the participants.",
+      "category": "Photography",
+      "url": "short-movie-making"
+    },
+    {
+      "Event Name": "Meme Making (35-Minute Challenge)",
+      "Description": "Do you have what it takes to make people laugh in just 35 minutes? Join our meme-making event and put your creativity to the test!",
+      "NIT Entry Fee": "Free",
+      "Outside Entry Fee": "Free",
+      "Lead Name": "Rinav, Tripti Singh",
+      "Lead Contact Number": "7006575106, 8945037505",
+      "Start Time": "3:00PM",
+      "End Time": "4:00PM",
+      "Day": "2",
+      "Venue": "LH-3",
+      "Card Image": "Meme Making.png",
+      "Rules": "All memes must be original. No hate, harassment, or violence. Must not target any community, religion, ethnicity, gender, etc. Campus/cafeteria humor allowed if in good spirit. No false information. AI tools for brainstorming ok, but AI-generated images/content lead to disqualification. 35-minute time limit; late submissions not accepted.",
+      "Judging Criteria": "Total Marks: 50\nCreativity (10 marks)\nHumour (10 marks)\nCultural relevance (10 marks)\nTechnical quality (10 marks)\nOverall impact (10 marks)",
+      "Certifications": "Top 3 winners: Cash prizes and certificates. All participants: E-certificates.",
+      "category": "Photography",
+      "url": "meme-making"
+    }
+ ];
+ 
+ export const OtherEvents = [
+    {
+      "Event Name": "Mr. and Miss Rang-E-Chinar",
+      "Description": "Couture & Charisma: The Ultimate Blend. 'Mr. and Ms. Rang-e-Chinar' is more than just a pageant—it's a celebration of individuality, confidence, and cultural elegance. This is your chance to shine... The stage is yours—own it!",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50 INR",
+      "Lead Name": "Ishan Sharma",
+      "Lead Contact Number": "6006290160",
+      "Start Time": "12:00PM",
+      "End Time": "2:00PM",
+      "Day": "2",
+      "Venue": "Main Stage",
+      "Card Image": "Mr. & Miss Rangechinar.png",
+      "Rules": "Judges' decisions final. No offensive language. Be on time. Bring Institute ID. Age 16-23. One pair per Institute (2 for NIT). Format: Traditional Round (compulsory traditional clothes) 1. Ramp Walk 2. Talent Show 3. Q&A Round. Must submit costume photos.",
+      "Judging Criteria": "TOTAL: 50 points.\nRamp walk: 10 points\nTalent show: 15 points\nAnswer to the question: 10 points\nCostume and costume photograph submitted: 15 points.",
+      "Certifications": "TITLE: Mr. Rang-e-Chinar and Ms. Rang-e-Chinar (Crown/Barouche). Trophy for both. Certificate of merit for winners. Certificate of Participation for second round qualifiers.",
+      "category": "Competition",
+      "url": "mr-miss-rang-e-chinar"
+    },
+    {
+      "Event Name": "Open Talent Show for Faculties and Staff Members",
+      "Description": "Theme: A different look at professors/teachers beyond the classroom. Join us for an exciting evening where faculty members step beyond the lecture halls and into the spotlight! This open talent show is a celebration of the hidden artistic, musical, and performance skills of our educators.",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "50 INR",
+      "Lead Name": "Siddhant Raghav, Kriti Tripathi",
+      "Lead Contact Number": "7599741707, 7006630924",
+      "Start Time": "4:30PM",
+      "End Time": "5:30PM",
+      "Day": "2",
+      "Venue": "Common Hall",
+      "Card Image": "Open Talent Show for Faculties.png",
+      "Rules": "Open to all faculty members, lecturers, and staff. Group performances allowed (must be faculty/staff only). Any talent (singing, dancing, comedy, poetry, etc.). No offensive, inappropriate, or politically sensitive content. Each performance: 3 to 5 minutes (exceeding may lead to disqualification). Inform organizers of prop/music needs in advance. No dangerous items. The judges' decision will be final.",
+      "Judging Criteria": "Total Marks: 50\nCreativity (10 Marks) - Uniqueness and artistic approach.\nOriginality (10 Marks) - Fresh, self-devised content.\nAudience Engagement (10 Marks) - Ability to capture audience attention.\nStage Presence (10 Marks) - Confidence, body language.\nSkill Execution (10 Marks) - How well the talent is performed.",
+      "Certifications": "Attractive Cash prizes & certificates will be given to Best Performer, most unique talent & audience favorite. E-certificates will be given to all the participants.",
+      "category": "Performance",
+      "url": "open-talent-show-faculties"
+    },
+    {
+      "Event Name": "Kashmir's Best Influencer Award",
+      "Description": "Get ready to showcase your influence and celebrate the beauty and culture of Kashmir! This event is a platform for creators to share their unique content... highlighting the richness of the region.",
+      "NIT Entry Fee": "NO Fee",
+      "Outside Entry Fee": "₹100",
+      "Lead Name": "Kapil Patel, Sosan Zehra",
+      "Lead Contact Number": "9219774289, 9103076215",
+      "Start Time": "4:00PM",
+      "End Time": "5:00PM",
+      "Day": "1",
+  "Venue": "Common Hall",
+      "Card Image": "influencer.png",
+      "Rules": "Open to individuals with public social media profile and significant connection to Kashmir. Must create/submit video or posts representing Kashmir (beauty, culture, history, art, cuisine). Content must be original. Max 8 minutes stage time. No plagiarism. Registration Deadline: 20 Oct 2025.",
+      "Judging Criteria": "Total Marks 50\nOriginality (10) - unique concept, fresh perspective.\nCreativity (10) - artistic and innovative approach.\nEngagement (10) - audience interaction, reach, impact.\nContent Quality (10) - production value, clarity.\nRelevance to Theme (10) - authentic representation of 'Roots and Rythm'.",
+      "Certifications": "Attractive cash prizes and certificates will be given to the top 3 winners. Certificates will be provided to all participants.",
+      "category": "Competition",
+      "url": "kashmir-influencer-award"
+    },
+    {
+      "Event Name": "FinXplore : Financial Literacy Quiz Competition",
+      "Description": "Financial literacy is a vital skill. To promote awareness and interest in finance, investments, and markets, we propose a Finance Quiz Competition... The event will combine learning with fun and healthy competition.",
+      "NIT Entry Fee": "NO Fee",
+  "Outside Entry Fee": "₹50",
+      "Lead Name": "Abhishek Lohiya",
+      "Lead Contact Number": "9654802670",
+      "Start Time": "10:00AM",
+      "End Time": "12:00PM",
+      "Day": "2",
+     "Venue": "LH-1",
+      "Card Image": "quiz.png",
+      "Rules": "Event Structure: 1. Preliminary Round (Written/MCQ) - Screening test on financial literacy, markets, and current affairs. Top teams qualify. 2. Final Quiz Rounds - Basic Concepts (personal finance, banking, investments) and Market Mania (stock markets, indices, IPOs, SEBI/NISM).",
+      "Judging Criteria": "(Not specified in the rulebook)",
+    "Certifications": "Attractive cash prizes and certificates will be given to the top 3 winners. Certificates will be provided to all participants.",
+      "category": "Competition",
+      "url": "finxplore-quiz"
+    }
+ ];
 export const DramaticsEvents = [
     {
       "Event Name": "Stand Up Comedy- “Serious About Comedy, Giggles loaded Ahead”",
@@ -1052,7 +1203,6 @@ export const SingingEvents = [
   export const womenCompetitions = [];
   export const womenTalks = [];
   export const womenPerformances = [];
-  export const OtherEvents = []; // This is empty as all events from 'Other Events' in rulebook were re-categorized
   
   // --- Filtering Logic ---
   
