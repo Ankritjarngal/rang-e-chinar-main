@@ -1,9 +1,7 @@
-import { useState, useEffect, useCallback } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Header from "../../../Components/Header";
-
 function Hero() {
   const targetDate = new Date("2025-10-25T00:00:00");
 
@@ -18,7 +16,8 @@ function Hero() {
   };
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-  const [videoError, setVideoError] = useState(false);
+  const [typewriterText, setTypewriterText] = useState("");
+  const fullText = "ROOTS AND RHYTHMS";
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -27,194 +26,150 @@ function Hero() {
     return () => clearInterval(timer);
   }, []);
 
-  const [scrambledText, setScrambledText] = useState("Rang-E-Chinar 2.0");
-  const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-  const originalText = "Rang-E-Chinar 2.0";
-
-  const scrambleText = useCallback(() => {
-    let iteration = 0;
-    const interval = setInterval(() => {
-      setScrambledText(
-        originalText
-          .split("")
-          .map((letter, index) => {
-            if (index < iteration) {
-              return originalText[index];
-            }
-            return letters[Math.floor(Math.random() * letters.length)];
-          })
-          .join("")
-      );
-      if (iteration >= originalText.length) clearInterval(interval);
-      iteration += 1 / 3;
-    }, 50);
-  }, []);
-
+  // Typewriter effect
   useEffect(() => {
-    scrambleText();
-    const intervalId = setInterval(scrambleText, 8000);
-    return () => clearInterval(intervalId);
-  }, [scrambleText]);
+    let index = 0;
+    const typeInterval = setInterval(() => {
+      if (index <= fullText.length) {
+        setTypewriterText(fullText.slice(0, index));
+        index++;
+      } else {
+        clearInterval(typeInterval);
+      }
+    }, 100);
+    return () => clearInterval(typeInterval);
+  }, []);
 
   useEffect(() => {
     Aos.init({ duration: 1000, anchorPlacement: "top-center", mirror: true });
   }, []);
 
-  // Handle video error
-  const handleVideoError = () => {
-    console.error("Video failed to load");
-    setVideoError(true);
-  };
-
   return (
     <div className="relative min-h-screen overflow-hidden font-playfair">
-      {/* Background with gradient matching image 2 */}
-      <div className="absolute inset-0 bg-gradient-to-r from-green-00 to-green-700 z-0"></div>
+      {/* Background gradient */}
+      <div >
+        <Header />
+      </div>
+       
+      <div className="absolute inset-0 bg-gradient-to-br    z-0"></div>
       
-      {/* Background Video with higher opacity */}
-      {!videoError ? (
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover z-1 opacity-30"
-          onError={handleVideoError}
-        >
-          {/* <source src="/common/videoplayback.mp4" type="video/mp4" />
-          <source src="/common/videoplayback.mp4" type="video/webm" /> */}
-        </video>
-      ) : (
-        <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-green-800 to-green-700"></div>
-      )}
-      
-      {/* Additional decorative elements */}
-      <div className="absolute top-0 left-0 w-full h-full z-2 pointer-events-none">
-        <div className="absolute top-0 left-0 w-64 h-64 opacity-60">
-          <div className="w-full h-full bg-[url('/common/cherry-blossom.png')] bg-contain bg-no-repeat"></div>
-        </div>
-        <div className="absolute bottom-0 right-0 w-64 h-64 opacity-60">
-          <div className="w-full h-full bg-[url('/common/cherry-blossom.png')] bg-contain bg-no-repeat transform rotate-180"></div>
-        </div>
+      {/* Decorative elements */}
+      <div className="absolute top-0 left-0 w-full h-full z-1 pointer-events-none opacity-20">
+        <div className="absolute top-0 left-0 w-48 h-48 bg-gradient-radial from-pink-500/30 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-64 h-64 bg-gradient-radial from-green-500/30 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-radial from-pink-500/10 to-transparent rounded-full blur-3xl"></div>
       </div>
       
-      {/* Overlay with pink accents */}
-      <div className="absolute inset-0 bg-gradient-to-r from-pink-900/30 to-transparent z-2"></div>
-      
-      <div className="relative z-10">
-        <Header />
+      <div className="relative z-12">
+        {/* Compact Header */}
+        <header>
+          
+        </header>
         
-        <div className="pt-8 md:pt-24 p-6 md:p-20 text-white text-center">
+        <div className="pt-12 px-6 text-white text-center">
           {/* Date Display */}
           <div 
             data-aos="fade-down" 
-            className="inline-block px-8 py-3 rounded-full bg-pink-900/40 backdrop-blur-sm border border-pink-300/30 text-xl ss:text-2xl md:text-3xl font-cormorant text-white"
+            className="inline-block px-6 py-2 rounded-full bg-pink-900/40 backdrop-blur-sm border border-pink-300/30 text-lg md:text-xl font-cormorant text-white mb-8"
           >
             <span>25</span>
-            <sup className="text-lg">th</sup>
+            <sup className="text-sm">th</sup>
             <span className="mx-2">-</span>
             <span>26</span>
-            <sup className="text-lg">th</sup>
+            <sup className="text-sm">th</sup>
             <span className="ml-3">October 2025</span>
-            {/* 📅 <span>New Dates Will Be Announced Soon</span> */}
           </div>
 
-          {/* "The Rhythm Begins In" section */}
+          {/* Typewriter "ROOTS AND RHYTHMS" */}
           <div 
             data-aos="fade-up" 
-            className="my-12 md:my-16 w-full flex justify-center"
+            className="mb-3"
           >
-            <p className=" bg-color:blue text-xl ss:text-3xl md:text-4xl font-cursive font-cursive text-white px-6 py-3 border border-pink-900">
-              ROOTS AND RHYTHMS 
+            <p className="text-xl md:text-3xl font-cursive text-white px-6 py-2 border border-pink-300/40 inline-block bg-pink-900/20 backdrop-blur-sm rounded-lg">
+              {typewriterText}
+              <span className="animate-pulse">|</span>
             </p>
           </div>
           
-          {/* Main Event Title */}
-          <div className="mt-16 mb-12 flex justify-center items-center w-full overflow-hidden">
-  <h1
-    data-aos="zoom-in"
-    className="text-5xl ss:text-7xl sm:text-8xl md:text-9xl font-bold font-serif text-white tracking-wider overflow-visible"
-    style={{ 
-      letterSpacing: '0.05em', 
-      lineHeight: '1.1',
-      textShadow: '9px -1px 0 rgba(17, 19, 17, 0.5), 1px -1px 0 rgba(25, 29, 25, 0.5), -1px 1px 0 rgba(22, 24, 22, 0.5), 1px 1px 0 rgba(35, 40, 35, 0.5)'
-    }}
-  >
-    Rang-E-Chinar <span className="text-green-300">2.0</span>
-  </h1>
-</div>
+          {/* Main Event Title - Reduced Size */}
+          <div className="mb-6 flex justify-center items-center">
+            <h1
+              data-aos="zoom-in"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-serif text-white tracking-wider"
+              style={{ 
+                letterSpacing: '0.05em', 
+                lineHeight: '1.5',
+                fontSize:"52px",
+                textShadow: '3px 3px 0 rgba(17, 19, 17, 0.5), -1px -1px 0 rgba(25, 29, 25, 0.3)'
+              }}
+            >
+              Rang-E-Chinar <span className="text-green-300">2.0</span>
+            </h1>
+          </div>
 
           {/* Decorative divider */}
-          <div data-aos="fade" className="flex justify-center my-8">
+          <div data-aos="fade" className="flex justify-center my-6">
             <div className="w-32 h-px bg-gradient-to-r from-transparent via-pink-300 to-transparent"></div>
           </div>
 
-          {/* "The Rhythm Begins In" section */}
+          {/* "The Rhythm Begins In" */}
           <div 
             data-aos="fade-up" 
-            className="my-12 md:my-16 w-full flex justify-center"
+            className="mb-8"
           >
-            <p className="text-2xl ss:text-5xl md:text-4xl font-serif font-normal text-white px-6 py-3 border-b border-pink-200/50">
-              The Rythm Begins In...
+            <p className="text-xl md:text-2xl font-serif text-green-100 px-6 py-2 border-b border-pink-200/30 inline-block">
+              The Rhythm Begins In...
             </p>
           </div>
 
-          {/* Countdown Timer */}
-          <div className="mt-10 md:mt-16 flex justify-center">
-            <div className="w-full min-w-150 px-8 lg:px-32 flex flex-wrap gap-6 justify-center">
+          {/* Countdown Timer - Enhanced Design */}
+          <div className="mb-8 flex justify-center">
+            <div className="flex gap-3 md:gap-4 justify-center flex-wrap max-w-2xl">
               {Object.entries(timeLeft).map(([unit, value], index) => (
                 <div 
                   key={unit} 
                   data-aos="fade-up" 
-                  data-aos-delay={index * 150} 
-                  className="text-center px-4 md:px-6 py-3 md:py-5 bg-green-800/50 backdrop-blur-sm rounded-lg border border-green-300/30 shadow-lg shadow-green-900/20"
+                  data-aos-delay={index * 100} 
+                  className="relative group"
                 >
-                  <div className="block text-4xl md:text-6xl font-semibold text-white font-serif pb-2 md:pb-3">
-                    {value}
+                  <div className="px-5 py-4 bg-gradient-to-br from-green-800/60 to-green-900/60 backdrop-blur-md rounded-xl border border-green-400/40 shadow-xl hover:shadow-2xl hover:shadow-green-500/20 transition-all duration-300 hover:scale-105">
+                    <div className="text-3xl md:text-4xl font-bold text-white font-mono tabular-nums">
+                      {value}
+                    </div>
+                    <div className="text-xs md:text-sm text-green-200/90 font-sans uppercase tracking-widest mt-1">
+                      {unit}
+                    </div>
                   </div>
-                  <div className="block text-sm md:text-lg text-green-100/90 font-sans uppercase tracking-wider">
-                    {unit}
-                  </div>
+                  {/* Glow effect */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-green-400/20 to-pink-400/20 rounded-xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Register Button */}
-          <div className="mt-12 py-6 flex justify-center">
+          {/* Buttons on one line - closer to title */}
+          <div className="flex flex-wrap justify-center gap-4 mt-8">
             <button 
               data-aos="fade-up" 
-              data-aos-delay="500"
-              className="px-8 py-4 rounded-full text-lg md:text-xl font-medium bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 border border-green-300/30 hover:border-green-300/60 hover:shadow-lg hover:shadow-green-500/30 transform hover:scale-105 transition-all duration-300 font-sans tracking-wider"
+              data-aos-delay="200"
+              className="px-6 py-3 rounded-full text-base md:text-lg font-medium bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 border border-green-300/30 hover:border-green-300/60 hover:shadow-lg hover:shadow-green-500/30 transform hover:scale-105 transition-all duration-300 font-sans tracking-wider"
               onClick={() => window.open("https://rangechinar-registration-from.vercel.app", "_blank")}
             >
               REGISTER NOW
             </button>
-          </div>
 
-           {/* <div className="mt-12 py-6 flex justify-center">
-            {/* <button 
+            <button 
               data-aos="fade-up" 
-              data-aos-delay="500"
-              className="px-8 py-4 rounded-full text-lg md:text-xl font-medium bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 border border-green-300/30 hover:border-green-300/60 hover:shadow-lg hover:shadow-green-500/30 transform hover:scale-105 transition-all duration-300 font-sans tracking-wider"
-              // onClick={() => window.open("", "_blank")}
+              data-aos-delay="300"
+              className="px-6 py-3 rounded-full text-base md:text-lg font-medium bg-gradient-to-r from-pink-600 to-pink-500 hover:from-pink-500 hover:to-pink-400 border border-pink-300/30 hover:border-pink-300/60 hover:shadow-lg hover:shadow-pink-500/30 transform hover:scale-105 transition-all duration-300 font-sans tracking-wider"
+              onClick={() => window.open("/mapss.pdf", "_blank")}
             >
-              REGISTRATIONS WILL OPEN SOON 
+              VIEW MAP
             </button>
-          </div> */}
-          <div className="mt-12 py-6 flex justify-center">
-        <button 
-          data-aos="fade-up" 
-          data-aos-delay="500"
-          className="px-8 py-4 rounded-full text-lg md:text-xl font-medium bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 border border-green-300/30 hover:border-green-300/60 hover:shadow-lg hover:shadow-green-500/30 transform hover:scale-105 transition-all duration-300 font-sans tracking-wider"
-          onClick={() => window.open("/mapss.pdf", "_blank")}
-        >
-          RANG-E-CHINAR MAP
-        </button>
-      </div>
+          </div>
         </div>
       </div>
-    // </div>
+    </div>
   );
 }
 

@@ -28,15 +28,15 @@ function About() {
       {/* Content */}
       <div className="relative z-10  px-6 py-20 lg:px-20 flex flex-col items-center justify-center min-h-screen">
         <div className="max-w-4xl  text-center" data-aos="fade-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-white  mb-4">Rang-E-Chinar 2.0</h2>
-          <a href="https://nitsri.ac.in/"> <div style={{ backgroundImage: "url('/common/nitlogo.png')", backgroundPosition: 'center', height: '80px' , backgroundRepeat: 'no-repeat', backgroundSize: 'contain', marginTop: '20px' }}>
-          </div></a>
-          <p className="text-lg md:text-xl font-semibold text-white mb-6">
-            NIT Srinagar's Annual Cultural Festival
-          </p>
+          
           {/* Main Card */}
           <div className="relative z-10 bg-white/60 backdrop-blur-sm py-16 px-6 md:px-16 font-quicksand text-gray-800 rounded-2xl shadow-md max-w-5xl mx-auto" data-aos="fade-up">
-
+            <h2 className="text-4xl md:text-5xl font-bold text  mb-4">Rang-E-Chinar 2.0</h2>
+          <a href="https://nitsri.ac.in/"> <div style={{ backgroundImage: "url('/common/nitlogo.png')", backgroundPosition: 'center', height: '80px' , backgroundRepeat: 'no-repeat', backgroundSize: 'contain', marginTop: '20px' }}>
+          </div></a>
+          <p className="text-lg md:text-xl font-semibold text mb-6">
+            NIT Srinagar's Annual Cultural Festival
+          </p>
             {/* Image Block */}
            <a href="https://nitsri.ac.in/"> <div className="w-full mb-8 rounded-2xl overflow-hidden shadow-lg">
               <img

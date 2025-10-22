@@ -37,9 +37,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`py-4 px-4 md:px-6 lg:px-8 w-full font-quicksand fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled ? "backdrop-blur-sm bg-black/30" : "bg-transparent"
-        }`}
+        className="py-4 px-4 md:px-6 lg:px-8 w-full font-quicksand fixed top-0 left-0 right-0 z-50 transition-all duration-300 "
         style={{ position: 'fixed', top: 0, width: '100%' }}
       >
         <div className="flex flex-row items-center w-full">
@@ -49,7 +47,7 @@ const Header = () => {
     <img
       src="/common/Rang_E_Chinar-removebg-preview.png"
       alt="Rang-e-Chinar Logo"
-      style={{height:"80px", width: "90px" }}
+      style={{height:"40px", width: "40px" }}
       className="h-12 w-12 md:h-14 md:w-14 lg:h-16 lg:w-16 rounded-full bg-white p-1 transition-transform duration-300 ease-in-out hover:scale-105"
     />
   </div>
@@ -105,7 +103,7 @@ const Header = () => {
               className="text-white text-2xl p-2 rounded-full bg-transparent border border-white/30 hover:border-white/60 transition-all duration-300"
               onClick={toggleSidebar}
             >
-              {isSidebarOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+             <FaBars size={18} />
             </button>
           </div>
         </div>

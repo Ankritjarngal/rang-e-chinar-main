@@ -3,7 +3,7 @@ import { IoLogoInstagram } from "react-icons/io";
 
 const StickySocialSidebar = () => {
   return (
-    <div className="fixed top-1/2 right-0 z-50 transform -translate-y-1/2">
+    <div className="fixed top-1/2 right-0 z-50 ">
       <ul className="flex flex-col space-y-3">
 
         {/* Instagram Link */}
@@ -12,10 +12,10 @@ const StickySocialSidebar = () => {
             href="https://www.instagram.com/rang_e_chinar/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center w-12 h-12 bg-green-600 text-white rounded-l-md hover:bg-green-500 hover:w-20 transition-all duration-300 hover:shadow-xl group"
+            className="flex items-center justify-center w-8 h-8 bg-green-800 text-white rounded-l-md hover:bg-green-500  "
             aria-label="Instagram"
           >
-            <IoLogoInstagram size={28} className="group-hover:scale-125 transition-transform duration-300" />
+            <IoLogoInstagram size={20}  />
           </a>
         </li>
 
@@ -25,10 +25,10 @@ const StickySocialSidebar = () => {
             href="https://www.linkedin.com/company/rang-e-chinar/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center w-12 h-12 bg-green-600 text-white rounded-l-md hover:bg-green-500 hover:w-20 transition-all duration-300 hover:shadow-xl group"
+            className="flex items-center justify-center w-8 h-8 bg-green-800 text-white rounded-l-md hover:bg-green-500  "
             aria-label="LinkedIn"
           >
-            <FaLinkedinIn size={28} className="group-hover:scale-125 transition-transform duration-300" />
+            <FaLinkedinIn size={20}  />
           </a>
         </li>
 
@@ -38,10 +38,10 @@ const StickySocialSidebar = () => {
             href="https://www.youtube.com/@NITSrinagarofficial"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center w-12 h-12 bg-green-600 text-white rounded-l-md hover:bg-green-500 hover:w-20 transition-all duration-300 hover:shadow-xl group"
+            className="flex items-center justify-center w-8 h-8 bg-green-800 text-white rounded-l-md hover:bg-green-500  "
             aria-label="YouTube"
           >
-            <FaYoutube size={28} className="group-hover:scale-125 transition-transform duration-300" />
+            <FaYoutube size={20}  />
           </a>
         </li>
 
@@ -49,13 +49,13 @@ const StickySocialSidebar = () => {
         href="https://rangechinar-registration-from.vercel.app"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center w-12 h-12 bg-pink-600 text-white rounded-r-md hover:bg-pink-500 hover:w-32 transition-all duration-300 hover:shadow-xl group"
+        className="flex items-center justify-center w-8 h-8 bg-pink-800 text-white rounded-r-md hover:bg-pink-500  "
         aria-label="Register"
       >
         <span className="hidden group-hover:inline-block text-sm font-semibold transition-opacity duration-300 mr-2">
           Register
         </span>
-        <FaLeaf size={24} className="group-hover:scale-125 transition-transform duration-300" />
+        <FaLeaf size={20}  />
       </a>
 
        
