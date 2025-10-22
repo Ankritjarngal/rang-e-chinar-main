@@ -14,16 +14,16 @@ export default function PerformanceEvents() {
       path: "/events/dancing-events",
       imgUrl: "/slider5.jpg",
     },
-    // {
-    //   title: "Performances",
-    //   path: "/events/performances",
-    //   imgUrl: "/common/performance.jpeg",
-    // },
-    // {
-    //   title: "Other Events",
-    //   path: "/events/other-events",
-    //   imgUrl: "/Other Events.png",
-    // },
+    {
+      title: "Dramatics",
+      path: "/events/drama-events",
+      imgUrl: "/common/performance.jpeg",
+    },
+    {
+      title: "Painting Events",
+      path: "/events/painting-events",
+      imgUrl: "/common/performance.jpeg",
+    },
   ];
 
   return (
