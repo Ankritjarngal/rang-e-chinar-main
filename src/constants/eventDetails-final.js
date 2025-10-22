@@ -660,9 +660,9 @@ export const SingingEvents = [
     
     "Outside Entry Fee": "50rs",
     
-    "Lead Name": "Alok Ranjan",
+    "Lead Name": "Muskaan Choudhary",
     
-    "Lead Contact Number": "7209666594",
+    "Lead Contact Number": "9622865018",
     
     "Start Time": "1:00PM",
     
@@ -679,13 +679,20 @@ export const SingingEvents = [
     "url": "henna-art-workshop"
     
     },
-    {"Event Name" :"Silambam Workshop",
-      "Description": "Silambam is an ancient Indian martial art that originated in the Tamil region of South India. It is a holistic system that combines physical postures, breathing techniques, and meditation to develop the practitioner's strength, flexibility, and mental focus. Silambam is also known for its spiritual and yogic aspects, which aim to unite the body, mind, and breath. Learn the basics of Silambam and experience its benefits in this workshop.",
-      "Nit Entry Fee":"No Fee"
-      ,"OutSide Entree Fee ":"No fees",
-      "Lead Name": "Alok Ranjan",
+
+     {
+
+    "Event Name": "Silambam Workshop",
     
-    "Lead Contact Number": "7209666594",
+    "Description": "Silambam is an ancient Indian martial art that originated in the Tamil region of South India. It is a holistic system that combines physical postures, breathing techniques, and meditation to develop the practitioner's strength, flexibility, and mental focus. Silambam is also known for its spiritual and yogic aspects, which aim to unite the body, mind, and breath. Learn the basics of Silambam and experience its benefits in this workshop.",
+    
+    "NIT Entry Fee": "NO Fee",
+    
+    "Outside Entry Fee": "NO Fee",
+    
+    "Lead Name": "Muskaan Choudhary",
+    
+    "Lead Contact Number": "9622865018",
     
     "Start Time": "1:00PM",
     
@@ -693,14 +700,67 @@ export const SingingEvents = [
     
     "Day": "1",
     
-    "Venue": "central chinar",
+    "Venue": "Central Chinar",
     
-    "Card Image": "",
+    "Card Image": "silambam.png",
     
     "category": "Workshop",
     
-    "url": "silambam-workshop"
+    "url": "silambam"
+    
     },
+     {
+
+    "Event Name": "Clay Art",
+    
+    "Description": "Unleash your creativity with clay art! Learn hand-building and sculpting techniques using tools and molds. Explore balance, proportion, and texture while creating your own masterpiece. Take home your clay creation and gain insights into the world of ceramic artistry.",
+
+    "NIT Entry Fee": "NO Fee",
+    
+    "Outside Entry Fee": "NO Fee",
+    
+    "Lead Name": "Muskaan Choudhary",
+    
+    "Lead Contact Number": "9622865018",
+    
+    "Start Time": "1:00PM",
+    
+    "End Time": "3:00PM",
+    
+    "Day": "2",
+    
+    "Venue": "LH2",
+    
+    "Card Image": "ClayArt.png",
+    
+    "category": "Workshop",
+    
+    "url": "ClayArt"
+    
+    },
+    
+    // {"Event Name" :"Silambam Workshop",
+    //   "Description": "Silambam is an ancient Indian martial art that originated in the Tamil region of South India. It is a holistic system that combines physical postures, breathing techniques, and meditation to develop the practitioner's strength, flexibility, and mental focus. Silambam is also known for its spiritual and yogic aspects, which aim to unite the body, mind, and breath. Learn the basics of Silambam and experience its benefits in this workshop.",
+    //   "Nit Entry Fee":"No Fee",
+    //   "OutSide Entree Fee ":"No fees",
+    //   "Lead Name": "Muskaan Choudhary",
+    
+    // "Lead Contact Number": "9622865018",
+    
+    // "Start Time": "1:00PM",
+    
+    // "End Time": "3:00PM",
+    
+    // "Day": "1",
+    
+    // "Venue": "central chinar",
+    
+    // "Card Image": "",
+    
+    // "category": "Workshop",
+    
+    // "url": "silambam-workshop"
+    // },
     
     {
     
@@ -712,9 +772,9 @@ export const SingingEvents = [
     
     "Outside Entry Fee": "50rs",
     
-    "Lead Name": "Alok Ranjan",
+    "Lead Name": "Muskaan Choudhary",
     
-    "Lead Contact Number": "7209666594",
+    "Lead Contact Number": "9622865018",
     
     "Start Time": "11:00AM",
     
@@ -728,7 +788,7 @@ export const SingingEvents = [
     
     "category": "Workshop",
     
-    "url": "crochet-workshop"
+    "url": "crochet(1)"
     
     },
     
@@ -736,17 +796,17 @@ export const SingingEvents = [
     
     {
     
-    "Event Name": "Tattoo Fashion (temporary)",
+    "Event Name": "Tattoo Fashion (permanent)",
     
-    "Description": "Learn temporary tattooing techniques, including henna and jagua. Get hands-on experience with application tools. Create unique designs and learn about skin safety. Take home creations and learn maintenance tips. Explore cultural significance and body art expression.",
+    "Description": "Learn permanent tattooing techniques, including henna and jagua. Get hands-on experience with application tools. Create unique designs and learn about skin safety. Take home creations and learn maintenance tips. Explore cultural significance and body art expression.",
     
     "NIT Entry Fee": "NO Fee",
     
     "Outside Entry Fee": "100rs",
     
-    "Lead Name": "Alok Ranjan ",
+    "Lead Name": "Muskaan Choudhary ",
     
-    "Lead Contact Number": "7209666594",
+    "Lead Contact Number": "9622865018",
     
     "Start Time": "1:00PM",
     
@@ -760,7 +820,7 @@ export const SingingEvents = [
     
     "category": "Workshop",
     
-    "url": "tattoo-fashion-workshop"
+    "url": "tattoo(1)"
     
     }
     

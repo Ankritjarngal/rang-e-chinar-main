@@ -17,17 +17,17 @@ export default function PerformanceEvents() {
     {
       title: "Dramatics",
       path: "/events/drama-events",
-      imgUrl: "/common/performance.jpeg",
+      imgUrl: "/common/dramatics.png",
     },
     {
       title: "Painting Events",
       path: "/events/painting-events",
-      imgUrl: "/common/performance.jpeg",
+      imgUrl: "/common/painting.png",
     },
     {
       title :"Photography Events",
       path: "/events/photography-events",
-      imgUrl: "/common/performance.jpeg",
+      imgUrl: "/common/photography.png",
     },{
       title:"Other Events",
       path: "/events/other-events",

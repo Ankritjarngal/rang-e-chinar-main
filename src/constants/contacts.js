@@ -394,8 +394,8 @@ export const  teams = {
     "Graphic Design  ": [
         {
             title: "Lead",
-            name: "Ujjawal Rai",
-            enrollment: "2022BCIV",
+            name: "Ujjwal Rai",
+            enrollment: "2022BCIV142",
             contact: "9103000643"
         },
         {
