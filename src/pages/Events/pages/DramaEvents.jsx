@@ -24,7 +24,7 @@ export default function DramaEvents() {
 
   return (
     <PageLayout
-      title={"Singing Events"}
+      title={"Drama  Events"}
       imgUrl={'/common/Singingevents.png'}
       breadcrumbs={[
         { label: "Home", path: "/" },

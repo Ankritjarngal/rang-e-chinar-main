@@ -9,7 +9,7 @@ export default function PaintingEvents() {
   if (!singingEventsData || singingEventsData.length === 0) {
      return (
        <PageLayout
-         title={"Singing Events"}
+         title={"Painting  Events"}
          imgUrl={'/common/Singingevents.png'}
          breadcrumbs={[
            { label: "Home", path: "/" },
@@ -24,14 +24,14 @@ export default function PaintingEvents() {
 
   return (
     <PageLayout
-      title={"Singing Events"}
+      title={"Painting Events"}
       imgUrl={'/common/Singingevents.png'}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },
         // Added link back to the sub-category page
         { label: "Events And Competitions", path: "/events/performance-events"},
-        { label: "Singing Events", path: "/events/singing-events" }
+        { label: "Painting Events", path: "/events/painting-events" }
       ]}
     >
       {/* Removed EventsPageLayout */}

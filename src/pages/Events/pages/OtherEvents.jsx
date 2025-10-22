@@ -9,12 +9,12 @@ export default function OtherEvents() {
   if (!Drama || Drama.length === 0) {
      return (
        <PageLayout
-         title={"Singing Events"}
+         title={"Other Events"}
          imgUrl={'/common/Singingevents.png'}
          breadcrumbs={[
            { label: "Home", path: "/" },
            { label: "Events", path: "/events" },
-           { label: "DramaEvents", path: "/events/drama-events" }
+           { label: "OtherEvents", path: "/events/other-events" }
          ]}
        >
          <div className="text-center p-12">No singing events listed at the moment.</div>
@@ -24,14 +24,14 @@ export default function OtherEvents() {
 
   return (
     <PageLayout
-      title={"Singing Events"}
+      title={"Other Events"}
       imgUrl={'/common/Singingevents.png'}
       breadcrumbs={[
         { label: "Home", path: "/" },
         { label: "Events", path: "/events" },
         // Added link back to the sub-category page
         { label: "Events And Competitions", path: "/events/performance-events"},
-        { label: "Drama Events", path: "/events/drama-events" }
+        { label: "Other Events", path: "/events/other-events" }
       ]}
     >
       {/* Removed EventsPageLayout */}
