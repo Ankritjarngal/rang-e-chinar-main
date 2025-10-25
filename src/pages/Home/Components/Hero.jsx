@@ -123,7 +123,7 @@ function Hero() {
           </div>
 
           {/* Countdown Timer - Enhanced Design */}
-          <div className="mb-8 flex justify-center">
+          {/* <div className="mb-8 flex justify-center">
             <div className="flex gap-3 md:gap-4 justify-center flex-wrap max-w-2xl">
               {Object.entries(timeLeft).map(([unit, value], index) => (
                 <div 
@@ -141,11 +141,19 @@ function Hero() {
                     </div>
                   </div>
                   {/* Glow effect */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-green-400/20 to-pink-400/20 rounded-xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
+                  {/* <div className="absolute inset-0 bg-gradient-to-br from-green-400/20 to-pink-400/20 rounded-xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
                 </div>
               ))}
             </div>
-          </div>
+          </div> */} 
+          <button 
+              data-aos="fade-up" 
+              data-aos-delay="200"
+              className="px-6 py-3 rounded-full text-base md:text-lg font-medium bg-gradient-to-r from-red-600 to-red-500 hover:from-green-500 hover:to-green-400 border border-green-300/30 hover:border-green-300/60 hover:shadow-lg hover:shadow-green-500/30 transform hover:scale-105 transition-all duration-300 font-sans tracking-wider"
+              onClick={() => window.open("https://www.youtube.com/live/V2m0e0dkdfM?si=8ECll_qXL-mJkx73", "_blank")}
+            >
+              Day 1 Glimpses
+            </button>
 
           {/* Buttons on one line - closer to title */}
           <div className="flex flex-wrap justify-center gap-4 mt-8">
